@@ -10,7 +10,12 @@ PARA: Resource
 
 ## 📝 내용
 
-(내용 없음)
+https://airflow.apache.org/docs/apache-airflow/stable/tutorial/fundamentals.html
+
+```plain text
+templated_command = textwrap.dedent(
+"""{% for i in range(5) %}    echo "{{ ds }}"    echo "{{ macros.ds_add(ds, 7)}}"{% endfor %}""")
+```
 
 ## 🏷️ 분류
 
@@ -27,4 +32,4 @@ PARA: Resource
 
 ---
 
-*Notion에서 마이그레이션됨*
+*Notion에서 재마이그레이션됨 (2025-11-28)*

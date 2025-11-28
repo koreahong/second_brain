@@ -10,7 +10,9 @@ PARA: Resource
 
 ## 📝 내용
 
-(내용 없음)
+# 레퍼런스
+
+https://velog.io/@seeh_h/AWS-VPC-Subnet-간단-정리
 
 ## 🏷️ 분류
 
@@ -27,4 +29,4 @@ PARA: Resource
 
 ---
 
-*Notion에서 마이그레이션됨*
+*Notion에서 재마이그레이션됨 (2025-11-28)*

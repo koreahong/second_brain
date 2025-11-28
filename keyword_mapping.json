@@ -1,0 +1,1969 @@
+{
+  "Resources/References/웹로그_분석_과정.md": {
+    "Analytics": [
+      "log",
+      "분석",
+      "웹로그"
+    ]
+  },
+  "Resources/References/딩코_코테_교재.md": {
+    "Coding": [
+      "알고리즘",
+      "코테"
+    ],
+    "Learning": [
+      "강의"
+    ]
+  },
+  "Resources/References/비동기_코드_작성.md": {
+    "Database": [
+      "db",
+      "rds"
+    ],
+    "Python": [
+      "python",
+      "async"
+    ],
+    "Data Architecture": [
+      "batch"
+    ],
+    "DevOps": [
+      "ci"
+    ],
+    "Analytics": [
+      "분석"
+    ]
+  },
+  "Resources/References/DB_비동기_트랜잭션.md": {
+    "Database": [
+      "db",
+      "transaction"
+    ]
+  },
+  "Resources/References/경험정리.md": {
+    "Career": [
+      "이직"
+    ]
+  },
+  "Resources/References/python_코테_함수.md": {
+    "Python": [
+      "python"
+    ],
+    "Coding": [
+      "알고리즘",
+      "코테"
+    ]
+  },
+  "Resources/References/텐베거_알고리즘.md": {
+    "Analytics": [
+      "분석"
+    ],
+    "Investment": [
+      "투자",
+      "주식",
+      "텐배거"
+    ],
+    "Coding": [
+      "알고리즘"
+    ]
+  },
+  "Resources/References/alembic_사용법.md": {
+    "Database": [
+      "sql",
+      "db",
+      "index"
+    ]
+  },
+  "Resources/References/관리자권한_코드.md": {
+    "Analytics": [
+      "log"
+    ]
+  },
+  "Resources/References/재귀함수_쿼리.md": {
+    "Database": [
+      "sql",
+      "query"
+    ],
+    "Coding": [
+      "재귀"
+    ]
+  },
+  "Resources/References/AI_보조_코딩이_소프트웨어_엔지니어링을_어떻게_바꿀_것인가_불편한_진실__GeekNews.md": {
+    "Learning": [
+      "학습"
+    ]
+  },
+  "Resources/References/WEB3.md": {
+    "Investment": [
+      "web3"
+    ]
+  },
+  "Resources/References/월_말_데이터_생성.md": {
+    "Database": [
+      "sql",
+      "query"
+    ]
+  },
+  "Resources/References/Docker_실습.md": {
+    "Infrastructure": [
+      "docker",
+      "container"
+    ],
+    "Python": [
+      "python"
+    ]
+  },
+  "Resources/References/Python_코딩테스트_준비.md": {
+    "Python": [
+      "python"
+    ],
+    "Career": [
+      "이직"
+    ],
+    "Coding": [
+      "코딩테스트"
+    ]
+  },
+  "Resources/References/윈도우_함수.md": {
+    "Database": [
+      "postgresql",
+      "postgres",
+      "sql",
+      "query"
+    ]
+  },
+  "Resources/References/lambda_by_docker_in_documentation.md": {
+    "Infrastructure": [
+      "aws",
+      "docker",
+      "lambda"
+    ],
+    "Python": [
+      "python",
+      "lambda"
+    ]
+  },
+  "Resources/References/DAE_조사.md": {
+    "Database": [
+      "snowflake"
+    ],
+    "Career": [
+      "이직"
+    ]
+  },
+  "Resources/References/Fastapi_학습.md": {
+    "Database": [
+      "db"
+    ],
+    "Python": [
+      "fastapi",
+      "flask",
+      "async"
+    ],
+    "Data Quality": [
+      "validation"
+    ],
+    "Learning": [
+      "학습"
+    ]
+  },
+  "Resources/References/alembic.md": {
+    "Database": [
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "Python": [
+      "python"
+    ]
+  },
+  "Resources/References/alembic_ini_설정.md": {
+    "Database": [
+      "sql",
+      "database",
+      "db"
+    ]
+  },
+  "Resources/References/기존_서비스와_연결(airflow,_postgresql).md": {
+    "Data Engineering": [
+      "airflow",
+      "metadata"
+    ],
+    "Database": [
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "Infrastructure": [
+      "docker"
+    ]
+  },
+  "Resources/References/임의_테이블_생성,_union_vs_values.md": {
+    "Database": [
+      "sql",
+      "query"
+    ]
+  },
+  "Resources/References/logs_s3_연결_.md": {
+    "Data Engineering": [
+      "airflow",
+      "dag"
+    ],
+    "Infrastructure": [
+      "aws",
+      "s3"
+    ],
+    "DevOps": [
+      "logging"
+    ],
+    "Analytics": [
+      "log"
+    ]
+  },
+  "Resources/References/lateral_사용_==_unpivotr.md": {
+    "Database": [
+      "sql",
+      "query"
+    ]
+  },
+  "Resources/References/Jenkins_시행착오.md": {
+    "Infrastructure": [
+      "docker",
+      "jenkins"
+    ],
+    "DevOps": [
+      "ci",
+      "cd"
+    ]
+  },
+  "Resources/References/AARRR_퍼널_분석_노트.md": {
+    "Database": [
+      "index"
+    ],
+    "Python": [
+      "python",
+      "pandas"
+    ],
+    "Analytics": [
+      "log",
+      "분석",
+      "aarrr"
+    ]
+  },
+  "Resources/References/kafka_개념.md": {
+    "Database": [
+      "partition"
+    ],
+    "Infrastructure": [
+      "aws"
+    ],
+    "Data Architecture": [
+      "kafka",
+      "batch"
+    ]
+  },
+  "Resources/References/테이블_정규화.md": {
+    "Database": [
+      "db"
+    ]
+  },
+  "Resources/References/upsert_쿼리.md": {
+    "Data Architecture": [
+      "batch"
+    ],
+    "DevOps": [
+      "cd"
+    ]
+  },
+  "Resources/References/과제풀기-_하이퍼커넥트.md": {
+    "Career": [
+      "이직"
+    ]
+  },
+  "Resources/References/SQLP.md": {
+    "Database": [
+      "sql"
+    ],
+    "Data Architecture": [
+      "batch"
+    ],
+    "Coding": [
+      "sort"
+    ],
+    "Learning": [
+      "sqlp"
+    ]
+  },
+  "Resources/References/postgresql_파티셔닝.md": {
+    "Database": [
+      "postgresql",
+      "postgres",
+      "sql",
+      "db"
+    ]
+  },
+  "Resources/References/git에_등록된_파일_트리구조_print.md": {
+    "DevOps": [
+      "git",
+      "ci"
+    ],
+    "Coding": [
+      "sort"
+    ]
+  },
+  "Resources/References/암기.md": {
+    "Analytics": [
+      "분석"
+    ],
+    "Investment": [
+      "투자"
+    ]
+  },
+  "Resources/References/3과목.md": {
+    "Investment": [
+      "투자"
+    ]
+  },
+  "Resources/References/DBT_프로젝트_디렉토리_구조_파악.md": {
+    "Data Engineering": [
+      "dbt"
+    ],
+    "Database": [
+      "sql",
+      "db"
+    ],
+    "DevOps": [
+      "git"
+    ],
+    "Analytics": [
+      "log",
+      "분석"
+    ]
+  },
+  "Resources/References/personalize.md": {
+    "Infrastructure": [
+      "aws"
+    ],
+    "Python": [
+      "orm"
+    ],
+    "DevOps": [
+      "ci"
+    ],
+    "Coding": [
+      "알고리즘"
+    ],
+    "Learning": [
+      "학습"
+    ]
+  },
+  "Resources/References/lambda_개념.md": {
+    "Infrastructure": [
+      "aws",
+      "lambda"
+    ],
+    "Python": [
+      "lambda"
+    ]
+  },
+  "Resources/References/array,_linked_list_개념.md": {
+    "Database": [
+      "index"
+    ],
+    "Python": [
+      "python",
+      "class"
+    ],
+    "Coding": [
+      "알고리즘",
+      "array"
+    ]
+  },
+  "Resources/References/웹로그관련_기초_용어.md": {
+    "Analytics": [
+      "log",
+      "분석",
+      "session",
+      "웹로그"
+    ]
+  },
+  "Resources/References/기술_면접_단골_질문_‘동시성과_병렬성’_간편_정리__요즘IT.md": {
+    "Database": [
+      "partition"
+    ],
+    "Python": [
+      "python",
+      "async"
+    ],
+    "Data Architecture": [
+      "kafka",
+      "streaming",
+      "real-time"
+    ],
+    "DevOps": [
+      "ci"
+    ],
+    "Analytics": [
+      "분석"
+    ],
+    "Career": [
+      "면접"
+    ],
+    "Learning": [
+      "학습"
+    ]
+  },
+  "Resources/References/cursor.md": {
+    "DevOps": [
+      "git"
+    ],
+    "Learning": [
+      "학습"
+    ]
+  },
+  "Resources/References/dbt,_insert_구현_with_unique_key.md": {
+    "Data Engineering": [
+      "dbt",
+      "etl"
+    ],
+    "Database": [
+      "sql",
+      "db"
+    ]
+  },
+  "Resources/References/count_+_case_when_=_avg.md": {
+    "Database": [
+      "sql",
+      "query"
+    ]
+  },
+  "Resources/References/GTM_개념.md": {
+    "Analytics": [
+      "gtm"
+    ]
+  },
+  "Resources/References/Jenkins_학습.md": {
+    "Infrastructure": [
+      "jenkins"
+    ],
+    "DevOps": [
+      "git",
+      "github",
+      "ci",
+      "cd"
+    ],
+    "Learning": [
+      "학습"
+    ]
+  },
+  "Resources/References/airflow_3.0.md": {
+    "Data Engineering": [
+      "airflow",
+      "dbt",
+      "dag",
+      "operator",
+      "datahub"
+    ],
+    "Database": [
+      "db"
+    ],
+    "Infrastructure": [
+      "aws",
+      "s3"
+    ],
+    "Python": [
+      "python"
+    ],
+    "DevOps": [
+      "ci"
+    ],
+    "Analytics": [
+      "log"
+    ]
+  },
+  "Resources/References/메모리_효율_-_청크_사용.md": {
+    "Data Engineering": [
+      "etl"
+    ],
+    "Database": [
+      "sql",
+      "db"
+    ],
+    "Python": [
+      "sqlalchemy"
+    ],
+    "Data Architecture": [
+      "streaming"
+    ]
+  },
+  "Resources/References/Referrer_개념.md": {
+    "Analytics": [
+      "gtm",
+      "referrer"
+    ]
+  },
+  "Resources/References/교육.md": {
+    "Learning": [
+      "교육"
+    ]
+  },
+  "Resources/References/docker_image_작성.md": {
+    "Database": [
+      "sql"
+    ],
+    "Infrastructure": [
+      "docker"
+    ],
+    "Python": [
+      "python"
+    ]
+  },
+  "Resources/References/airflow_ecs에_적용.md": {
+    "Data Engineering": [
+      "airflow"
+    ],
+    "Infrastructure": [
+      "ecs"
+    ]
+  },
+  "Resources/References/투자노트_-_갤럭시_디지털.md": {
+    "Infrastructure": [
+      "aws"
+    ],
+    "Python": [
+      "orm"
+    ],
+    "DevOps": [
+      "git",
+      "ci"
+    ],
+    "Analytics": [
+      "분석"
+    ],
+    "Investment": [
+      "투자",
+      "주식",
+      "텐배거",
+      "코인",
+      "web3",
+      "galaxy"
+    ]
+  },
+  "Resources/References/Jira_개념.md": {
+    "Analytics": [
+      "분석"
+    ]
+  },
+  "Resources/References/filter,_pivot_table,_round_사용.md": {
+    "Database": [
+      "sql",
+      "index"
+    ],
+    "Infrastructure": [
+      "lambda"
+    ],
+    "Python": [
+      "python",
+      "pandas",
+      "lambda"
+    ],
+    "Coding": [
+      "leetcode"
+    ]
+  },
+  "Resources/References/lambda_db_connection_관리.md": {
+    "Database": [
+      "db"
+    ],
+    "Infrastructure": [
+      "aws",
+      "lambda"
+    ],
+    "Python": [
+      "lambda"
+    ]
+  },
+  "Resources/References/데이터라이즈_CRM_사례.md": {
+    "Analytics": [
+      "log",
+      "분석",
+      "crm"
+    ]
+  },
+  "Resources/References/cosmos.md": {
+    "Data Engineering": [
+      "airflow",
+      "dbt",
+      "dag",
+      "operator"
+    ],
+    "Database": [
+      "postgres",
+      "db"
+    ],
+    "Python": [
+      "python",
+      "orm"
+    ]
+  },
+  "Resources/References/backfill_python_code.md": {
+    "Data Engineering": [
+      "airflow",
+      "dag"
+    ],
+    "Python": [
+      "python",
+      "pandas"
+    ],
+    "Coding": [
+      "sort"
+    ]
+  },
+  "Resources/References/2과목.md": {
+    "Analytics": [
+      "분석"
+    ],
+    "Investment": [
+      "투자",
+      "주식"
+    ]
+  },
+  "Resources/References/TypeB_CRM_서비스_구축.md": {
+    "Data Engineering": [
+      "airflow"
+    ],
+    "Analytics": [
+      "crm"
+    ]
+  },
+  "Resources/References/group_by_+_over().md": {
+    "Database": [
+      "sql",
+      "query",
+      "partition"
+    ]
+  },
+  "Resources/References/DW,_DM.md": {
+    "Database": [
+      "db"
+    ]
+  },
+  "Resources/References/airflow,_grafana_연동.md": {
+    "Data Engineering": [
+      "airflow",
+      "dag"
+    ],
+    "DevOps": [
+      "grafana"
+    ],
+    "Analytics": [
+      "log"
+    ]
+  },
+  "Resources/References/토스_출신_동료와_이야기_하다가_감탄한_이유.md": {
+    "Analytics": [
+      "분석",
+      "crm"
+    ],
+    "Investment": [
+      "투자"
+    ]
+  },
+  "Resources/References/쿠키_없는_세상,_‘CRM_마케팅’에_주목하다_-_DIGITAL_iNSIGHT_디지털_인사.md": {
+    "DevOps": [
+      "git"
+    ],
+    "Analytics": [
+      "분석",
+      "crm"
+    ]
+  },
+  "Resources/References/좋은_데이터_모델링이란.md": {
+    "Data Architecture": [
+      "medallion"
+    ]
+  },
+  "Resources/References/커리어_패스_설계.md": {
+    "Infrastructure": [
+      "aws"
+    ],
+    "Data Architecture": [
+      "kafka"
+    ],
+    "Career": [
+      "이직"
+    ],
+    "Learning": [
+      "공부"
+    ]
+  },
+  "Resources/References/투자노트_-_코어위브.md": {
+    "Infrastructure": [
+      "aws"
+    ],
+    "DevOps": [
+      "git"
+    ],
+    "Analytics": [
+      "분석"
+    ],
+    "Investment": [
+      "투자",
+      "주식"
+    ]
+  },
+  "Resources/References/sql_정규표현식.md": {
+    "Database": [
+      "postgresql",
+      "postgres",
+      "sql",
+      "query"
+    ],
+    "Analytics": [
+      "분석"
+    ],
+    "Coding": [
+      "array"
+    ]
+  },
+  "Resources/References/Nginx_학습.md": {
+    "Learning": [
+      "학습"
+    ]
+  },
+  "Resources/References/keycloak으로_Dag_권한관리.md": {
+    "Data Engineering": [
+      "airflow",
+      "dag"
+    ],
+    "Database": [
+      "query",
+      "db",
+      "snowflake"
+    ],
+    "Infrastructure": [
+      "docker",
+      "s3"
+    ],
+    "Python": [
+      "python",
+      "orm",
+      "decorator"
+    ],
+    "Analytics": [
+      "log",
+      "session"
+    ]
+  },
+  "Resources/References/CKA.md": {
+    "Learning": [
+      "cka"
+    ]
+  },
+  "Resources/References/블로그_개설.md": {
+    "Career": [
+      "이직"
+    ]
+  },
+  "Resources/References/노션_포트폴리오_구성.md": {
+    "Career": [
+      "이직",
+      "이력서"
+    ]
+  },
+  "Resources/References/Trino.md": {
+    "Database": [
+      "sql"
+    ],
+    "Data Architecture": [
+      "trino"
+    ],
+    "Analytics": [
+      "분석"
+    ]
+  },
+  "Resources/References/우울증.md": {
+    "Python": [
+      "orm"
+    ]
+  },
+  "Resources/References/Rules_for_good_dags.md": {
+    "Data Engineering": [
+      "airflow",
+      "dag"
+    ]
+  },
+  "Resources/References/투자노트_-_Holtec_Intenrational.md": {
+    "Analytics": [
+      "분석"
+    ],
+    "Investment": [
+      "투자",
+      "주식"
+    ]
+  },
+  "Resources/References/Pcap.md": {
+    "Data Architecture": [
+      "iceberg"
+    ],
+    "Learning": [
+      "pcap"
+    ]
+  },
+  "Resources/References/요기요_airflow_dag_code.md": {
+    "Data Engineering": [
+      "airflow",
+      "etl",
+      "dag",
+      "operator"
+    ],
+    "Database": [
+      "sql",
+      "query",
+      "bigquery"
+    ],
+    "Python": [
+      "python",
+      "orm"
+    ],
+    "Analytics": [
+      "log"
+    ]
+  },
+  "Resources/References/국내IT_기술블로그.md": {
+    "DevOps": [
+      "git",
+      "github"
+    ],
+    "Analytics": [
+      "log"
+    ],
+    "Learning": [
+      "학습"
+    ]
+  },
+  "Resources/References/AI_트레이딩.md": {
+    "Investment": [
+      "투자",
+      "주식"
+    ]
+  },
+  "Resources/References/IAM.md": {
+    "Infrastructure": [
+      "aws",
+      "iam"
+    ]
+  },
+  "Resources/References/bigquery_파티셔닝.md": {
+    "Database": [
+      "query",
+      "db",
+      "bigquery"
+    ]
+  },
+  "Resources/References/AWS_airflow_설치.md": {
+    "Data Engineering": [
+      "airflow"
+    ],
+    "Database": [
+      "db"
+    ],
+    "Infrastructure": [
+      "aws",
+      "docker"
+    ]
+  },
+  "Resources/References/클러스터란.md": {
+    "Data Engineering": [
+      "airflow"
+    ],
+    "Infrastructure": [
+      "ecs"
+    ]
+  },
+  "Resources/References/문자_추출.md": {
+    "Database": [
+      "sql",
+      "query",
+      "partition"
+    ],
+    "DevOps": [
+      "git"
+    ],
+    "Coding": [
+      "array"
+    ]
+  },
+  "Resources/References/[Udemy]The_complete_course_for_beginners_.md": {
+    "Database": [
+      "rds"
+    ],
+    "DevOps": [
+      "ci",
+      "cd"
+    ],
+    "Learning": [
+      "udemy",
+      "교육",
+      "course"
+    ]
+  },
+  "Resources/References/sqlalchemy_사용법.md": {
+    "Database": [
+      "sql",
+      "db"
+    ],
+    "Python": [
+      "sqlalchemy"
+    ]
+  },
+  "Resources/References/VPC.md": {
+    "Infrastructure": [
+      "aws",
+      "vpc"
+    ],
+    "Analytics": [
+      "log"
+    ]
+  },
+  "Resources/References/sqlalchemy_type_주의사항.md": {
+    "Database": [
+      "sql"
+    ],
+    "Python": [
+      "sqlalchemy"
+    ]
+  },
+  "Resources/References/SKT_도입_사례.md": {
+    "Data Engineering": [
+      "datahub"
+    ],
+    "Infrastructure": [
+      "kubernetes"
+    ],
+    "Analytics": [
+      "log"
+    ]
+  },
+  "Resources/References/세션과_커넥션.md": {
+    "Data Engineering": [
+      "etl"
+    ],
+    "Database": [
+      "sql",
+      "db"
+    ],
+    "Python": [
+      "python",
+      "sqlalchemy",
+      "orm"
+    ]
+  },
+  "Resources/References/재귀함수.md": {
+    "Python": [
+      "python"
+    ],
+    "Coding": [
+      "알고리즘",
+      "재귀"
+    ]
+  },
+  "Resources/References/airflow_plugin.md": {
+    "Data Engineering": [
+      "airflow"
+    ]
+  },
+  "Resources/References/웹로그_분석_전략.md": {
+    "Analytics": [
+      "log",
+      "분석",
+      "funnel",
+      "웹로그"
+    ]
+  },
+  "Resources/References/top_level_code_jinja.md": {
+    "Data Engineering": [
+      "airflow"
+    ],
+    "Learning": [
+      "tutorial"
+    ]
+  },
+  "Resources/References/Snowflake_conference.md": {
+    "Database": [
+      "rds",
+      "snowflake"
+    ],
+    "DevOps": [
+      "ci"
+    ],
+    "Learning": [
+      "conference"
+    ]
+  },
+  "Resources/References/투자노트_-_TSS.md": {
+    "Investment": [
+      "투자",
+      "주식"
+    ]
+  },
+  "Resources/References/qraft_명령어.md": {
+    "Database": [
+      "sql"
+    ]
+  },
+  "Resources/References/투자노트_-_DELL.md": {
+    "Analytics": [
+      "분석"
+    ],
+    "Investment": [
+      "투자",
+      "주식",
+      "dell"
+    ]
+  },
+  "Resources/References/in,_exists_비교.md": {
+    "Database": [
+      "sql",
+      "query"
+    ],
+    "Analytics": [
+      "log"
+    ]
+  },
+  "Resources/References/시간_변환.md": {
+    "Database": [
+      "query"
+    ],
+    "Python": [
+      "orm"
+    ]
+  },
+  "Resources/References/Elasticsearch.md": {
+    "Database": [
+      "db"
+    ],
+    "Infrastructure": [
+      "lambda",
+      "s3"
+    ],
+    "Python": [
+      "lambda"
+    ]
+  },
+  "Resources/References/예시.md": {
+    "Data Engineering": [
+      "etl"
+    ]
+  },
+  "Resources/References/airflow_아키텍쳐_및_세팅.md": {
+    "Data Engineering": [
+      "airflow",
+      "dag",
+      "workflow"
+    ],
+    "Infrastructure": [
+      "kubernetes",
+      "k8s"
+    ],
+    "Python": [
+      "python"
+    ],
+    "Analytics": [
+      "log"
+    ]
+  },
+  "Resources/References/custom_operator_개발.md": {
+    "Data Engineering": [
+      "airflow",
+      "operator"
+    ],
+    "Python": [
+      "python"
+    ]
+  },
+  "Resources/References/코인관련_텐베거_찾기.md": {
+    "Infrastructure": [
+      "aws"
+    ],
+    "Python": [
+      "orm"
+    ],
+    "DevOps": [
+      "git"
+    ],
+    "Analytics": [
+      "분석"
+    ],
+    "Investment": [
+      "투자",
+      "주식",
+      "코인",
+      "web3",
+      "galaxy"
+    ]
+  },
+  "Resources/References/접두,_접미_누적_차이.md": {
+    "Database": [
+      "postgresql",
+      "postgres",
+      "sql",
+      "partition"
+    ],
+    "Coding": [
+      "sort"
+    ]
+  },
+  "Resources/References/taskflow_공부.md": {
+    "Data Engineering": [
+      "airflow",
+      "pipeline",
+      "dag",
+      "operator"
+    ],
+    "Database": [
+      "postgres",
+      "sql",
+      "query",
+      "db"
+    ],
+    "Python": [
+      "python",
+      "sqlalchemy",
+      "orm",
+      "decorator",
+      "function"
+    ],
+    "Learning": [
+      "공부",
+      "tutorial"
+    ]
+  },
+  "Resources/References/경로설정.md": {
+    "Data Engineering": [
+      "airflow"
+    ]
+  },
+  "Resources/References/직방_SQS_+_lambda.md": {
+    "Infrastructure": [
+      "aws",
+      "lambda"
+    ],
+    "Python": [
+      "lambda"
+    ]
+  },
+  "Resources/References/codedeploy.md": {
+    "Infrastructure": [
+      "aws"
+    ],
+    "DevOps": [
+      "git",
+      "github",
+      "ci",
+      "cd"
+    ],
+    "Analytics": [
+      "log"
+    ]
+  },
+  "Resources/References/Docker_학습.md": {
+    "Infrastructure": [
+      "docker"
+    ],
+    "Learning": [
+      "학습"
+    ]
+  },
+  "Resources/References/ref_source_차이.md": {
+    "Data Engineering": [
+      "dbt",
+      "lineage"
+    ],
+    "Database": [
+      "db"
+    ]
+  },
+  "Resources/References/ACID_개념.md": {
+    "Database": [
+      "db"
+    ],
+    "DevOps": [
+      "ci"
+    ],
+    "Learning": [
+      "공부"
+    ]
+  },
+  "Resources/References/airflow_기본개념(책).md": {
+    "Data Engineering": [
+      "airflow",
+      "dag"
+    ],
+    "Python": [
+      "python"
+    ]
+  },
+  "Resources/References/날짜_추출.md": {
+    "Database": [
+      "query"
+    ],
+    "Python": [
+      "orm"
+    ]
+  },
+  "Resources/References/data_mesh.md": {
+    "Data Engineering": [
+      "dbt",
+      "etl"
+    ],
+    "Database": [
+      "sql",
+      "query",
+      "db",
+      "bigquery"
+    ],
+    "Infrastructure": [
+      "aws",
+      "lambda"
+    ],
+    "Python": [
+      "orm",
+      "lambda"
+    ],
+    "Data Architecture": [
+      "kafka"
+    ],
+    "DevOps": [
+      "ci",
+      "cd"
+    ],
+    "Analytics": [
+      "분석"
+    ]
+  },
+  "Resources/References/고급_기능_가이드.md": {
+    "Infrastructure": [
+      "docker"
+    ],
+    "DevOps": [
+      "git"
+    ]
+  },
+  "Resources/References/nepa_airflow_dag_code.md": {
+    "Data Engineering": [
+      "airflow",
+      "dag",
+      "operator"
+    ],
+    "Database": [
+      "postgres",
+      "sql",
+      "query",
+      "db",
+      "rds"
+    ],
+    "Python": [
+      "python"
+    ],
+    "Data Architecture": [
+      "batch"
+    ],
+    "DevOps": [
+      "ci"
+    ],
+    "Coding": [
+      "sort"
+    ]
+  },
+  "Resources/References/외부_저장소_마운트.md": {
+    "Data Engineering": [
+      "airflow"
+    ]
+  },
+  "Resources/References/dbt_명령어.md": {
+    "Data Engineering": [
+      "airflow",
+      "dbt"
+    ],
+    "Database": [
+      "sql",
+      "db",
+      "snowflake"
+    ],
+    "DevOps": [
+      "cd"
+    ]
+  },
+  "Resources/References/sqs_redrive_&_dlq.md": {
+    "Infrastructure": [
+      "aws",
+      "docker",
+      "lambda",
+      "container"
+    ],
+    "Python": [
+      "lambda"
+    ]
+  },
+  "Resources/References/GX_개념.md": {
+    "Data Engineering": [
+      "workflow"
+    ],
+    "Data Architecture": [
+      "batch"
+    ],
+    "Data Quality": [
+      "gx",
+      "validation"
+    ]
+  },
+  "Resources/References/Hadoop.md": {
+    "Analytics": [
+      "log"
+    ]
+  },
+  "Resources/References/리맴버_이력서_&_링크드인_프로필_BEST_선정.md": {
+    "Career": [
+      "이직",
+      "이력서"
+    ]
+  },
+  "Resources/References/airflow_pipeline_ingestion.md": {
+    "Data Engineering": [
+      "airflow",
+      "pipeline",
+      "datahub"
+    ]
+  },
+  "Resources/References/빌드,_컴파일,_링크.md": {
+    "Python": [
+      "python"
+    ]
+  },
+  "Resources/References/postgresql_타입.md": {
+    "Database": [
+      "postgresql",
+      "postgres",
+      "sql",
+      "db"
+    ]
+  },
+  "Resources/References/worker_분리.md": {
+    "Data Engineering": [
+      "airflow"
+    ],
+    "Analytics": [
+      "log"
+    ]
+  },
+  "Resources/References/CAFE24_API_TAG_적용.md": {
+    "Analytics": [
+      "gtm"
+    ]
+  },
+  "Resources/References/exists_활용_.md": {
+    "Database": [
+      "sql",
+      "query"
+    ],
+    "Learning": [
+      "course"
+    ]
+  },
+  "Resources/References/ORM.md": {
+    "Database": [
+      "sql",
+      "query"
+    ],
+    "Python": [
+      "orm"
+    ]
+  },
+  "Resources/References/trigger_+_function_연동.md": {
+    "Database": [
+      "sql"
+    ],
+    "Python": [
+      "function"
+    ],
+    "DevOps": [
+      "cd"
+    ]
+  },
+  "Resources/References/data_medaillon.md": {
+    "Data Architecture": [
+      "medallion"
+    ],
+    "Learning": [
+      "학습"
+    ]
+  },
+  "Resources/References/쿠버네티스.md": {
+    "Data Engineering": [
+      "airflow"
+    ],
+    "Infrastructure": [
+      "docker",
+      "k8s",
+      "eks",
+      "container"
+    ],
+    "Analytics": [
+      "log"
+    ]
+  },
+  "Resources/References/bash_명령어.md": {
+    "Python": [
+      "python"
+    ]
+  },
+  "Projects/Staging/krx_stocks_적재.md": {
+    "Data Engineering": [
+      "airflow",
+      "dbt"
+    ],
+    "Database": [
+      "db"
+    ]
+  },
+  "Projects/Staging/Datahub_재설치_&_정리.md": {
+    "Data Engineering": [
+      "datahub"
+    ]
+  },
+  "Projects/Staging/snowflake_ftp__sftp_ingestion_연결.md": {
+    "Database": [
+      "snowflake"
+    ]
+  },
+  "Projects/Staging/벤더사_테이블_명세서_요청.md": {
+    "DevOps": [
+      "ci"
+    ]
+  },
+  "Projects/Staging/DB_정리.md": {
+    "Database": [
+      "db",
+      "snowflake"
+    ]
+  },
+  "Projects/Staging/UDP__TCP_데이터_플로우_확인.md": {
+    "Data Engineering": [
+      "airflow"
+    ]
+  },
+  "Atoms/Problems/P012-2025-W37.md": {
+    "Database": [
+      "db"
+    ]
+  },
+  "Atoms/Problems/P018-2025-W38.md": {
+    "Database": [
+      "db"
+    ]
+  },
+  "Atoms/Problems/P025-2025-W42.md": {
+    "Database": [
+      "snowflake"
+    ]
+  },
+  "Atoms/Problems/P017-2025-W38.md": {
+    "Database": [
+      "db"
+    ]
+  },
+  "Atoms/Problems/P026-2025-W42.md": {
+    "Database": [
+      "postgres",
+      "snowflake"
+    ]
+  },
+  "Atoms/Problems/P028-2025-W43.md": {
+    "Data Engineering": [
+      "airflow",
+      "dag"
+    ],
+    "DevOps": [
+      "alert"
+    ],
+    "Data Quality": [
+      "alert"
+    ]
+  },
+  "Atoms/Problems/P019-2025-W38.md": {
+    "Database": [
+      "db"
+    ]
+  },
+  "Areas/Career/Applications/페이커즈_데이터_엔지니어_(Data_Engineer).md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/숨고_Data_Engineer.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/토스증권_DAE.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/카카오페이_[데이터분석팀]_데이터_분석가.md": {
+    "Analytics": [
+      "분석"
+    ],
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/에이비일팔공(AB180)_Data_Engineer.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/라인_플러스_DAE.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/바로팜_DA.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/백패커_[아이디어스텀블벅]_Data_Engineer_(3년_이상).md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/네이버웹툰_데이터_엔지니어.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/파일러_[파일러]_Data_Analyst_(전문연구요원_가능).md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/현대오토에버_[Tech]_Data_Engineer_-_데이터_파이프라인_개발_및_운영(DS.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/고위드_[FUEL]_데이터_분석_(Data_Analyst).md": {
+    "Analytics": [
+      "분석"
+    ],
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/(주)고위드_[공통]_Data_Analytics_Engineer.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/밀리의_서재_밀리의_서재.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/(주)뤼이드_[Riiid뤼이드]_Data_Engineer.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/비상교육_Data_Engineer.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ],
+    "Learning": [
+      "교육"
+    ]
+  },
+  "Areas/Career/Applications/토스인컴_DAE.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/두나무_DAE.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/스마일게이트엔터테인먼트_[CROSSFIRE]_데이터_분석_담당.md": {
+    "Analytics": [
+      "분석"
+    ],
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/카카오_다음_[다음설립준비법인]_Data_Engineer.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/토스코어_Data_Analyst_(커머스).md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/CJ올리브영_[CJ올리브영]_Data_Engineer.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/트릿지_Data_Engineer.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/이팝소프트_Product_Data_Analyst.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/교보문고_데이터_파이프라인_개발_및_운영(3년이상).md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/타다_Data_Analyst_(마케팅팀).md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/이노션_데이터_엔지니어_4년.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/힐링페이퍼_데이터_엔지니어.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/나이스지니데이타_데이터_엔지니어.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/빅벨류_Data_Engineer.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/버즈빌_Data_Analyst_(3년_이상).md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/페이타랩(패스오더)_그로스_마케터(그로스해커),_서울.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/토스코어_Dataops_manager.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/요기요_[Tech]_Data_Engineer_(Pipeline,_4년_이상).md": {
+    "Data Engineering": [
+      "pipeline"
+    ],
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/크래프트테크놀로지스_Data_Engineer.md": {
+    "DevOps": [
+      "cd"
+    ],
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/ada_Data_Solutions_Engineer.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/인포유앤컴퍼니_SQL_개발자.md": {
+    "Database": [
+      "sql"
+    ],
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/뤼튼_product_analyst.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/데브시스터즈(Devsisters)_[기술본부]_Data_Warehouse_Engineer_.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/(주)JYP엔터테인먼트_[JYP_ENTERTAINMENT]_Software_Engineer.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "경력",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/나이스평가정보_데이터엔지니어\n(데이터_파이프라인_구성_및_운영데이터_마트_구축_및_분석).md": {
+    "Analytics": [
+      "분석"
+    ],
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/우아한형제들_딜리버리센터_Business_Analyst_모집(3년이상).md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/더스윙_DA.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/데이터라이즈_DAE.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Applications/카카오뱅크_데이터_마트_개발_담당자_-_빅데이터.md": {
+    "Career": [
+      "면접",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/그때_그때_다르게.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/예상질문.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/통합적인_관점에서_파이프라인에_대한_깊이_발전.md": {
+    "Career": [
+      "이직",
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/높은_sla를_달성할_수_있었던_이유.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/차량_SW_플랫폼운영_+_AI기반_마케팅.md": {
+    "Analytics": [
+      "분석"
+    ],
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/데이터_정확도_99%.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/현대홈쇼핑_프로젝트_리포트_생성시간_단축.md": {
+    "DevOps": [
+      "cd"
+    ],
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/커뮤니케이션_비용_70%.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/더_깊이_있는_데이터_파이프라인을_경험해보기_위해.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/오류_대응_시간을_90%_이상_단축.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/자신감.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/현대홈쇼핑_프로젝트_마지막에_고객_추가_요건_반영.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/서비스_사용자.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/쿼리_비용_효율화_.md": {
+    "DevOps": [
+      "cd"
+    ],
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/현대홈쇼핑에서_다양한_팀과_인터뷰를_하면서_파이프라인_설계.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/중국에서_친구차로_미래에_차_공간에_대한_경험을_함.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/5년동안_목표.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/CAFE24_데이터_수집_및_정합성.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/계속_파고드는_성격.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  },
+  "Areas/Career/Interview/모니터링_및_DM_수정_대응.md": {
+    "Career": [
+      "interview",
+      "career"
+    ]
+  }
+}

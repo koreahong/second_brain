@@ -10,7 +10,9 @@ PARA: Project
 
 ## 📝 내용
 
-(내용 없음)
+바이낸스 API발급
+
+https://dankcs.tistory.com/196
 
 ## 🏷️ 분류
 
@@ -27,4 +29,4 @@ PARA: Project
 
 ---
 
-*Notion에서 마이그레이션됨*
+*Notion에서 재마이그레이션됨 (2025-11-28)*
