@@ -10,17 +10,7 @@ notion_id: 271c6d43-3b4d-8019-b9fd-ddb80b6fedc2
 
 postgres도 organization이 있어서 
 
-
-
-
-
-
-
-
-
 ### 권한부여
-
-
 
 ```sql
 SELECT ROLE
@@ -64,8 +54,6 @@ GRANT ROLE LONG_TERM_STG_TEAM2 TO USER "dongyeon.park";
 
 ```
 
-
-
 ### stage 조회
 
 ```sql
@@ -77,8 +65,6 @@ SELECT *
 FROM TABLE(RESULT_SCAN(LAST_QUERY_ID()))
 WHERE "name" LIKE '%FDTCD001.20251015%';
 ```
-
-
 
 ### table 생성 For문
 
@@ -107,10 +93,6 @@ BEGIN
     RETURN '✅ All tables cloned from ALPHA_PLATFORM.BARRA to QRAFT_ORIGIN.BARRA.';
 END;
 ```
-
-
-
-
 
 ### external storage 연결
 
@@ -216,8 +198,6 @@ LIMIT 10;
 directory는 테이블로 활용할 수 있지만 Refresh를 해줘야 함
 
 ALTER STAGE qraft_origin.mart.portpolio_rebalancing REFRESH;
-
-
 
 alembic + 컨플루언스 권한 관리
 
