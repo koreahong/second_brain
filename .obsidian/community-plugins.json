@@ -6,5 +6,10 @@
   "tag-wrangler",
   "backlink-cache",
   "mcp-tools",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "obsidian-excalidraw-plugin",
+  "obsidian-kanban",
+  "periodic-notes",
+  "obsidian-tasks-plugin",
+  "graph-analysis"
 ]
