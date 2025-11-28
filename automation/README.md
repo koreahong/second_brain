@@ -5,9 +5,24 @@ tags:
 created: '2025-11-28'
 type: index
 ---
-# Automation
+# Automation 🤖
+
+> **독립 모듈**: 이 디렉토리는 Notion ↔ Obsidian 자동 동기화를 담당하는 독립적인 모듈입니다.
 
 이 디렉토리에는 vault 자동화 관련 스크립트와 문서가 포함되어 있습니다.
+
+## 📁 구조
+
+```
+automation/
+├── .claude/
+│   └── AUTOMATION_AGENT.md      # Claude Agent 지침서
+├── notion_sync.py               # 메인 동기화 스크립트
+├── README.md                    # 이 파일
+├── AUTOMATION_SETUP.md          # 전체 설정 가이드
+├── GITHUB_SECRETS_SETUP.md      # GitHub Secrets 설정
+└── LOCAL_TESTING_GUIDE.md       # 로컬 테스트 가이드
+```
 
 ## 📚 문서
 

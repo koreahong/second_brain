@@ -245,4 +245,11 @@ Concept ↔ Experience ↔ Pattern ↔ Hub
 - [[KNOWLEDGE_STRUCTURE_DESIGN.md|Knowledge 구조 설계]]
 - [[MIGRATION_SUMMARY.md|마이그레이션 요약]]
 
+### Vault 관리 및 자동화
+
+- [[VAULT_MANAGEMENT_GUIDE.md|Vault 관리 가이드]] - Second Brain 유지보수 가이드
+- [[second_brain_report.md|Second Brain Health Report]] - 현재 상태 분석 리포트
+- [[SECOND_BRAIN_ACTION_PLAN.md|액션 플랜]] - 개선 작업 계획
+- [[.claude/agents/second-brain-curator.md|Second Brain Curator Agent]] - 자동 큐레이션 에이전트
+
 ---

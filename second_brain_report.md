@@ -1,14 +1,14 @@
 # Second Brain Health Report
-Generated: 2025-11-28 16:37:49
+Generated: 2025-11-28 16:47:54
 
 ---
 
 ## 📊 Overview
 
-- **Total Documents**: 355
-- **Total Links**: 1078
-- **Connected Nodes**: 276
-- **Orphan Pages**: 79
+- **Total Documents**: 353
+- **Total Links**: 1191
+- **Connected Nodes**: 297
+- **Orphan Pages**: 56
 
 ---
 
@@ -16,141 +16,130 @@ Generated: 2025-11-28 16:37:49
 
 These connections would improve discoverability:
 
-### 🧠 DAE Second Brain - Migration Summary → Second Brain Health Report
+### Second Brain 개선 액션 플랜 → Second Brain Health Report
 
 - **Confidence**: medium
-- **Reason**: Common keywords: content, files, migration
-- **Files**: `MIGRATION_SUMMARY.md` → `second_brain_report.md`
+- **Reason**: Common keywords: brain, md, second
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `second_brain_report.md`
 
-### 🧠 DAE Second Brain - Migration Summary → DAE Second Brain 구조 재편성 요약
-
-- **Confidence**: medium
-- **Reason**: Common keywords: md, hub, data
-- **Files**: `MIGRATION_SUMMARY.md` → `RESTRUCTURE_SUMMARY.md`
-
-### 🧠 DAE Second Brain - Migration Summary → 🧠 DAE Second Brain
-
-- **Confidence**: high
-- **Reason**: "🧠 DAE Second Brain" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `README.md`
-
-### 🧠 DAE Second Brain - Migration Summary → DAE Second Brain - Knowledge Network Architecture
+### Second Brain 개선 액션 플랜 → DAE Second Brain 구조 재편성 요약
 
 - **Confidence**: medium
-- **Reason**: Common keywords: md, hub, data
-- **Files**: `MIGRATION_SUMMARY.md` → `KNOWLEDGE_STRUCTURE_DESIGN.md`
+- **Reason**: Common keywords: 연결, md, python
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `RESTRUCTURE_SUMMARY.md`
 
-### 🧠 DAE Second Brain - Migration Summary → Investment Hub
-
-- **Confidence**: high
-- **Reason**: "Investment Hub" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `Areas/_HUB_Investment.md`
-
-### 🧠 DAE Second Brain - Migration Summary → Automation
+### Second Brain 개선 액션 플랜 → 🧠 DAE Second Brain
 
 - **Confidence**: medium
-- **Reason**: Common keywords: notion, obsidian, md
-- **Files**: `MIGRATION_SUMMARY.md` → `automation/README.md`
+- **Reason**: Common keywords: hub, 연결, 데이터
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `README.md`
 
-### 🧠 DAE Second Brain - Migration Summary → Daily Notes 설정 가이드
-
-- **Confidence**: medium
-- **Reason**: Common keywords: notion, md, notes
-- **Files**: `MIGRATION_SUMMARY.md` → `Flow/DAILY_NOTES_SETUP.md`
-
-### 🧠 DAE Second Brain - Migration Summary → WEB3
-
-- **Confidence**: high
-- **Reason**: "WEB3" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `Knowledge/Analytics/Web-Analytics/Concepts/WEB3.md`
-
-### 🧠 DAE Second Brain - Migration Summary → airflow 아키텍쳐 및 세팅
+### Second Brain 개선 액션 플랜 → DAE Second Brain - Vault Management Guide
 
 - **Confidence**: medium
-- **Reason**: Common keywords: with, hub, data
-- **Files**: `MIGRATION_SUMMARY.md` → `Knowledge/Technology/Orchestration/Concepts/airflow_아키텍쳐_및_세팅.md`
+- **Reason**: Common keywords: 문서, 페이지, brain
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `VAULT_MANAGEMENT_GUIDE.md`
 
-### 🧠 DAE Second Brain - Migration Summary → Python Hub
-
-- **Confidence**: high
-- **Reason**: "Python Hub" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `Knowledge/Technology/Languages/Python/Python-Hub.md`
-
-### 🧠 DAE Second Brain - Migration Summary → SQLP
-
-- **Confidence**: high
-- **Reason**: "SQLP" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `Knowledge/Technology/Languages/SQL/Patterns/SQLP.md`
-
-### 🧠 DAE Second Brain - Migration Summary → ORM
-
-- **Confidence**: high
-- **Reason**: "ORM" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `Knowledge/Technology/Languages/Python/Concepts/ORM.md`
-
-### 🧠 DAE Second Brain - Migration Summary → Trino
-
-- **Confidence**: high
-- **Reason**: "Trino" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `Knowledge/Technology/Storage/Trino/Concepts/Trino.md`
-
-### 🧠 DAE Second Brain - Migration Summary → data mesh
-
-- **Confidence**: high
-- **Reason**: "data mesh" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `Knowledge/Technology/Transformation/Patterns/data_mesh.md`
-
-### 🧠 DAE Second Brain - Migration Summary → data medaillon
+### Second Brain 개선 액션 플랜 → DAE Second Brain - Knowledge Network Architecture
 
 - **Confidence**: medium
-- **Reason**: Common keywords: architecture, hub, data
-- **Files**: `MIGRATION_SUMMARY.md` → `Knowledge/Data-Architecture/Patterns/data_medaillon.md`
+- **Reason**: Common keywords: 연결, md, hub
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `KNOWLEDGE_STRUCTURE_DESIGN.md`
 
-### 🧠 DAE Second Brain - Migration Summary → Analytics Hub
+### Second Brain 개선 액션 플랜 → 크래프트 회고
 
-- **Confidence**: high
-- **Reason**: "Analytics Hub" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `Archives/Old-Structure/_HUB_Analytics.md`
+- **Confidence**: medium
+- **Reason**: Common keywords: 팀별, 문서, 데이터
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Notion Import/크래프트_회고.md`
 
-### 🧠 DAE Second Brain - Migration Summary → Data Architecture Hub
+### Second Brain 개선 액션 플랜 → 업무 구상
 
-- **Confidence**: high
-- **Reason**: "Data Architecture Hub" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `Archives/Old-Structure/_HUB_Data_Architecture.md`
+- **Confidence**: medium
+- **Reason**: Common keywords: 원천, 문서, 파악
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Notion Import/업무_구상.md`
 
-### 🧠 DAE Second Brain - Migration Summary → DevOps Hub
+### Second Brain 개선 액션 플랜 → Automation
 
-- **Confidence**: high
-- **Reason**: "DevOps Hub" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `Archives/Old-Structure/_HUB_DevOps.md`
+- **Confidence**: medium
+- **Reason**: Common keywords: python, md, py
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `automation/README.md`
 
-### 🧠 DAE Second Brain - Migration Summary → Learning Hub
-
-- **Confidence**: high
-- **Reason**: "Learning Hub" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `Archives/Old-Structure/_HUB_Learning.md`
-
-### 🧠 DAE Second Brain - Migration Summary → Infrastructure Hub
+### Second Brain 개선 액션 플랜 → Weekly Hub
 
 - **Confidence**: high
-- **Reason**: "Infrastructure Hub" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `Archives/Old-Structure/_HUB_Infrastructure.md`
+- **Reason**: "Weekly Hub" mentioned in content
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Flow/Weekly/Weekly-Hub.md`
+
+### Second Brain 개선 액션 플랜 → 예시
+
+- **Confidence**: high
+- **Reason**: "예시" mentioned in content
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Knowledge/Uncategorized/예시.md`
+
+### Second Brain 개선 액션 플랜 → [Udemy]The complete course for beginners
+
+- **Confidence**: medium
+- **Reason**: Common keywords: 파악, 데이터, hub
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Knowledge/Data-Management/Data-Governance/Concepts/[Udemy]The_complete_course_for_beginners_.md`
+
+### Second Brain 개선 액션 플랜 → Airflow Hub
+
+- **Confidence**: medium
+- **Reason**: Common keywords: 연결, python, hub
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Knowledge/Technology/Orchestration/Airflow-Hub.md`
+
+### Second Brain 개선 액션 플랜 → Docker 실습
+
+- **Confidence**: medium
+- **Reason**: Common keywords: python, hub, py
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Knowledge/Technology/Infrastructure/Docker/Patterns/Docker_실습.md`
+
+### Second Brain 개선 액션 플랜 → docker image 작성
+
+- **Confidence**: medium
+- **Reason**: Common keywords: python, hub, py
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Knowledge/Technology/Infrastructure/Docker/Patterns/docker_image_작성.md`
+
+### Second Brain 개선 액션 플랜 → airflow 3.0
+
+- **Confidence**: high
+- **Reason**: "airflow 3.0" mentioned in content
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Knowledge/Technology/Orchestration/Patterns/airflow_3.0.md`
+
+### Second Brain 개선 액션 플랜 → keycloak으로 Dag 권한관리
+
+- **Confidence**: medium
+- **Reason**: Common keywords: python, qraft, py
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Knowledge/Technology/Orchestration/Patterns/keycloak으로_Dag_권한관리.md`
+
+### Second Brain 개선 액션 플랜 → Python Hub
+
+- **Confidence**: medium
+- **Reason**: Common keywords: python, hub, 데이터
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Knowledge/Technology/Languages/Python/Python-Hub.md`
+
+### Second Brain 개선 액션 플랜 → 세션과 커넥션
+
+- **Confidence**: medium
+- **Reason**: Common keywords: python, hub, 데이터
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Knowledge/Technology/Languages/Python/Concepts/세션과_커넥션.md`
+
+### Second Brain 개선 액션 플랜 → DBT 프로젝트 디렉토리 구조 파악
+
+- **Confidence**: medium
+- **Reason**: Common keywords: 프로젝트, hub, 데이터
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Knowledge/Technology/Transformation/Experiences/DBT_프로젝트_디렉토리_구조_파악.md`
+
+### Second Brain 개선 액션 플랜 → Qraft Technologies 경험
+
+- **Confidence**: medium
+- **Reason**: Common keywords: 원천, 프로젝트, 파악
+- **Files**: `SECOND_BRAIN_ACTION_PLAN.md` → `Experiences/Qraft/README.md`
 
 
 ---
 
-## 🌟 Hub Suggestions (25)
-
-### Weekly-Hub.md
-
-- **Directory**: `Flow/Weekly`
-- **Files to link**: 15
-- **Sample files**:
-  - [[Flow/Weekly/2025-W46.md|2025년 11월 10일]]
-  - [[Flow/Weekly/2025-W33.md|2025년 8월 11일]]
-  - [[Flow/Weekly/2025-W42.md|2025년 10월 13일]]
-  - [[Flow/Weekly/2025-W37.md|2025년 9월 8일]]
-  - [[Flow/Weekly/2025-W43.md|2025년 10월 20일]]
+## 🌟 Hub Suggestions (24)
 
 ### Uncategorized-Hub.md
 
@@ -196,7 +185,7 @@ These connections would improve discoverability:
 - **Sample files**:
   - [[Knowledge/Data-Management/Data-Governance/Concepts/관리자권한_코드.md|관리자권한 코드]]
   - [[Knowledge/Data-Management/Data-Governance/Concepts/쿠키_없는_세상,_‘CRM_마케팅’에_주목하다_-_DIGITAL_iNSIGHT_디지털_인사.md|쿠키 없는 세상, ‘CRM 마케팅’에 주목하다 - DIGITAL iNSIGHT 디지털 인사이트]]
-  - [[Knowledge/Data-Management/Data-Governance/Concepts/[Udemy]The_complete_course_for_beginners_.md|[Udemy]The complete course for beginners ]]
+  - [[Knowledge/Data-Management/Data-Governance/Concepts/[Udemy]The_complete_course_for_beginners_.md|[Udemy]The complete course for beginners]]
 
 ### Concepts-Hub.md
 
@@ -240,4 +229,14 @@ These connections would improve discoverability:
   - [[Knowledge/Technology/Orchestration/Concepts/cosmos.md|cosmos]]
   - [[Knowledge/Technology/Orchestration/Concepts/backfill_python_code.md|backfill python code]]
   - [[Knowledge/Technology/Orchestration/Concepts/airflow,_grafana_연동.md|airflow, grafana 연동]]
+
+### Patterns-Hub.md
+
+- **Directory**: `Knowledge/Technology/Languages/SQL/Patterns`
+- **Files to link**: 4
+- **Sample files**:
+  - [[Knowledge/Technology/Languages/SQL/Patterns/임의_테이블_생성,_union_vs_values.md|임의 테이블 생성, union vs values]]
+  - [[Knowledge/Technology/Languages/SQL/Patterns/SQLP.md|SQLP]]
+  - [[Knowledge/Technology/Languages/SQL/Patterns/문자_추출.md|문자 추출]]
+  - [[Knowledge/Technology/Languages/SQL/Patterns/in,_exists_비교.md|in, exists 비교]]
 

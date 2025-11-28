@@ -86,11 +86,65 @@
 
 ```
 DAE-Second-Brain/
-├── Resources/         # 참고 자료
+├── automation/       # 🤖 자동화 모듈 (별도 관리)
+├── Resources/        # 참고 자료
 ├── Projects/         # 프로젝트 노트
 ├── Daily Notes/      # 일일 노트
 ├── Templates/        # 템플릿
 └── Archive/          # 보관
+```
+
+## 🤖 Automation 모듈
+
+### 위치 및 역할
+- **경로**: `automation/`
+- **용도**: Notion ↔ Obsidian 자동 동기화
+- **독립 관리**: 별도의 설정 및 문서 보유
+
+### 작업 시 자동 인식 규칙
+
+**automation 관련 작업 감지:**
+- `automation/` 디렉토리 내 파일 수정/생성
+- Notion 동기화 관련 질문
+- GitHub Actions 워크플로우 관련 작업
+- `notion_sync.py` 관련 작업
+
+**자동 참조 문서:**
+1. `automation/README.md` - 빠른 시작
+2. `automation/AUTOMATION_SETUP.md` - 전체 가이드
+3. `automation/.claude/AUTOMATION_AGENT.md` - Agent 지침
+
+### Automation 작업 가이드라인
+
+**✅ 항상:**
+- `automation/.claude/AUTOMATION_AGENT.md` 먼저 확인
+- 기존 구조 및 네이밍 규칙 준수
+- 문서 업데이트 (코드 변경 시)
+- 로컬 테스트 가능하도록 유지
+
+**🚫 금지:**
+- `config.json` 직접 생성/수정 (템플릿만 제공)
+- Secret 정보 하드코딩
+- vault 내부 구조 임의 변경
+- GitHub Actions 스케줄 무단 활성화
+
+**📝 문서 우선순위:**
+1. 코드 변경 → 해당 문서 즉시 업데이트
+2. API 변경 → `AUTOMATION_SETUP.md` 업데이트
+3. 새 기능 → `README.md`에 추가
+4. 오류 해결 → `LOCAL_TESTING_GUIDE.md`에 추가
+
+### Automation 디렉토리 접근
+
+```bash
+# Obsidian MCP 사용 (문서 읽기)
+mcp__obsidian__read_note(path="automation/README.md")
+
+# Read 도구 사용 (코드 읽기)
+Read(file_path="/Users/.../automation/notion_sync.py")
+
+# 일반 파일 작업 (설정, 워크플로우)
+Read(file_path="/Users/.../.github/workflows/notion-sync.yml")
 ```
 
 ## 💬 선호하는 작업 방식
