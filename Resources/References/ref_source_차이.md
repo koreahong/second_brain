@@ -27,6 +27,8 @@ PARA: Resource
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Data_Engineering]], [[_HUB_Database]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

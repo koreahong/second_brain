@@ -64,6 +64,8 @@ dbtdag와 dbttaskgroup은 taskgroup은 dag안에서 task로 취급해서 다른 
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Data_Engineering]], [[_HUB_Database]], [[_HUB_Python]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

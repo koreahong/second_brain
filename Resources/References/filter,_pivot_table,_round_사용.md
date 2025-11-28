@@ -104,6 +104,8 @@ print(df.groupby("team")["score"].count())
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Database]], [[_HUB_Infrastructure]], [[_HUB_Python]], [[_HUB_Coding]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

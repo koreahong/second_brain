@@ -135,6 +135,8 @@ self-hosted로 직접 만든 곳도 있고, Jekyll 같은 SSG를 사용하거나
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Analytics]], [[_HUB_Learning]], [[_HUB_DevOps]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

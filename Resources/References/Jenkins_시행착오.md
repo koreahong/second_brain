@@ -40,6 +40,8 @@ jenkins에서 배포하려고 하는데 젠킨스가 도커에서 돌아가기 �
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Infrastructure]], [[_HUB_DevOps]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

@@ -21,6 +21,8 @@ https://docs.google.com/spreadsheets/d/15zEoY7a81riu6Vudi7E1B0DLpqBXQFgeZeUiG-yy
 
 ## 🔗 연결
 
+**Hub**: [[_Career]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

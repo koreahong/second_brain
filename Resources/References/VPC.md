@@ -21,6 +21,8 @@ https://velog.io/@seeh_h/AWS-VPC-Subnet-간단-정리
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Infrastructure]], [[_HUB_Analytics]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

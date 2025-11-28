@@ -84,6 +84,8 @@ ASGI(Asynchronous Server Gateway Interface)를 설명하면서 필요한 네트�
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Database]], [[_HUB_Python]], [[_HUB_Learning]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

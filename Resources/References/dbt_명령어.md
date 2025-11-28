@@ -21,6 +21,8 @@ cd /Users/qraft_hongjinyoung/qraft_airflow/dbt/snowflake && dbt run --project-di
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Data_Engineering]], [[_HUB_Database]], [[_HUB_DevOps]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

@@ -18,6 +18,8 @@ datamodel, alembic, dbt, airflow 적재
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Data_Engineering]], [[_HUB_Database]]
+
 **참고한 레퍼런스**:
 - (추후 연결)
 

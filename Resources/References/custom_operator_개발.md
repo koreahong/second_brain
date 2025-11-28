@@ -29,6 +29,8 @@ add >> multiply >> use_cat_fact_hook(multiply.output)
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Data_Engineering]], [[_HUB_Python]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

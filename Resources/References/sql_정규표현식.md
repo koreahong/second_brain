@@ -232,6 +232,8 @@ SELECT regexp_split_to_array('a@b@c@d', '@');
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Database]], [[_HUB_Analytics]], [[_HUB_Coding]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

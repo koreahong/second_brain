@@ -176,6 +176,8 @@ mandalart_monthly()
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Data_Engineering]], [[_HUB_Database]], [[_HUB_Python]], [[_HUB_Analytics]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

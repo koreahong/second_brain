@@ -29,6 +29,8 @@ ORM은 프로그래머들이 SQL(Structured Query Language)이라는 데이터�
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Database]], [[_HUB_Python]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

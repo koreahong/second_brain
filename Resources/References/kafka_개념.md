@@ -129,6 +129,8 @@ Zookeeper
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Database]], [[_HUB_Infrastructure]], [[_HUB_Data_Architecture]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

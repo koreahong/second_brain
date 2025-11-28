@@ -35,6 +35,8 @@ docker build -t lambda_container -f dockerfile_lambda .
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Infrastructure]], [[_HUB_Python]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

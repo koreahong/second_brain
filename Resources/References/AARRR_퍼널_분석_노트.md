@@ -163,6 +163,8 @@ print(f"전체 사용자 중 {new_user_rate:.2%}인 {new_users}명이 이번 달
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Database]], [[_HUB_Python]], [[_HUB_Analytics]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

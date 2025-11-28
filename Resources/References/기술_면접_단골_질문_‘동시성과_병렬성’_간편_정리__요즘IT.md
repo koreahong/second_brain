@@ -113,6 +113,8 @@ Real-time Data Streaming 환경은 실시간으로 쏟아지는 데이터를 빠
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Database]], [[_HUB_Python]], [[_HUB_Analytics]], [[_HUB_Career]], [[_HUB_Learning]], [[_HUB_DevOps]], [[_HUB_Data_Architecture]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

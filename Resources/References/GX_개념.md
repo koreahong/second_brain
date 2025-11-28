@@ -33,6 +33,8 @@ Validation Definition은 expectation에서 정의한 기댓값들을 검증하�
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Data_Engineering]], [[_HUB_Data_Architecture]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

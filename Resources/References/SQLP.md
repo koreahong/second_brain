@@ -83,6 +83,8 @@ Stopkey는 인덱스로 정렬을 스킵하면서 원하는 조건에 부합하�
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Database]], [[_HUB_Learning]], [[_HUB_Coding]], [[_HUB_Data_Architecture]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

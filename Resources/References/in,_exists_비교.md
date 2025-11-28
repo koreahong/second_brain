@@ -210,6 +210,8 @@ where not exists (
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Database]], [[_HUB_Analytics]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

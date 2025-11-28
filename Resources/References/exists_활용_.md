@@ -75,6 +75,8 @@ SQL에서는 NOT EXISTS (...)는 부정을 통해 전체 만족을 표현함:
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Database]], [[_HUB_Learning]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

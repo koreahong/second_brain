@@ -51,6 +51,8 @@ Helm은 컨테이너를 쉽게 설치할 수 있도록 돕는 툴
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Data_Engineering]], [[_HUB_Infrastructure]], [[_HUB_Python]], [[_HUB_Analytics]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

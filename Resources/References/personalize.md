@@ -47,6 +47,8 @@ aws personalize는 추천테마가 3가지가 있음
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Infrastructure]], [[_HUB_Python]], [[_HUB_Learning]], [[_HUB_Coding]], [[_HUB_DevOps]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

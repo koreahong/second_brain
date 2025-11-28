@@ -21,6 +21,8 @@ alembic -n mft revision -m "create mart.krx_stocks as a table"
 
 ## 🔗 연결
 
+**Hub**: [[_Database]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

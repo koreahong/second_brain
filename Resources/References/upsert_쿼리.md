@@ -88,6 +88,8 @@ mix_lv2 = EXCLUDED.mix_lv2
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_DevOps]], [[_HUB_Data_Architecture]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

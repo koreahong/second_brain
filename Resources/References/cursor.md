@@ -167,6 +167,8 @@ PARA: Resource
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Learning]], [[_HUB_DevOps]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

@@ -36,6 +36,8 @@ zip(*arr2)
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Python]], [[_HUB_Coding]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

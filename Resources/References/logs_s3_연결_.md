@@ -27,6 +27,8 @@ cfg 부분에 base_log_folder 주석처리 해야함
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Data_Engineering]], [[_HUB_Infrastructure]], [[_HUB_Analytics]], [[_HUB_DevOps]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

@@ -75,6 +75,8 @@ volumn운 따로 저장소를 만드는 것이고 마운트는 호스트 디렉�
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Infrastructure]], [[_HUB_Python]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

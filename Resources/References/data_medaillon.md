@@ -81,6 +81,8 @@ Medallion Architecture는 데이터를 Bronze(원본) → Silver(정제) → Gol
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Learning]], [[_HUB_Data_Architecture]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

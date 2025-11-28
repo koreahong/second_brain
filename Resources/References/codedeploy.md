@@ -21,6 +21,8 @@ https://velog.io/@cataiden/ci-cd-with-github-actions-and-aws-codedeploy
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Infrastructure]], [[_HUB_Analytics]], [[_HUB_DevOps]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

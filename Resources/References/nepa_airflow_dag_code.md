@@ -294,6 +294,8 @@ def tableau_step0_monthly():
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Data_Engineering]], [[_HUB_Database]], [[_HUB_Python]], [[_HUB_Coding]], [[_HUB_DevOps]], [[_HUB_Data_Architecture]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

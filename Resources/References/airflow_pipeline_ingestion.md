@@ -19,6 +19,8 @@ pip install 'acryl-datahub[airflow]'
 
 ## 🔗 연결
 
+**Hub**: [[_Data_Engineering]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

@@ -52,6 +52,8 @@ alembic.ini 파일의 내용은 context.config(from alembic import context)로 �
 
 ## 🔗 연결
 
+**Hub**: [[_Database]]
+
 **활용 프로젝트**:
 - (아직 없음)
 

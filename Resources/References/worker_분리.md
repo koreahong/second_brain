@@ -23,6 +23,8 @@ https://velog.io/@bbkyoo/AirFlow-설치Celery-Cluster
 
 ## 🔗 연결
 
+**Hub**: [[_HUB_Data_Engineering]], [[_HUB_Analytics]]
+
 **활용 프로젝트**:
 - (아직 없음)
 
