@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "obsidian": {
+      "type": "stdio",
+      "command": "mcp-obsidian",
+      "args": [
+        "/Users/qraft_hongjinyoung/DAE-Second-Brain"
+      ],
+      "env": {}
+    }
+  }
+}
