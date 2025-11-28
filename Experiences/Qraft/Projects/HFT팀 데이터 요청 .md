@@ -25,3 +25,19 @@ idc → ftp not ok 필요
 
 ⇒ 준일님이 진행
 
+---
+
+## 🔗 Related
+
+### 데이터 요청 프로젝트
+- [[MFT팀 데이터 요청]] - MFT 팀 데이터 요청 처리
+- [[AI Product팀 원천 데이터 까기]] - AI Product 팀 데이터 분석
+- [[strategy팀 사용현황 파악]] - Strategy 팀 사용 현황
+
+### HFT 관련 프로젝트
+- [[HFT팀 NYSE ARCA 데이터 찾기]] - NYSE ARCA 데이터 조사
+- [[HFT lseg sftp 파일 배치 dag 개발]] - LSEG SFTP 배치 개발
+
+### 관련 Hub
+- [[Experiences/Qraft/README]] - Qraft 경험 모음
+

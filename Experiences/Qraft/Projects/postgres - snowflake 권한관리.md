@@ -423,3 +423,14 @@ def downgrade() -> None:
 
 ```
 
+---
+
+## 🔗 Related
+
+### 권한 관리 프로젝트
+- [[dag권한 관리]] - Airflow DAG 권한 설정
+- [[jira, keycloak 권한 자동화]] - Jira/Keycloak 자동화
+
+### 관련 Hub
+- [[Experiences/Qraft/README]] - Qraft 경험 모음
+
