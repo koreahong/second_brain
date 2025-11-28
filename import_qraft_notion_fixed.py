@@ -272,7 +272,7 @@ def main():
     database_id = db_config['id']
 
     # Output
-    output_dir = Path(__file__).parent / 'Experiences' / 'Qraft-Full'
+    output_dir = Path(__file__).parent / 'Experiences' / 'Qraft'
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # Query
