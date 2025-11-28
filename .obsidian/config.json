@@ -1,0 +1,31 @@
+{
+  "vault_name": "DAE-Second-Brain",
+  "daily_notes": {
+    "folder": "Daily",
+    "template": "Templates/daily-note.md",
+    "format": "YYYY-MM-DD"
+  },
+  "templates": {
+    "folder": "Templates"
+  },
+  "attachments": {
+    "folder": "Attachments"
+  },
+  "core_plugins": [
+    "daily-notes",
+    "templates",
+    "graph",
+    "backlink",
+    "quick-switcher",
+    "file-explorer",
+    "search",
+    "starred"
+  ],
+  "community_plugins": [
+    "dataview",
+    "templater-obsidian",
+    "calendar",
+    "obsidian-git",
+    "excalidraw"
+  ]
+}
