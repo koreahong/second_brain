@@ -1,18 +1,18 @@
 ---
 type: area
 area: career
-company: Qraft Technologies
+company: 크래프트테크놀로지스 (Qraft Technologies)
 role: Data Engineer
 started: 2024
 status: active
-tags: [qraft, career, data-engineering]
+tags: [크래프트, qraft, career, data-engineering]
 created: 2025-11-28
 updated: 2025-11-28
 ---
 
-# Qraft Technologies - Career Area
+# 크래프트테크놀로지스
 
-> 데이터 엔지니어로서 Qraft Technologies에서의 지속적인 성장과 기여
+> 데이터 엔지니어로서 크래프트테크놀로지스에서의 지속적인 성장과 기여
 
 ## 🎯 Area 개요
 
@@ -77,5 +77,5 @@ updated: 2025-11-28
 
 ---
 
-**표준 유지**: 이 Area Note는 Qraft 경력 전체를 조망하는 허브입니다.
+**표준 유지**: 이 Area Note는 크래프트테크놀로지스 경력 전체를 조망하는 허브입니다.
 새로운 Weekly 회고나 Project는 여기에 링크를 추가하세요.
