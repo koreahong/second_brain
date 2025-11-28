@@ -105,19 +105,35 @@ def block_to_markdown(block, indent=0):
 
     if block_type == 'paragraph':
         text = extract_rich_text(block['paragraph'].get('rich_text', []))
-        result = text + '\n\n' if text else ''
+        if text:
+            # Apply indentation if this paragraph is a child of a list/todo item
+            if indent > 0:
+                result = f"{indent_str}{text}\n\n"
+            else:
+                result = text + '\n\n'
+        else:
+            result = ''
 
     elif block_type == 'heading_1':
         text = extract_rich_text(block['heading_1'].get('rich_text', []))
-        result = f"# {text}\n\n"
+        if indent > 0:
+            result = f"{indent_str}**{text}**\n\n"  # Convert to bold if nested
+        else:
+            result = f"# {text}\n\n"
 
     elif block_type == 'heading_2':
         text = extract_rich_text(block['heading_2'].get('rich_text', []))
-        result = f"## {text}\n\n"
+        if indent > 0:
+            result = f"{indent_str}**{text}**\n\n"  # Convert to bold if nested
+        else:
+            result = f"## {text}\n\n"
 
     elif block_type == 'heading_3':
         text = extract_rich_text(block['heading_3'].get('rich_text', []))
-        result = f"### {text}\n\n"
+        if indent > 0:
+            result = f"{indent_str}**{text}**\n\n"  # Convert to bold if nested
+        else:
+            result = f"### {text}\n\n"
 
     elif block_type == 'bulleted_list_item':
         text = extract_rich_text(block['bulleted_list_item'].get('rich_text', []))
@@ -150,11 +166,20 @@ def block_to_markdown(block, indent=0):
     elif block_type == 'code':
         text = extract_rich_text(block['code'].get('rich_text', []))
         lang = block['code'].get('language', '')
-        result = f"```{lang}\n{text}\n```\n\n"
+        if indent > 0:
+            # Indent code blocks if they're children of list items
+            lines = text.split('\n')
+            indented_code = '\n'.join([indent_str + line for line in lines])
+            result = f"{indent_str}```{lang}\n{indented_code}\n{indent_str}```\n\n"
+        else:
+            result = f"```{lang}\n{text}\n```\n\n"
 
     elif block_type == 'quote':
         text = extract_rich_text(block['quote'].get('rich_text', []))
-        result = f"> {text}\n\n"
+        if indent > 0:
+            result = f"{indent_str}> {text}\n\n"
+        else:
+            result = f"> {text}\n\n"
 
     elif block_type == 'callout':
         text = extract_rich_text(block['callout'].get('rich_text', []))
@@ -183,6 +208,69 @@ def block_to_markdown(block, indent=0):
 
     elif block_type == 'table_of_contents':
         result = "_Table of Contents_\n\n"
+
+    elif block_type == 'image':
+        image_data = block.get('image', {})
+        caption = extract_rich_text(image_data.get('caption', []))
+
+        # Get image URL
+        if image_data.get('type') == 'file':
+            url = image_data.get('file', {}).get('url', '')
+        elif image_data.get('type') == 'external':
+            url = image_data.get('external', {}).get('url', '')
+        else:
+            url = ''
+
+        if url:
+            if caption:
+                if indent > 0:
+                    result = f"{indent_str}![{caption}]({url})\n\n"
+                else:
+                    result = f"![{caption}]({url})\n\n"
+            else:
+                if indent > 0:
+                    result = f"{indent_str}![image]({url})\n\n"
+                else:
+                    result = f"![image]({url})\n\n"
+
+    elif block_type == 'file':
+        file_data = block.get('file', {})
+        caption = extract_rich_text(file_data.get('caption', []))
+
+        # Get file URL
+        if file_data.get('type') == 'file':
+            url = file_data.get('file', {}).get('url', '')
+        elif file_data.get('type') == 'external':
+            url = file_data.get('external', {}).get('url', '')
+        else:
+            url = ''
+
+        if url:
+            name = caption if caption else 'file'
+            if indent > 0:
+                result = f"{indent_str}[{name}]({url})\n\n"
+            else:
+                result = f"[{name}]({url})\n\n"
+
+    elif block_type == 'bookmark':
+        bookmark = block.get('bookmark', {})
+        url = bookmark.get('url', '')
+        caption = extract_rich_text(bookmark.get('caption', []))
+
+        if url:
+            display = caption if caption else url
+            if indent > 0:
+                result = f"{indent_str}🔖 [{display}]({url})\n\n"
+            else:
+                result = f"🔖 [{display}]({url})\n\n"
+
+    elif block_type == 'link_preview':
+        url = block.get('link_preview', {}).get('url', '')
+        if url:
+            if indent > 0:
+                result = f"{indent_str}[{url}]({url})\n\n"
+            else:
+                result = f"[{url}]({url})\n\n"
 
     else:
         # Unknown block type - try to extract any text

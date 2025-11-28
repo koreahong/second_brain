@@ -1,22 +1,6 @@
 {
   "mcpServers": {
-    "obsidian": {
-      "type": "stdio",
-      "command": "mcp-obsidian",
-      "args": [
-        "/Users/qraft_hongjinyoung/DAE-Second-Brain"
-      ],
-      "env": {}
-    },
-    "notion": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@makenotion/notion-mcp-server"
-      ],
-      "env": {
-        "NOTION_API_KEY": "${NOTION_TOKEN}"
-      }
-    }
+    "obsidian": {},
+    "context7": {}
   }
 }
