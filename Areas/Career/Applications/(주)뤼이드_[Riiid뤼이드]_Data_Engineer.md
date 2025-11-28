@@ -2,9 +2,10 @@
 title: [Riiid/뤼이드] Data Engineer
 company: (주)뤼이드
 created: 2025-07-17
-tags: ["career", "application", "migrated", "\ub4dc\ub78d"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ub4dc\\ub78d\"]", "notion-synced"]
 priority: 중
 result: 드랍
+application_result: 드랍
 ---
 
 # [Riiid/뤼이드] Data Engineer @ (주)뤼이드

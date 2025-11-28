@@ -127,6 +127,58 @@ Experiences/Qraft/
 
 ---
 
+
+## 📋 전체 프로젝트 목록
+
+- [[Projects/AI Product팀 원천 데이터 까기.md|AI Product팀 원천 데이터 까기]]
+- [[Projects/Data Guide 계정 찾기.md|Data Guide 계정 찾기]]
+- [[Projects/ERD 작성.md|ERD 작성]]
+- [[Projects/HFT lseg sftp 파일 배치 dag 개발.md|HFT lseg sftp 파일 배치 dag 개발]]
+- [[Projects/HFT팀 NYSE ARCA 데이터 찾기.md|HFT팀 NYSE ARCA 데이터 찾기]]
+- [[Projects/HFT팀 데이터 요청 .md|HFT팀 데이터 요청]]
+- [[Projects/Invesco 크롤링 데이터 개발.md|Invesco 크롤링 데이터 개발]]
+- [[Projects/Jira 업무방식 결정.md|Jira 업무방식 결정]]
+- [[Projects/MFT팀 데이터 사용현황 파악.md|MFT팀 데이터 사용현황 파악]]
+- [[Projects/MFT팀 데이터 요청.md|MFT팀 데이터 요청]]
+- [[Projects/MFT팀 데이터벤토, DataScope 적재위치 물어보기.md|MFT팀 데이터벤토, DataScope 적재위치 물어보기]]
+- [[Projects/MFT팀 배치 작업.md|MFT팀 배치 작업]]
+- [[Projects/MinIO 적재 - 호출 테스트.md|MinIO 적재 / 호출 테스트]]
+- [[Projects/airflow 3.0, dbt local test.md|airflow 3.0, dbt local test]]
+- [[Projects/confluence draw.io app download 김보성님 요청.md|confluence draw.io app download 김보성님 요청]]
+- [[Projects/dag권한 관리.md|dag권한 관리]]
+- [[Projects/factset 영업 담당자님 소통.md|factset 영업 담당자님 소통]]
+- [[Projects/flex master table 개발.md|flex master table 개발]]
+- [[Projects/git setting.md|git setting]]
+- [[Projects/gitlab ci cd 세팅.md|gitlab ci cd 세팅]]
+- [[Projects/iceberg + datahub.md|iceberg + datahub]]
+- [[Projects/jira, keycloak 권한 자동화.md|jira, keycloak 권한 자동화]]
+- [[Projects/postgres - snowflake 권한관리.md|postgres / snowflake 권한관리]]
+- [[Projects/qraft_origin으로 옮기기.md|qraft_origin으로 옮기기]]
+- [[Projects/refinitiv DSS quota 종목 줄이기.md|refinitiv DSS quota 종목 줄이기]]
+- [[Projects/sftp 적재 테스트.md|sftp 적재 테스트]]
+- [[Projects/slickcharts 마이그레이션.md|slickcharts 마이그레이션]]
+- [[Projects/strategy팀 사용현황 파악.md|strategy팀 사용현황 파악]]
+- [[Projects/데이터 구매 - 적재 요청 프로세스 정립.md|데이터 구매 / 적재 요청 프로세스 정립]]
+- [[Projects/데이터 온보딩.md|데이터 온보딩]]
+- [[Projects/데이터벤토 관리 방안.md|데이터벤토 관리 방안]]
+- [[Projects/벤더사 테이블 명세서 요청.md|벤더사 테이블 명세서 요청]]
+- [[Projects/상구님 질문.md|상구님 질문]]
+- [[Projects/업무 범위 파악, 문서 디렉토리 정리.md|업무 범위 파악, 문서 디렉토리 정리]]
+- [[Projects/요청하는 피카츄 워크플로 변경.md|요청하는 피카츄 워크플로 변경]]
+- [[Projects/원천 네이밍 룰 정하기.md|원천 네이밍 룰 정하기]]
+- [[Projects/원천 데이터 적재 파이프라인 개발.md|원천 데이터 적재 파이프라인 개발]]
+- [[Projects/적재 - 구매 프로세스 그리기.md|적재 / 구매 프로세스 그리기]]
+- [[Projects/전사공지.md|전사공지]]
+- [[Projects/전임자 페이지로 원천 데이터 출처 파악.md|전임자 페이지로 원천 데이터 출처 파악]]
+- [[Projects/지혜님 FRED 기안 혹은 갱신건 요청.md|지혜님 FRED 기안 혹은 갱신건 요청]]
+- [[Projects/팀별 데이터 거버넌스 깊이 설정.md|팀별 데이터 거버넌스 깊이 설정]]
+- [[Projects/팀별 원천 데이터 계약현황 파악.md|팀별 원천 데이터 계약현황 파악]]
+- [[Projects/팀별 원천 데이터 사용현황 파악.md|팀별 원천 데이터 사용현황 파악]]
+- [[Projects/팀별 원천 데이터 적재현황 파악.md|팀별 원천 데이터 적재현황 파악]]
+- [[Projects/팀별 질문 사항.md|팀별 질문 사항]]
+
+---
+
 ## 🛠️ 사용 기술 스택
 
 ### Orchestration & Workflow

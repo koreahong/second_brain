@@ -2,9 +2,10 @@
 title: [FUEL] 데이터 분석 (Data Analyst)
 company: 고위드
 created: 2025-11-28
-tags: ["career", "application", "migrated", "\ub300\uae30"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ub300\\uae30\"]", "notion-synced"]
 priority: 중
 result: 대기
+application_result: 대기
 ---
 
 # [FUEL] 데이터 분석 (Data Analyst) @ 고위드

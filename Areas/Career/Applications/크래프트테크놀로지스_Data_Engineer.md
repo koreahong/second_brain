@@ -2,9 +2,10 @@
 title: Data Engineer
 company: 크래프트테크놀로지스
 created: 2025-06-23
-tags: ["career", "application", "migrated", "\ucd5c\uc885\ud569\uaca9"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ucd5c\\uc885\\ud569\\uaca9\"]", "notion-synced"]
 priority: 중상
 result: 최종합격
+application_result: 최종합격
 ---
 
 # Data Engineer @ 크래프트테크놀로지스

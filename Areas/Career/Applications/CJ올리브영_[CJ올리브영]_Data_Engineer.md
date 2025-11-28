@@ -2,9 +2,10 @@
 title: [CJ올리브영] Data Engineer
 company: CJ올리브영
 created: 2025-11-28
-tags: ["career", "application", "migrated", "\ub300\uae30"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ub300\\uae30\"]", "notion-synced"]
 priority: 하
 result: 대기
+application_result: 대기
 ---
 
 # [CJ올리브영] Data Engineer @ CJ올리브영

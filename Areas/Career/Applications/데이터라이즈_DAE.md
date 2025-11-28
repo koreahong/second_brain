@@ -2,9 +2,11 @@
 title: DAE
 company: 데이터라이즈
 created: 2025-04-28
-tags: ["career", "application", "migrated", "\ucf54\ud0c8"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ucf54\\ud0c8\"]", "notion-synced"]
 priority: 상
 result: 코탈
+application_result: 코탈
+final_date: 2025-05-14
 ---
 
 # DAE @ 데이터라이즈

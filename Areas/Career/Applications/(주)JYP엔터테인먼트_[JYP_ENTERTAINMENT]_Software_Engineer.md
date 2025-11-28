@@ -2,9 +2,11 @@
 title: [JYP ENTERTAINMENT] Software Engineer Data (경력)
 company: (주)JYP엔터테인먼트
 created: 2025-07-16
-tags: ["career", "application", "migrated", "\uc11c\ud0c8"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\uc11c\\ud0c8\"]", "notion-synced"]
 priority: 중
 result: 서탈
+application_result: 서탈
+deadline: 2025-07-18
 ---
 
 # [JYP ENTERTAINMENT] Software Engineer Data (경력) @ (주)JYP엔터테인먼트

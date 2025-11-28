@@ -2,9 +2,10 @@
 title: Data Engineer
 company: 비상교육
 created: 2025-11-28
-tags: ["career", "application", "migrated", "\ub300\uae30"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ub300\\uae30\"]", "notion-synced"]
 priority: 중하
 result: 대기
+application_result: 대기
 ---
 
 # Data Engineer @ 비상교육

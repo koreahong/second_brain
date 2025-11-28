@@ -2,9 +2,11 @@
 title: [Tech] Data Engineer - 데이터 파이프라인 개발 및 운영(DSP, 팩토리)
 company: 현대오토에버
 created: 2025-04-29
-tags: ["career", "application", "migrated", "\uba74\ud0c8"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\uba74\\ud0c8\"]", "notion-synced"]
 priority: 중
 result: 면탈
+application_result: 면탈
+final_date: 2025-07-03
 ---
 
 # [Tech] Data Engineer - 데이터 파이프라인 개발 및 운영(DSP, 팩토리) @ 현대오토에버

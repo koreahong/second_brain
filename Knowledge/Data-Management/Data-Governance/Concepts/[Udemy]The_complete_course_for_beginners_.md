@@ -1,5 +1,5 @@
 ---
-title: [Udemy]The complete course for beginners 
+title: "[Udemy]The complete course for beginners"
 created: 2025-11-28
 tags: ["reference", "migrated", "resource"]
 PARA: Resource

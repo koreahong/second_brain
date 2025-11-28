@@ -2,9 +2,11 @@
 title: product analyst
 company: 뤼튼
 created: 2025-06-11
-tags: ["career", "application", "migrated", "\uc11c\ud0c8"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\uc11c\\ud0c8\"]", "notion-synced"]
 priority: 중상
 result: 서탈
+application_result: 서탈
+final_date: 2025-06-06
 ---
 
 # product analyst @ 뤼튼

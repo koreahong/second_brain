@@ -2,9 +2,10 @@
 title: [기술본부] Data Warehouse Engineer (5년 이상)
 company: 데브시스터즈(Devsisters)
 created: 2025-11-28
-tags: ["career", "application", "migrated", "\ub300\uae30"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ub300\\uae30\"]", "notion-synced"]
 priority: 중하
 result: 대기
+application_result: 대기
 ---
 
 # [기술본부] Data Warehouse Engineer (5년 이상) @ 데브시스터즈(Devsisters)

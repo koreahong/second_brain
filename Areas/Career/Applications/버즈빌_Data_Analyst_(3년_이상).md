@@ -2,9 +2,10 @@
 title: Data Analyst (3년 이상)
 company: 버즈빌
 created: 2025-11-28
-tags: ["career", "application", "migrated", "\ub300\uae30"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ub300\\uae30\"]", "notion-synced"]
 priority: 중
 result: 대기
+application_result: 대기
 ---
 
 # Data Analyst (3년 이상) @ 버즈빌

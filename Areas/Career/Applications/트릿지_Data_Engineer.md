@@ -2,9 +2,11 @@
 title: Data Engineer
 company: 트릿지
 created: 2025-11-28
-tags: ["career", "application", "migrated", "\ub300\uae30"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ub300\\uae30\"]", "notion-synced"]
 priority: 중
 result: 대기
+application_result: 대기
+deadline: 2025-08-02
 ---
 
 # Data Engineer @ 트릿지

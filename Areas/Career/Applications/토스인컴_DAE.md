@@ -2,9 +2,11 @@
 title: DAE
 company: 토스인컴
 created: 2025-05-30
-tags: ["career", "application", "migrated", "\uc11c\ud0c8"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\uc11c\\ud0c8\"]", "notion-synced"]
 priority: 상
 result: 서탈
+application_result: 서탈
+final_date: 2025-06-13
 ---
 
 # DAE @ 토스인컴

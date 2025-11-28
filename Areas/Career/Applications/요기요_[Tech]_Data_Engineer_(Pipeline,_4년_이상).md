@@ -2,9 +2,11 @@
 title: [Tech] Data Engineer (Pipeline, 4년 이상)
 company: 요기요
 created: 2025-06-20
-tags: ["career", "application", "migrated", "\uc11c\ud0c8"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\uc11c\\ud0c8\"]", "notion-synced"]
 priority: 중상
 result: 서탈
+application_result: 서탈
+final_date: 2025-06-19
 ---
 
 # [Tech] Data Engineer (Pipeline, 4년 이상) @ 요기요

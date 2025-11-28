@@ -2,9 +2,11 @@
 title: Data Engineer
 company: 숨고
 created: 2025-05-08
-tags: ["career", "application", "migrated", "\uacfc\ud0c8"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\uacfc\\ud0c8\"]", "notion-synced"]
 priority: 중
 result: 과탈
+application_result: 과탈
+final_date: 2025-05-16
 ---
 
 # Data Engineer @ 숨고

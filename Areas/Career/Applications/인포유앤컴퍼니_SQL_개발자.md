@@ -2,9 +2,10 @@
 title: SQL 개발자
 company: 인포유앤컴퍼니
 created: 2025-11-28
-tags: ["career", "application", "migrated", "\ub300\uae30"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ub300\\uae30\"]", "notion-synced"]
 priority: 중상
 result: 대기
+application_result: 대기
 ---
 
 # SQL 개발자 @ 인포유앤컴퍼니

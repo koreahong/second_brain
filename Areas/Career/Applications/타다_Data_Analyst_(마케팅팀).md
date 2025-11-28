@@ -2,9 +2,10 @@
 title: Data Analyst (마케팅팀)
 company: 타다
 created: 2025-11-28
-tags: ["career", "application", "migrated", "\uc885\ub8cc"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\uc885\\ub8cc\"]", "notion-synced"]
 priority: 중
 result: 종료
+application_result: 종료
 ---
 
 # Data Analyst (마케팅팀) @ 타다

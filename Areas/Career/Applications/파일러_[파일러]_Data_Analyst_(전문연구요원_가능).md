@@ -2,9 +2,11 @@
 title: [파일러] Data Analyst (전문연구요원 가능)
 company: 파일러
 created: 2025-06-18
-tags: ["career", "application", "migrated", "\uc11c\ud0c8"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\uc11c\\ud0c8\"]", "notion-synced"]
 priority: 중
 result: 서탈
+application_result: 서탈
+final_date: 2025-06-18
 ---
 
 # [파일러] Data Analyst (전문연구요원 가능) @ 파일러

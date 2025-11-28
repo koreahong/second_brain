@@ -232,3 +232,17 @@ Concept ↔ Experience ↔ Pattern ↔ Hub
 *Last Updated: 2025-11-28*
 *Version: 2.0 (Knowledge Network Structure)*
 *Total Notes: 113개*
+
+## 📚 Documentation
+
+### 구조 및 가이드
+
+- [[PARA-BRAIN-STRUCTURE.md|PARA + Brain 구조 설명]]
+- [[RESTRUCTURE_SUMMARY.md|재구조화 요약]]
+- [[CAREER_STRUCTURE.md|커리어 구조 가이드]]
+- [[RECOMMENDED_PLUGINS.md|추천 플러그인]]
+- [[QUICK_START.md|빠른 시작 가이드]]
+- [[KNOWLEDGE_STRUCTURE_DESIGN.md|Knowledge 구조 설계]]
+- [[MIGRATION_SUMMARY.md|마이그레이션 요약]]
+
+---

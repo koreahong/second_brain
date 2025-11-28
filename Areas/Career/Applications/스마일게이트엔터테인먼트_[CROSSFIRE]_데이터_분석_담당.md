@@ -2,9 +2,10 @@
 title: [CROSSFIRE] 데이터 분석 담당
 company: 스마일게이트엔터테인먼트
 created: 2025-11-28
-tags: ["career", "application", "migrated", "\ub300\uae30"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ub300\\uae30\"]", "notion-synced"]
 priority: 중하
 result: 대기
+application_result: 대기
 ---
 
 # [CROSSFIRE] 데이터 분석 담당 @ 스마일게이트엔터테인먼트

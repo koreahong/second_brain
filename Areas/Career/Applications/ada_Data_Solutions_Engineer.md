@@ -2,9 +2,10 @@
 title: Data Solutions Engineer
 company: ada
 created: 2025-07-16
-tags: ["career", "application", "migrated", "\ub4dc\ub78d"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ub4dc\\ub78d\"]", "notion-synced"]
 priority: 중
 result: 드랍
+application_result: 드랍
 ---
 
 # Data Solutions Engineer @ ada

@@ -2,9 +2,10 @@
 title: [아이디어스/텀블벅] Data Engineer (3년 이상)
 company: 백패커
 created: 2025-11-28
-tags: ["career", "application", "migrated", "\ub300\uae30"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ub300\\uae30\"]", "notion-synced"]
 priority: 중
 result: 대기
+application_result: 대기
 ---
 
 # [아이디어스/텀블벅] Data Engineer (3년 이상) @ 백패커

@@ -2,9 +2,10 @@
 title: 딜리버리센터 Business Analyst 모집(3년이상)
 company: 우아한형제들
 created: 2025-11-28
-tags: ["career", "application", "migrated", "\ub300\uae30"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\ub300\\uae30\"]", "notion-synced"]
 priority: 중
 result: 대기
+application_result: 대기
 ---
 
 # 딜리버리센터 Business Analyst 모집(3년이상) @ 우아한형제들

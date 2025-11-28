@@ -1,5 +1,5 @@
 ---
-title: [다음설립준비법인] Data Engineer
+title: "[다음설립준비법인] Data Engineer"
 company: 카카오 다음
 created: 2025-05-23
 tags: ["career", "application", "migrated", "\uc11c\ud0c8"]

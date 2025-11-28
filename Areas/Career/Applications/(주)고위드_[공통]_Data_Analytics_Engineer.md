@@ -2,9 +2,10 @@
 title: [공통] Data Analytics Engineer
 company: (주)고위드
 created: 2025-07-17
-tags: ["career", "application", "migrated", "\uba74\ud0c8"]
+tags: ["[\"career\", \"application\", \"migrated\", \"\\uba74\\ud0c8\"]", "notion-synced"]
 priority: 중상
 result: 면탈
+application_result: 면탈
 ---
 
 # [공통] Data Analytics Engineer @ (주)고위드
