@@ -18,3 +18,9 @@
 # OS
 .DS_Store
 Thumbs.db
+
+# Secrets and sensitive data
+config.json
+.env
+*.key
+*.pem

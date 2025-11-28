@@ -1,0 +1,46 @@
+{
+  "notion": {
+    "token": "YOUR_NOTION_API_TOKEN_HERE",
+    "databases": {
+      "dae_work": {
+        "id": "YOUR_DATABASE_ID_HERE",
+        "name": "DAE 작업 통합",
+        "url": "https://notion.so/YOUR_DATABASE_ID_HERE",
+        "description": "DAE 메인 작업 관리 DB (시행착오, Git, Jira 연동)"
+      },
+      "work_list": {
+        "id": "YOUR_DATABASE_ID_HERE",
+        "name": "업무리스트",
+        "url": "https://notion.so/YOUR_DATABASE_ID_HERE",
+        "description": "일일 작업 리스트 (기존)"
+      },
+      "memoir": {
+        "id": "YOUR_DATABASE_ID_HERE",
+        "name": "회고록",
+        "url": "https://notion.so/YOUR_DATABASE_ID_HERE",
+        "description": "주간 회고록"
+      }
+    }
+  },
+  "jira": {
+    "base_url": "https://qraft.atlassian.net/browse",
+    "project": "MPD"
+  },
+  "git": {
+    "repo_path": "/Users/qraft_hongjinyoung/qraft_data_platform",
+    "main_branch": "main"
+  },
+  "dae_scope": {
+    "Data Governance": [
+      "Metadata Management",
+      "Data Modeling",
+      "Data Lakehouse",
+      "Data Quality",
+      "Lineage"
+    ],
+    "Technology": [
+      "Storage",
+      "Engine"
+    ]
+  }
+}

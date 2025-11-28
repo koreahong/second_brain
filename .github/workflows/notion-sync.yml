@@ -1,0 +1,104 @@
+name: Notion to Obsidian Sync
+
+on:
+  schedule:
+    # 매일 한국 시간 오전 9시 (UTC 0시)
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 수동 실행 가능
+    inputs:
+      database:
+        description: 'Database to sync (work_list, dae_work, memoir)'
+        required: false
+        default: 'work_list'
+      force:
+        description: 'Force sync all items (ignore mig status)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 전체 히스토리 가져오기
+          token: ${{ secrets.GH_PAT }}  # Personal Access Token for commits
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Create config from secrets
+        run: |
+          cat > config.json << EOF
+          {
+            "notion": {
+              "token": "${{ secrets.NOTION_TOKEN }}",
+              "databases": {
+                "dae_work": {
+                  "id": "${{ secrets.NOTION_DB_DAE_WORK }}",
+                  "name": "DAE 작업 통합",
+                  "url": "https://notion.so/${{ secrets.NOTION_DB_DAE_WORK }}",
+                  "description": "DAE 메인 작업 관리 DB"
+                },
+                "work_list": {
+                  "id": "${{ secrets.NOTION_DB_WORK_LIST }}",
+                  "name": "업무리스트",
+                  "url": "https://notion.so/${{ secrets.NOTION_DB_WORK_LIST }}",
+                  "description": "일일 작업 리스트"
+                },
+                "memoir": {
+                  "id": "${{ secrets.NOTION_DB_MEMOIR }}",
+                  "name": "회고록",
+                  "url": "https://notion.so/${{ secrets.NOTION_DB_MEMOIR }}",
+                  "description": "주간 회고록"
+                }
+              }
+            }
+          }
+          EOF
+
+      - name: Run Notion sync
+        env:
+          FORCE_SYNC: ${{ github.event.inputs.force || 'false' }}
+          TARGET_DB: ${{ github.event.inputs.database || 'work_list' }}
+        run: |
+          python automation/notion_sync.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Changes detected"
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes to commit"
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "Notion Sync Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "🔄 Notion sync: $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+
+      - name: Create summary
+        if: always()
+        run: |
+          echo "## 📊 Sync Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Database**: ${{ github.event.inputs.database || 'work_list' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Force Sync**: ${{ github.event.inputs.force || 'false' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changes**: ${{ steps.changes.outputs.has_changes || 'unknown' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Time**: $(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
