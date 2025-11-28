@@ -10,7 +10,9 @@ PARA: Resource
 
 ## 📝 내용
 
-(내용 없음)
+```sql
+cd /Users/qraft_hongjinyoung/qraft_airflow/dbt/snowflake && dbt run --project-dir . --profiles-dir ../profiles --target dev --profile snowflake --select +us_sec_meta --vars '{"datadate": "2025-10-20"}'
+```
 
 ## 🏷️ 분류
 
@@ -27,4 +29,4 @@ PARA: Resource
 
 ---
 
-*Notion에서 마이그레이션됨*
+*Notion에서 재마이그레이션됨 (2025-11-28)*

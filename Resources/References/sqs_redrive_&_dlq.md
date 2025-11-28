@@ -10,7 +10,23 @@ PARA:
 
 ## 📝 내용
 
-(내용 없음)
+## 개념
+
+- sqs + lambda 진행시 소화하지 못한 메세지는 dead lock queue로 빠지게 하거나 redrive를 해야함.
+
+## 목적
+
+- 람다로 요청한 메세지들에 대한 관리
+
+## 서칭내용
+
+### 일반 큐와 dlq 연결
+
+- 일반 메세지 큐 세팅
+
+- 배달 못한 편지 대기열 세팅
+
+docker build -t lambda_container -f dockerfile_lambda .
 
 ## 🏷️ 분류
 
@@ -27,4 +43,4 @@ PARA:
 
 ---
 
-*Notion에서 마이그레이션됨*
+*Notion에서 재마이그레이션됨 (2025-11-28)*

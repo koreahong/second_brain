@@ -1,12 +1,12 @@
 ---
-title: DATAHUB
+title: Datahub
 created: 2025-11-28
-tags: ["reference", "migrated", "resource"]
+tags: ["reference", "migrated", "resource", "datahub"]
 PARA: Resource
-구분: []
+구분: ["Datahub"]
 ---
 
-# DATAHUB
+# Datahub
 
 ## 📝 내용
 
@@ -15,7 +15,7 @@ PARA: Resource
 ## 🏷️ 분류
 
 - **PARA**: Resource
-- **구분**: 없음
+- **구분**: Datahub
 
 ## 🔗 연결
 
@@ -27,4 +27,4 @@ PARA: Resource
 
 ---
 
-*Notion에서 마이그레이션됨*
+*Notion에서 재마이그레이션됨 (2025-11-28)*

@@ -10,7 +10,7 @@ PARA: Resource
 
 ## 📝 내용
 
-(내용 없음)
+pip install 'acryl-datahub[airflow]'
 
 ## 🏷️ 분류
 
@@ -27,4 +27,4 @@ PARA: Resource
 
 ---
 
-*Notion에서 마이그레이션됨*
+*Notion에서 재마이그레이션됨 (2025-11-28)*

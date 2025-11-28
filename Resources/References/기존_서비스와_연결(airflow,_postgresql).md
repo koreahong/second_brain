@@ -10,7 +10,19 @@ PARA:
 
 ## 📝 내용
 
-(내용 없음)
+## 개념
+
+- airflow와 postgresql을 docker compose상에서 별도로 연결을 해주면 됨
+
+## 목적
+
+- 개open metadata에서 배포한 airflow를 포함한 docker compose를 현재 상황에 맞게 변경
+
+## 서칭내용
+
+- postgresql 연결
+
+- airflow 연결
 
 ## 🏷️ 분류
 
@@ -27,4 +39,4 @@ PARA:
 
 ---
 
-*Notion에서 마이그레이션됨*
+*Notion에서 재마이그레이션됨 (2025-11-28)*

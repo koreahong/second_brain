@@ -10,7 +10,15 @@ PARA: Resource
 
 ## 📝 내용
 
-(내용 없음)
+# 레퍼런스
+
+https://velog.io/@tfj0531/Airflow-와-AWS-S3-연결하기-S3-DAG-example
+
+https://airflow.apache.org/docs/apache-airflow-providers-amazon/stable/logging/s3-task-handler.html
+
+# 적용
+
+cfg 부분에 base_log_folder 주석처리 해야함
 
 ## 🏷️ 분류
 
@@ -27,4 +35,4 @@ PARA: Resource
 
 ---
 
-*Notion에서 마이그레이션됨*
+*Notion에서 재마이그레이션됨 (2025-11-28)*

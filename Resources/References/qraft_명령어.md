@@ -10,7 +10,9 @@ PARA: Resource
 
 ## 📝 내용
 
-(내용 없음)
+```sql
+alembic -n mft revision -m "create mart.krx_stocks as a table"
+```
 
 ## 🏷️ 분류
 
@@ -27,4 +29,4 @@ PARA: Resource
 
 ---
 
-*Notion에서 마이그레이션됨*
+*Notion에서 재마이그레이션됨 (2025-11-28)*
