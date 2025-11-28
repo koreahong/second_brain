@@ -1,0 +1,296 @@
+🔍 DAE Second Brain Vault Validator
+======================================================================
+
+📂 Scanning vault...
+✅ Found 355 markdown files
+
+🔗 Building backlink index...
+✅ Built backlinks for 276 files
+
+🔍 Finding orphan pages...
+⚠️  Found 76 orphan pages
+
+🔍 Finding duplicate titles...
+⚠️  Found 11 duplicate titles
+
+🔍 Checking hub coverage...
+✅ Hub coverage check complete
+
+
+======================================================================
+📊 VAULT VALIDATION REPORT
+======================================================================
+Generated: 2025-11-28 16:36:36
+
+📈 Summary
+----------------------------------------------------------------------
+Total files: 355
+Total links: 1078
+Files with backlinks: 276
+Orphan pages: 76
+Broken links: 135
+Duplicate titles: 11
+Missing metadata: 25
+
+🕸️  Network Analysis
+----------------------------------------------------------------------
+Top 10 most referenced pages:
+  • Database Hub: 59 backlinks
+  • 그때 그때 다르게: 46 backlinks
+  • Python Hub: 41 backlinks
+  • Data Engineering Hub: 39 backlinks
+  • Analytics Hub: 36 backlinks
+  • Infrastructure Hub: 32 backlinks
+  • DevOps Hub: 26 backlinks
+  • 데이터 엔지니어 (Data Engineer): 21 backlinks
+  • Learning Hub: 20 backlinks
+  • 2025년 11월 10일: 18 backlinks
+
+🌟 Analyzing hub pages...
+✅ Found 33 hub pages
+
+Hub pages (5+ outgoing links):
+  • Database Hub: 71 links
+  • Career Hub: 63 links
+  • Python Hub: 46 links
+  • Analytics Hub: 44 links
+  • Data Engineering Hub: 42 links
+  • Qraft Technologies 경험: 41 links
+  • Second Brain Health Report: 39 links
+  • Infrastructure Hub: 35 links
+  • DevOps Hub: 33 links
+  • Airflow Hub: 30 links
+
+⚠️  Orphan Pages (no backlinks)
+----------------------------------------------------------------------
+  • second_brain_report.md
+  • PARA-BRAIN-STRUCTURE.md
+  • Home.md
+  • RECOMMENDED_PLUGINS.md
+  • VAULT_MANAGEMENT_GUIDE.md
+  • QUICK_START.md
+  • CAREER_STRUCTURE.md
+  • .claude/CLAUDE.md
+  • automation/LOCAL_TESTING_GUIDE.md
+  • Flow/DAILY_NOTES_SETUP.md
+  • Flow/Weekly/2025-W47.md
+  • Flow/Weekly/2025-W48.md
+  • Knowledge/Data-Management/Data-Governance/Concepts/[Udemy]The_complete_course_for_beginners_.md
+  • Experiences/Qraft/Projects/지혜님 FRED 기안 혹은 갱신건 요청.md
+  • Experiences/Qraft/Projects/MFT팀 배치 작업.md
+  • Experiences/Qraft/Projects/팀별 질문 사항.md
+  • Experiences/Qraft/Projects/MFT팀 데이터 사용현황 파악.md
+  • Experiences/Qraft/Projects/HFT팀 NYSE ARCA 데이터 찾기.md
+  • Experiences/Qraft/Projects/요청하는 피카츄 워크플로 변경.md
+  • Experiences/Qraft/Projects/전임자 페이지로 원천 데이터 출처 파악.md
+  ... and 56 more
+
+❌ Broken Links
+----------------------------------------------------------------------
+  • MIGRATION_SUMMARY.md → [[_HUB_CategoryName]]
+  • PARA-BRAIN-STRUCTURE.md → [[Atoms/Concepts/C001-OIDC]]
+  • PARA-BRAIN-STRUCTURE.md → [[Atoms/Concepts/C002-JWT]]
+  • PARA-BRAIN-STRUCTURE.md → [[Projects/Archives/2025-Q3/MPD-65-Auth-System]]
+  • PARA-BRAIN-STRUCTURE.md → [[Projects/Active/MPD-82-Keycloak-Setup]]
+  • PARA-BRAIN-STRUCTURE.md → [[Resources/Documentation/DataHub-OIDC-Setup]]
+  • PARA-BRAIN-STRUCTURE.md → [[MPD-75]]
+  • PARA-BRAIN-STRUCTURE.md → [[Flow/Daily/2025-11-27]]
+  • PARA-BRAIN-STRUCTURE.md → [[OAuth2]]
+  • PARA-BRAIN-STRUCTURE.md → [[Projects/Active/MPD-75-DataHub-OIDC]]
+  • PARA-BRAIN-STRUCTURE.md → [[Resources/Documentation/Keycloak-OIDC]]
+  • PARA-BRAIN-STRUCTURE.md → [[Projects/Active/MPD-80-Snowflake-권한]]
+  • PARA-BRAIN-STRUCTURE.md → [[Atoms/Concepts/C003-OAuth-Redirect]]
+  • PARA-BRAIN-STRUCTURE.md → [[PT001-OAuth-Redirect-Pattern]]
+  • PARA-BRAIN-STRUCTURE.md → [[Resources/Documentation/DataHub-Auth]]
+  • PARA-BRAIN-STRUCTURE.md → [[Atoms/Problems/P001-Redirect-URI-오류]]
+  • PARA-BRAIN-STRUCTURE.md → [[JWT]]
+  • PARA-BRAIN-STRUCTURE.md → [[Atoms/Concepts/C004-OAuth2]]
+  • PARA-BRAIN-STRUCTURE.md → [[Claims]]
+  • PARA-BRAIN-STRUCTURE.md → [[Atoms/Problems/P003-Token-Expiry]]
+  ... and 115 more
+
+🔄 Duplicates
+----------------------------------------------------------------------
+  • Duplicate title: 'Python Hub'
+    - Knowledge/Technology/Languages/Python/Python-Hub.md
+    - Archives/Old-Structure/_HUB_Python.md
+  • Duplicate title: '데이터 구매 / 적재 요청 프로세스 정립'
+    - Experiences/Qraft/Projects/데이터 구매 - 적재 요청 프로세스 정립.md
+    - Projects/Staging/데이터_구매__적재_요청_프로세스_정립.md
+  • Duplicate title: '팀별 원천 데이터 사용현황 파악'
+    - Experiences/Qraft/Projects/팀별 원천 데이터 사용현황 파악.md
+    - Projects/Staging/팀별_원천_데이터_사용현황_파악.md
+  • Duplicate title: '팀별 원천 데이터 적재현황 파악'
+    - Experiences/Qraft/Projects/팀별 원천 데이터 적재현황 파악.md
+    - Projects/Staging/팀별_원천_데이터_적재현황_파악.md
+  • Duplicate title: '팀별 데이터 거버넌스 깊이 설정'
+    - Experiences/Qraft/Projects/팀별 데이터 거버넌스 깊이 설정.md
+    - Projects/Staging/팀별_데이터_거버넌스_깊이_설정.md
+  • Duplicate title: '벤더사 테이블 명세서 요청'
+    - Experiences/Qraft/Projects/벤더사 테이블 명세서 요청.md
+    - Projects/Staging/벤더사_테이블_명세서_요청.md
+  • Duplicate title: '업무역량강화 24회이상'
+    - Areas/Goals/Yearly/_업무역량강화_24회이상
+30등_이내_들기.md
+    - Areas/Goals/Yearly/_업무역량강화_24회이상
+서버,_코딩_등등,_예)_객체지향.md
+  • Duplicate title: 'Data Engineer'
+    - Areas/Career/Applications/숨고_Data_Engineer.md
+    - Areas/Career/Applications/에이비일팔공(AB180)_Data_Engineer.md
+    - Areas/Career/Applications/비상교육_Data_Engineer.md
+    - Areas/Career/Applications/트릿지_Data_Engineer.md
+    - Areas/Career/Applications/빅벨류_Data_Engineer.md
+    - Areas/Career/Applications/크래프트테크놀로지스_Data_Engineer.md
+  • Duplicate title: 'DAE'
+    - Areas/Career/Applications/토스증권_DAE.md
+    - Areas/Career/Applications/라인_플러스_DAE.md
+    - Areas/Career/Applications/토스인컴_DAE.md
+    - Areas/Career/Applications/두나무_DAE.md
+    - Areas/Career/Applications/데이터라이즈_DAE.md
+  • Duplicate title: 'DA'
+    - Areas/Career/Applications/바로팜_DA.md
+    - Areas/Career/Applications/더스윙_DA.md
+  • Duplicate title: '데이터 엔지니어'
+    - Areas/Career/Applications/네이버웹툰_데이터_엔지니어.md
+    - Areas/Career/Applications/힐링페이퍼_데이터_엔지니어.md
+    - Areas/Career/Applications/나이스지니데이타_데이터_엔지니어.md
+
+🌟 Hub Coverage Issues
+----------------------------------------------------------------------
+  • Knowledge/Technology/Languages/Python/Python-Hub.md: 2 related files not linked in hub
+    - Knowledge/Technology/Orchestration/Concepts/backfill_python_code.md
+    - Archives/Old-Structure/_HUB_Python.md
+  • Experiences/Qraft/README.md: 46 related files not linked in hub
+    - Experiences/Qraft/Projects/factset 영업 담당자님 소통.md
+    - Experiences/Qraft/Projects/지혜님 FRED 기안 혹은 갱신건 요청.md
+    - Experiences/Qraft/Projects/MFT팀 배치 작업.md
+    - Experiences/Qraft/Projects/Invesco 크롤링 데이터 개발.md
+    - Experiences/Qraft/Projects/Jira 업무방식 결정.md
+  • Knowledge/Technology/Orchestration/Airflow-Hub.md: 1 related files not linked in hub
+    - Experiences/Qraft/Projects/airflow 3.0, dbt local test.md
+
+📝 Missing/Invalid Metadata
+----------------------------------------------------------------------
+  • MIGRATION_SUMMARY.md: No frontmatter
+  • second_brain_report.md: No frontmatter
+  • PARA-BRAIN-STRUCTURE.md: No frontmatter
+  • KNOWLEDGE_STRUCTURE_DESIGN.md: No frontmatter
+  • QUICK_START.md: No frontmatter
+  • .claude/CLAUDE.md: No frontmatter
+  • Knowledge/Professional-Development/Learning-Path/AI_보조_코딩이_소프트웨어_엔지니어링을_어떻게_바꿀_것인가_불편한_진실__GeekNews.md: Invalid YAML: mapping values are not allowed here
+  in "<unicode string>", line 1, column 41:
+     ... I 보조 코딩이 소프트웨어 엔지니어링을 어떻게 바꿀 것인가: 불편한 진실 | GeekNews
+                                         ^
+  • Knowledge/Data-Management/Data-Governance/Concepts/[Udemy]The_complete_course_for_beginners_.md: Invalid YAML: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    title: [Udemy]The complete cours ... 
+    ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 1, column 15:
+    title: [Udemy]The complete course for beginners 
+                  ^
+  • .claude/agents/second-brain-curator.md: No frontmatter
+  • Areas/Goals/Yearly/_업무역량강화_24회이상
+30등_이내_들기.md: Invalid YAML: while scanning a simple key
+  in "<unicode string>", line 2, column 1:
+    30등 이내 들기
+    ^
+could not find expected ':'
+  in "<unicode string>", line 3, column 1:
+    created: 2025-11-28
+    ^
+  • Areas/Goals/Yearly/_업무역량강화_24회이상
+서버,_코딩_등등,_예)_객체지향.md: Invalid YAML: while scanning a simple key
+  in "<unicode string>", line 2, column 1:
+    서버, 코딩 등등, 예) 객체지향
+    ^
+could not find expected ':'
+  in "<unicode string>", line 3, column 1:
+    created: 2025-11-28
+    ^
+  • Areas/Career/Applications/카카오페이_[데이터분석팀]_데이터_분석가.md: Invalid YAML: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    title: [데이터분석팀] 데이터 분석가
+    ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 1, column 17:
+    title: [데이터분석팀] 데이터 분석가
+                    ^
+  • Areas/Career/Applications/백패커_[아이디어스텀블벅]_Data_Engineer_(3년_이상).md: Invalid YAML: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    title: [아이디어스/텀블벅] Data Engineer ... 
+    ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 1, column 20:
+    title: [아이디어스/텀블벅] Data Engineer (3년 이상)
+                       ^
+  • Areas/Career/Applications/파일러_[파일러]_Data_Analyst_(전문연구요원_가능).md: Invalid YAML: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    title: [파일러] Data Analyst (전문연구요 ... 
+    ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 1, column 14:
+    title: [파일러] Data Analyst (전문연구요원 가능)
+                 ^
+  • Areas/Career/Applications/현대오토에버_[Tech]_Data_Engineer_-_데이터_파이프라인_개발_및_운영(DS.md: Invalid YAML: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    title: [Tech] Data Engineer - 데이 ... 
+    ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 1, column 15:
+    title: [Tech] Data Engineer - 데이터 파이프라인 개발 및 운 ... 
+                  ^
+  • Areas/Career/Applications/고위드_[FUEL]_데이터_분석_(Data_Analyst).md: Invalid YAML: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    title: [FUEL] 데이터 분석 (Data Analyst)
+    ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 1, column 15:
+    title: [FUEL] 데이터 분석 (Data Analyst)
+                  ^
+  • Areas/Career/Applications/(주)고위드_[공통]_Data_Analytics_Engineer.md: Invalid YAML: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    title: [공통] Data Analytics Engineer
+    ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 1, column 13:
+    title: [공통] Data Analytics Engineer
+                ^
+  • Areas/Career/Applications/(주)뤼이드_[Riiid뤼이드]_Data_Engineer.md: Invalid YAML: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    title: [Riiid/뤼이드] Data Engineer
+    ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 1, column 20:
+    title: [Riiid/뤼이드] Data Engineer
+                       ^
+  • Areas/Career/Applications/스마일게이트엔터테인먼트_[CROSSFIRE]_데이터_분석_담당.md: Invalid YAML: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    title: [CROSSFIRE] 데이터 분석 담당
+    ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 1, column 20:
+    title: [CROSSFIRE] 데이터 분석 담당
+                       ^
+  • Areas/Career/Applications/카카오_다음_[다음설립준비법인]_Data_Engineer.md: Invalid YAML: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    title: [다음설립준비법인] Data Engineer
+    ^
+expected <block end>, but found '<scalar>'
+  in "<unicode string>", line 1, column 19:
+    title: [다음설립준비법인] Data Engineer
+                      ^
+  ... and 5 more
+
+💡 Recommendations
+----------------------------------------------------------------------
+1. Link 76 orphan pages to relevant hub pages
+2. Fix 135 broken links
+3. Resolve 11 duplicate titles by renaming or merging
+4. Add metadata to 25 files
+
+======================================================================
+
+💾 Detailed report saved to: /Users/qraft_hongjinyoung/DAE-Second-Brain/vault_validation_report.json
+
+✅ Validation complete!

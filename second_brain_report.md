@@ -1,14 +1,14 @@
 # Second Brain Health Report
-Generated: 2025-11-28 16:31:44
+Generated: 2025-11-28 16:32:39
 
 ---
 
 ## 📊 Overview
 
-- **Total Documents**: 352
-- **Total Links**: 1028
-- **Connected Nodes**: 273
-- **Orphan Pages**: 79
+- **Total Documents**: 353
+- **Total Links**: 1067
+- **Connected Nodes**: 275
+- **Orphan Pages**: 78
 
 ---
 
@@ -16,10 +16,16 @@ Generated: 2025-11-28 16:31:44
 
 These connections would improve discoverability:
 
+### 🧠 DAE Second Brain - Migration Summary → Second Brain Health Report
+
+- **Confidence**: medium
+- **Reason**: Common keywords: data, migration, files
+- **Files**: `MIGRATION_SUMMARY.md` → `second_brain_report.md`
+
 ### 🧠 DAE Second Brain - Migration Summary → DAE Second Brain 구조 재편성 요약
 
 - **Confidence**: medium
-- **Reason**: Common keywords: md, data, hub
+- **Reason**: Common keywords: data, md, hub
 - **Files**: `MIGRATION_SUMMARY.md` → `RESTRUCTURE_SUMMARY.md`
 
 ### 🧠 DAE Second Brain - Migration Summary → 🧠 DAE Second Brain
@@ -31,7 +37,7 @@ These connections would improve discoverability:
 ### 🧠 DAE Second Brain - Migration Summary → DAE Second Brain - Knowledge Network Architecture
 
 - **Confidence**: medium
-- **Reason**: Common keywords: md, data, hub
+- **Reason**: Common keywords: data, md, hub
 - **Files**: `MIGRATION_SUMMARY.md` → `KNOWLEDGE_STRUCTURE_DESIGN.md`
 
 ### 🧠 DAE Second Brain - Migration Summary → Investment Hub
@@ -43,13 +49,13 @@ These connections would improve discoverability:
 ### 🧠 DAE Second Brain - Migration Summary → Automation
 
 - **Confidence**: medium
-- **Reason**: Common keywords: md, obsidian, notion
+- **Reason**: Common keywords: md, notion, obsidian
 - **Files**: `MIGRATION_SUMMARY.md` → `automation/README.md`
 
 ### 🧠 DAE Second Brain - Migration Summary → Daily Notes 설정 가이드
 
 - **Confidence**: medium
-- **Reason**: Common keywords: md, notes, notion
+- **Reason**: Common keywords: md, notion, notes
 - **Files**: `MIGRATION_SUMMARY.md` → `Flow/DAILY_NOTES_SETUP.md`
 
 ### 🧠 DAE Second Brain - Migration Summary → WEB3
@@ -61,7 +67,7 @@ These connections would improve discoverability:
 ### 🧠 DAE Second Brain - Migration Summary → airflow 아키텍쳐 및 세팅
 
 - **Confidence**: medium
-- **Reason**: Common keywords: with, data, hub
+- **Reason**: Common keywords: data, with, hub
 - **Files**: `MIGRATION_SUMMARY.md` → `Knowledge/Technology/Orchestration/Concepts/airflow_아키텍쳐_및_세팅.md`
 
 ### 🧠 DAE Second Brain - Migration Summary → Python Hub
@@ -97,7 +103,7 @@ These connections would improve discoverability:
 ### 🧠 DAE Second Brain - Migration Summary → data medaillon
 
 - **Confidence**: medium
-- **Reason**: Common keywords: data, architecture, hub
+- **Reason**: Common keywords: data, hub, architecture
 - **Files**: `MIGRATION_SUMMARY.md` → `Knowledge/Data-Architecture/Patterns/data_medaillon.md`
 
 ### 🧠 DAE Second Brain - Migration Summary → Analytics Hub
@@ -129,12 +135,6 @@ These connections would improve discoverability:
 - **Confidence**: high
 - **Reason**: "Infrastructure Hub" mentioned in content
 - **Files**: `MIGRATION_SUMMARY.md` → `Archives/Old-Structure/_HUB_Infrastructure.md`
-
-### 🧠 DAE Second Brain - Migration Summary → Coding Hub
-
-- **Confidence**: high
-- **Reason**: "Coding Hub" mentioned in content
-- **Files**: `MIGRATION_SUMMARY.md` → `Archives/Old-Structure/_HUB_Coding.md`
 
 
 ---
