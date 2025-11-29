@@ -1,0 +1,18 @@
+---
+title: "IAM 개념"
+source: notion
+notion_id: d7106a2d-a08a-49dc-9cf1-33bd9f350746
+imported: 2025-11-29
+database: 레퍼런스
+하위 항목: []
+구상기록: []
+구분: ["IAM", "AWS"]
+링크: ["https://inpa.tistory.com/entry/AWS-%F0%9F%93%9A-IAM-%EA%B0%9C%EB%85%90-%EC%9B%90%EB%A6%ACuser-group-policy-role-IAM-%EA%B3%84%EC%A0%95-%EC%A0%95%EC%B1%85-%EC%83%9D%EC%84%B1"]
+최종편집시각: "2024-08-28T04:48:00.000Z"
+제목: ""
+상위 항목: []
+tags: ["레퍼런스", "AWS", "IAM", "notion-import"]
+---
+
+![image](https://prod-files-secure.s3.us-west-2.amazonaws.com/1015f006-5818-41f3-a45f-dc51ac449539/0f493924-a5fb-4e6a-bd80-92ab748ac895/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664LZ2LPQE%2F20251129%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251129T021230Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDkmtz%2FUjcRQ%2BEoaudaXLlY02TJLhkH6X7jQzdVMchtXAIhAJ8W8XOdNifj25hB%2FMJ3o7z5M4vCL8IOCaG1V5aGzNlNKogECML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igxe29xwNc1JCM1lUvEq3ANuCRBl4HSl5bo8M%2Fs5Z2C3QnZrowvpfwoyg%2BdwQn1sZHtx8W%2B3FK6vKKdz5%2B7tu7Q1Zwaqs38mroTSIQ%2FNi5K%2FvRFzQI05tXcZm1VOqMpD8NU5fUPNMvF3BIpAuuwwcSo4fiHIxv0bN6BOL%2F2yQZMYaYNpG0VjBE6%2FXDaDxUa3%2BEJQB04Ywl40rxm4NbBRMERbmQe0njLjmA9uO3735%2BfktLMHF3PXdeoRaDM3XRBL9CxhV%2BczrV7SYJLvMUhc4VzKVq4su%2FDtXVJsj%2B%2FL9vz9pkKBPVmkKV4a96n4g6zhCKqypIg7d3dbEdjo11l4X2ipza%2FWcACG6n7wkp5PcxmlOsNDj8i2okv9ePI5RkKtVqECpSH5bKSUrVMLMT84uQLQ17KZzgOgS5VmEWGDeTfKFVt6r1j6OtyYfMmLmSCKx3TBVzyV0KO866KfMUwfoZ8k6qDGORuV05UFGugxbUugeOCLRw9Mj9VnPxlivE8j%2BWucANNBQtWUQmz1XtIaRA%2B4g%2FsiXWf9jP9wleaHQGI0f4q2Fp2H3lb24Pw7wr4XE0k2B97nvB0gpG9Oa%2FLQyIC0fZbZgXVTAbJw4oXfJBNWH9r6YLSVlnGRJ8YGQbQTzVqiNmKhbRsaeufFGDCq%2FqjJBjqkAZcvadGTOVrGXjNRmk3L4ldldJsZVAU2%2BU26n%2Fd%2Fwp1hI8m%2BSKQntDIujb%2BKzSf9RsMTLQhYI5Tv5eDGk318UdQSRE9XdkQ%2BZ750L5TDRObFsn%2F9Rpj%2FgffLXqwFtxTZ7IDQh%2FhBVQ1hiyHbl3jNzxdFwebg9hWV02ZFJL%2Bi8TgqQQ4rIFGsmc0am0s7loVjOIg2JLEgmmtWCQywwTv57stgTBu4&X-Amz-Signature=de79ed875e9946343959e407bd161068c331b92b1faad06a3a5f97143e64aa9c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+

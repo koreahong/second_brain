@@ -1,0 +1,169 @@
+name: Knowledge Curator
+
+on:
+  # Notion 동기화 후 자동 실행
+  workflow_run:
+    workflows: ["Notion to Obsidian Sync"]
+    types:
+      - completed
+
+  # 주간 리뷰: 매주 금요일 18시 (KST)
+  schedule:
+    - cron: '0 9 * * FRI'  # UTC 09:00 = KST 18:00
+
+  # 수동 실행
+  workflow_dispatch:
+    inputs:
+      command:
+        description: '실행할 명령'
+        required: true
+        type: choice
+        options:
+          - curate
+          - review
+          - links-orphans
+        default: 'curate'
+      auto_update:
+        description: 'Frontmatter 자동 업데이트'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  auto-curate:
+    name: Auto Curate after Notion Sync
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+
+      - name: Run Knowledge Curator
+        run: |
+          python automation/run_curator.py curate --auto-update
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "🤖 Knowledge Curator: Auto-update frontmatter"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+
+  weekly-review:
+    name: Weekly Review
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.command == 'review')
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+
+      - name: Generate Weekly Review
+        run: |
+          python automation/run_curator.py review --save
+
+      - name: Commit weekly review
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "📊 Weekly Knowledge Review: $(date +'%Y-W%V')"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+
+  manual-curate:
+    name: Manual Curate
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.command == 'curate'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+
+      - name: Run Knowledge Curator
+        run: |
+          if [ "${{ github.event.inputs.auto_update }}" == "true" ]; then
+            python automation/run_curator.py curate --auto-update
+          else
+            python automation/run_curator.py curate
+          fi
+
+      - name: Commit changes
+        if: github.event.inputs.auto_update == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "🤖 Knowledge Curator: Manual curation"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+
+  find-orphans:
+    name: Find Orphaned Notes
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.command == 'links-orphans'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+
+      - name: Find orphaned notes
+        run: |
+          python automation/run_curator.py links --orphans

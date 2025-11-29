@@ -95,19 +95,10 @@ def save_to_para(page, vault_root, config, db_name):
         print(f"⏭️  Skipping: {title}")
         return None
 
-    # Categorize
-    category, subcategory = categorize_for_para(title, properties)
-
-    # Determine target directory
-    if category == 'weekly':
-        target_dir = vault_root / '02-Areas' / '크래프트테크놀로지스' / 'Weekly'
-    elif category == 'achievements':
-        target_dir = vault_root / '02-Areas' / '크래프트테크놀로지스' / 'Achievements'
-    elif category == 'resources':
-        target_dir = vault_root / '03-Resources' / 'Qraft'
-    else:  # projects
-        target_dir = vault_root / '01-Projects' / 'Qraft'
-
+    # Simply organize by database name (user will re-classify later)
+    # No automatic categorization needed
+    base_dir = vault_root / db_name
+    target_dir = base_dir
     target_dir.mkdir(parents=True, exist_ok=True)
 
     # Get content
@@ -115,25 +106,51 @@ def save_to_para(page, vault_root, config, db_name):
     blocks = get_page_content(page_id, config)
     content_md = ''.join([block_to_markdown(b) for b in blocks])
 
-    # Extract tags
-    tags = ['qraft', '크래프트']
-    for prop_name, prop in properties.items():
-        if prop.get('type') == 'multi_select':
-            tags.extend(extract_property(prop) or [])
+    # Extract ALL properties
+    # Add database name as tag for easy filtering later
+    tags = [db_name, 'notion-import']
+    all_properties = {}
 
-    # Create frontmatter
+    for prop_name, prop in properties.items():
+        prop_type = prop.get('type')
+        value = extract_property(prop)
+
+        # Skip title (already extracted)
+        if prop_type == 'title':
+            continue
+
+        # Add to tags if multi_select
+        if prop_type == 'multi_select' and value:
+            tags.extend(value)
+            all_properties[prop_name] = value
+        # Add other properties
+        elif value is not None:
+            all_properties[prop_name] = value
+
+    # Create frontmatter with ALL properties
     frontmatter_lines = [
         '---',
-        f'type: {category}',
-        f'title: {title}',
+        f'title: "{title}"',
         f'source: notion',
         f'notion_id: {page_id}',
         f'imported: {datetime.now().strftime("%Y-%m-%d")}',
         f'database: {db_name}',
-        f'tags: [{", ".join(tags)}]',
-        '---',
-        ''
     ]
+
+    # Add all extracted properties
+    for prop_name, prop_value in all_properties.items():
+        if isinstance(prop_value, list):
+            frontmatter_lines.append(f'{prop_name}: {json.dumps(prop_value, ensure_ascii=False)}')
+        elif isinstance(prop_value, str):
+            # Escape quotes in strings
+            escaped_value = prop_value.replace('"', '\\"')
+            frontmatter_lines.append(f'{prop_name}: "{escaped_value}"')
+        else:
+            frontmatter_lines.append(f'{prop_name}: {prop_value}')
+
+    # Add tags last
+    frontmatter_lines.append(f'tags: {json.dumps(list(set(tags)), ensure_ascii=False)}')
+    frontmatter_lines.extend(['---', ''])
 
     # Combine
     full_content = '\n'.join(frontmatter_lines) + '\n' + content_md
@@ -145,11 +162,11 @@ def save_to_para(page, vault_root, config, db_name):
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(full_content)
 
-    print(f"✅ Saved: {category}/{filename}")
+    print(f"✅ Saved: {db_name}/{filename}")
     return filepath
 
 def main():
-    print("🔄 Migrating Notion to PARA structure...")
+    print("🔄 Migrating Notion content by database...")
     print("⏭️  Excluding: Outstanding, Medium")
 
     config = load_config()

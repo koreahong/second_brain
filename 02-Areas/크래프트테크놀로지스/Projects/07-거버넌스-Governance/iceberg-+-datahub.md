@@ -1,0 +1,23 @@
+---
+title: "iceberg + datahub"
+source: notion
+notion_id: 2a4c6d43-3b4d-8034-a60d-fe011ad00a6c
+imported: 2025-11-29
+database: 업무리스트
+태그: []
+Git 커밋: ""
+Jira Key: ""
+상태: "리스트업"
+시행착오 (Trial & Error): ""
+업무 구상 1: []
+날짜: "2025-11-07"
+작업 히스토리: ""
+상위 항목: []
+Jira 결과: ""
+업무 구상: []
+생성 일시: "2025-11-07T04:59:00.000Z"
+주차: "45주차"
+하위 항목: []
+tags: ["notion-import", "업무리스트"]
+---
+

@@ -193,8 +193,8 @@ def block_to_markdown(block, indent=0):
 
     elif block_type == 'callout':
         text = extract_rich_text(block['callout'].get('rich_text', []))
-        icon = block['callout'].get('icon', {})
-        emoji = icon.get('emoji', '💡') if icon.get('type') == 'emoji' else '💡'
+        icon = block['callout'].get('icon')
+        emoji = icon.get('emoji', '💡') if icon and icon.get('type') == 'emoji' else '💡'
         result = f"{emoji} **{text}**\n\n"
         if 'children' in block and block['children']:
             for child in block['children']:
@@ -235,7 +235,7 @@ def block_to_markdown(block, indent=0):
     return result
 
 def extract_property(prop):
-    """Extract property value"""
+    """Extract property value - supports all Notion property types"""
     prop_type = prop.get('type')
 
     if prop_type == 'title':
@@ -245,16 +245,63 @@ def extract_property(prop):
     elif prop_type == 'select':
         select = prop.get('select')
         return select.get('name') if select else None
+    elif prop_type == 'status':
+        status = prop.get('status')
+        return status.get('name') if status else None
     elif prop_type == 'date':
         date = prop.get('date')
-        return date.get('start') if date else None
+        if date:
+            start = date.get('start')
+            end = date.get('end')
+            return f"{start} - {end}" if end else start
+        return None
     elif prop_type == 'checkbox':
         return prop.get('checkbox')
     elif prop_type == 'number':
         return prop.get('number')
     elif prop_type == 'multi_select':
         return [item.get('name') for item in prop.get('multi_select', [])]
+    elif prop_type == 'url':
+        return prop.get('url')
+    elif prop_type == 'email':
+        return prop.get('email')
+    elif prop_type == 'phone_number':
+        return prop.get('phone_number')
+    elif prop_type == 'people':
+        people = prop.get('people', [])
+        return [person.get('name', person.get('id')) for person in people]
+    elif prop_type == 'files':
+        files = prop.get('files', [])
+        return [f.get('name', f.get('file', {}).get('url', '')) for f in files]
+    elif prop_type == 'relation':
+        relations = prop.get('relation', [])
+        return [r.get('id') for r in relations]
+    elif prop_type == 'created_time':
+        return prop.get('created_time')
+    elif prop_type == 'created_by':
+        user = prop.get('created_by', {})
+        return user.get('name', user.get('id'))
+    elif prop_type == 'last_edited_time':
+        return prop.get('last_edited_time')
+    elif prop_type == 'last_edited_by':
+        user = prop.get('last_edited_by', {})
+        return user.get('name', user.get('id'))
+    elif prop_type == 'formula':
+        formula = prop.get('formula', {})
+        formula_type = formula.get('type')
+        if formula_type in ['string', 'number', 'boolean', 'date']:
+            return formula.get(formula_type)
+        return None
+    elif prop_type == 'rollup':
+        rollup = prop.get('rollup', {})
+        rollup_type = rollup.get('type')
+        if rollup_type == 'number':
+            return rollup.get('number')
+        elif rollup_type == 'array':
+            return len(rollup.get('array', []))
+        return None
     else:
+        # For unknown types, try to extract any available data
         return None
 
 def categorize(title):
