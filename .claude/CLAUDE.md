@@ -1,3 +1,18 @@
+---
+tags:
+- anger
+- achievement
+- company
+- data
+- datahub
+- dbt
+- project
+- qraft
+created: '2025-11-30'
+updated: '2025-11-30'
+title: CLAUDE
+aliases: []
+---
 # DAE Second Brain - Claude Code 설정
 
 ## 📋 프로젝트 개요

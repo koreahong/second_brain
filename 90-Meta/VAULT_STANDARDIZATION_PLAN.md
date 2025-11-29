@@ -3,9 +3,11 @@ title: Vault 표준화 계획
 type: documentation
 created: '2025-11-30'
 tags:
-  - meta
-  - standardization
-  - documentation
+- meta
+- standardization
+- documentation
+updated: '2025-11-30'
+aliases: []
 ---
 # Vault 표준화 계획
 

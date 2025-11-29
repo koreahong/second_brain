@@ -1,7 +1,7 @@
 ---
 title: 내가 서러운 이유 feat 직장다운 직장
 date: '2023-10-13'
-type: daily-insight
+type: insight
 week: 41
 tags:
 - family
@@ -9,6 +9,9 @@ tags:
 - life-decision
 - personal
 - reflection
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 # 내가 서러운 이유 feat 직장다운 직장

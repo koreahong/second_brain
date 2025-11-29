@@ -1,6 +1,17 @@
 ---
 title: airflow 3.0
 type: resource
+tags:
+- pipeline
+- datahub
+- dbt
+- airflow
+- technology
+- python
+- aws
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ## Asset 개념
@@ -241,3 +252,16 @@ with DAG(
 ## dbt 작성
 
 ## datahub 연결
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

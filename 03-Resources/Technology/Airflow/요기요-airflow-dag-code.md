@@ -3,6 +3,9 @@ title: 요기요 airflow dag code
 type: resource
 tags:
 - airflow
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ```python
@@ -160,3 +163,16 @@ def mandalart_monthly():
 mandalart_monthly()
 
 ```
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

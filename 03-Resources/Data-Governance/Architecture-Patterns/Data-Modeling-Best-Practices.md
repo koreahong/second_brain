@@ -1,6 +1,16 @@
 ---
 title: 좋은 데이터 모델링이란
 type: resource
+tags:
+- anger
+- pipeline
+- achievement
+- data
+- team
+- relationships
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ### 출처
@@ -200,3 +210,16 @@ fact_orders
 
 - 분석 시 fact_orders를 dim_customer_conformed와 조인해 unified_customer_id 기준으로 집계
 </details>
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

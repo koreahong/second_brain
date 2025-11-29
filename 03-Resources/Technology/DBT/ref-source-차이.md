@@ -3,6 +3,9 @@ title: ref source 차이
 type: resource
 tags:
 - dbt
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ## 개념
@@ -12,3 +15,16 @@ tags:
 ## 목적
 
 - DBT Lineage 자동 생성 확인
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

@@ -1,3 +1,14 @@
+---
+tags:
+- project
+- snowflake
+- improvement
+- datahub
+created: '2025-11-30'
+updated: '2025-11-30'
+title: curate note
+aliases: []
+---
 # Document Curator Agent
 
 당신은 문서를 자동으로 정리하고 개선하는 큐레이터 에이전트입니다.
@@ -165,3 +176,16 @@ related_notes_count: [개수]
 2. 모드 선택 요청
 3. 승인 후 작업 실행
 4. 리포트 제시
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

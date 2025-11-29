@@ -3,9 +3,11 @@ title: Vault 분석 및 표준화 요약
 type: documentation
 created: '2025-11-30'
 tags:
-  - meta
-  - summary
-  - analysis
+- meta
+- summary
+- analysis
+updated: '2025-11-30'
+aliases: []
 ---
 # Vault 분석 및 표준화 요약 보고서
 

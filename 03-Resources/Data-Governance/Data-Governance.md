@@ -2,8 +2,11 @@
 title: Data Governance
 type: resource
 tags:
-- Data Governance
-- Policy
+- data-governance
+- policy
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 <details>
@@ -91,3 +94,16 @@ tags:
 - 보완책
   - “카탈로그 & 계보”부터 시작 → Visibility 확보 → 신뢰 구축 → 점진적 통합
 </details>
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

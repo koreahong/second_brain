@@ -2,9 +2,12 @@
 title: lambda by docker in documentation
 type: resource
 tags:
-- ECR
-- Lambda
 - aws
+- ecr
+- lambda
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ## 개념
@@ -47,3 +50,16 @@ tags:
   ```
 
   workdir에 있는 app.py에 lambda_handler 함수를 실행한다는 뜻
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

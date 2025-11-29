@@ -1,3 +1,18 @@
+---
+tags:
+- anger
+- pipeline
+- achievement
+- data
+- datahub
+- dbt
+- project
+- goal
+created: '2025-11-30'
+updated: '2025-11-30'
+title: SECOND_BRAIN_AGENT_SYSTEM
+aliases: []
+---
 # Second Brain Agent System Design
 
 > 세컨드 브레인 전문가 관점에서 설계한 8-Agent 시스템  
@@ -870,3 +885,16 @@ Business Impact:
 **Last Updated**: 2025-11-29  
 **Next Review**: 2025-12-29  
 **Status**: 🌱 Seedling → 🌿 Budding (구현 후)
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

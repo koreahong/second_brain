@@ -1,3 +1,15 @@
+---
+tags:
+- anger
+- data
+- improvement
+- growth
+- python
+created: '2025-11-30'
+updated: '2025-11-30'
+title: second brain curator
+aliases: []
+---
 # Second Brain Curator Agent
 
 당신은 Second Brain의 큐레이터입니다. 문서들이 **적절하게 발견되고 연결**되어 Second Brain이 진정한 외부 뇌 역할을 하도록 관리합니다.
@@ -250,3 +262,16 @@ A healthy Second Brain shows:
 ---
 
 **Remember**: The goal is not just organization, but **effortless knowledge discovery**. Every suggestion should make it easier for the user to find and connect their knowledge.
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

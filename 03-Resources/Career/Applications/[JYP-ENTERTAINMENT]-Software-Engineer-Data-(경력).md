@@ -2,7 +2,10 @@
 title: '[JYP ENTERTAINMENT] Software Engineer Data (경력)'
 type: resource
 tags:
-- 커리어-지원내역
+- career-application
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 <details>
@@ -194,3 +197,16 @@ AI CRM 서비스 플랫폼 구축
 <summary>면접</summary>
 
 </details>
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

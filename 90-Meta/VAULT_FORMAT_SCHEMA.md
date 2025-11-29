@@ -1,3 +1,18 @@
+---
+tags:
+- anger
+- datahub
+- project
+- planning
+- reflection
+- snowflake
+- improvement
+- work
+created: '2025-11-30'
+updated: '2025-11-30'
+title: VAULT_FORMAT_SCHEMA
+aliases: []
+---
 # Vault 포맷 스키마
 
 > Second Brain에서 사용하는 통일된 노트 포맷 정의

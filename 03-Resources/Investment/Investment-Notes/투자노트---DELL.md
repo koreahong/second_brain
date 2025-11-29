@@ -2,8 +2,11 @@
 title: 투자노트 - DELL
 type: resource
 tags:
-- 주식투자
-- 투자노트
+- stock-investment
+- investment-note
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ### 가치 재투자 사이클
@@ -15,3 +18,16 @@ tags:
 ![image](https://prod-files-secure.s3.us-west-2.amazonaws.com/1015f006-5818-41f3-a45f-dc51ac449539/c53b4126-c7e6-4471-a83f-7b0ffb9251bc/Dell_Technologies_Inc_DELL.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VL5W3RK6%2F20251129%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251129T020542Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICL%2FaRbC4okCnuTDSgVecx5gnTKu8TRQaLDCtFV5TmDBAiEAyRNgOFza0tmmGME5TfXa9V6ILUFiKvAvmxRBS%2FRxddwqiAQIwv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKDH1bmDILKIObEk6yrcA5JQm%2B8j9d9SWbPOoTDZR0X1E4DyirGRSmqh0qIhtZWqJQVV3SWf9niPLMWecqmjB6xWpEo4i6o9NMPy3PjuqMTUgO8rouRvkC9LX%2BMkOJUcLq%2BrgB9LKzdvRwWS7U2q6uKcMC9GkTifS9Ck0TD1yHXcClbaEP12dYh2xpeCF2YaWgF3sO4aGtqmUV3Y8CVwwabFdZHh%2FS8o55ysnFIUnYX125dU7OLoupSFf4IDJOjomfdhT%2Ba1LQHV%2Br5kBesElI4ZIwEIbFXyiiOFWK0H%2B63B2eJTFTs0K52wEQW4fgQgpemSI8T9kz%2BVhNND2y%2FrIGTsr%2F0NpRRTA5sh5m5Qbb%2FGkDEip9o559vw4EOBo9IqLoVGH8BjHs0emKs7bQi2hTS2mb18usUBiCrGGZzDWQYmG3lcfMDaqSciiB8oyJWAPo8bFbn%2BFhGNBkQxK5Thi2gFWBHcg07701QTJ56cCGkSQO8jb2pDUn4jIL%2BJDnutjFMukDxJUm5%2FvKJ%2FT5%2FHCaiRRe1SUV%2FoosDS4UYc2Tp5jGGUcqZ%2BWXHzRtXqXrywtt6jouHNUavSD1%2BMdlF%2Frw5f6T4oqXOhDJxhuwdB8oGXR1p5oZa0TkEAN51YVRHrui6Ohn9LLgJuLLLAMJODqckGOqUBz6BOZ%2BdyB0qn7dfuQb3ZHeo%2BsNJLorKmdqF150UvbfSdsp2TmF0WoUZ7O%2B9cAfVZuFSMP0hQ%2BOyXPG9vlBOzvuwUOPbp7Vu3pdhHZYjDmHdBgQFFbUA3Kn1q7ORBM2XiqgmLgJY0N2gI83tB07KYxn%2FdkOab7Az03SlQV%2FR3kBAA%2B0X7NARCiXW7hZTauHqsBmMeZ5Ahs2uYopAhNt6lKl5YByQb&X-Amz-Signature=4c04bcc74e1a34abd716c452f94ab61593336859982d46919f5e7ccf6ce93aa2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ### 펀터멘털 분석
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

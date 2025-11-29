@@ -2,7 +2,10 @@
 title: postgresql 파티셔닝
 type: resource
 tags:
-- DB
+- db
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ## 개념
@@ -40,3 +43,16 @@ tags:
     PARTITION OF aivelabs.ga_view_mart
     FOR VALUES IN ('{data_interval_end}');
     ```
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

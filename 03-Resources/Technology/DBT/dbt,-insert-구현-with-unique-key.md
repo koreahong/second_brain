@@ -3,6 +3,9 @@ title: dbt, insert 구현 with unique key
 type: resource
 tags:
 - dbt
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ## 개념
@@ -61,3 +64,16 @@ from {{ source('temp1', 'tt1') }} t1
 --     SELECT a, b FROM {{ this }}
 -- )
 ```
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

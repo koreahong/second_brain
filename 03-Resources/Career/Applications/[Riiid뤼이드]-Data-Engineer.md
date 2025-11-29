@@ -2,7 +2,10 @@
 title: '[Riiid/뤼이드] Data Engineer'
 type: resource
 tags:
-- 커리어-지원내역
+- career-application
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 <details>
@@ -83,3 +86,16 @@ AI 튜터를 활용해 학습자의 개별 수준과 학습 패턴에 맞춰 실
 <summary>면접</summary>
 
 </details>
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

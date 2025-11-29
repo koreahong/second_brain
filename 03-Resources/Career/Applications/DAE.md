@@ -2,7 +2,10 @@
 title: DAE
 type: resource
 tags:
-- 커리어-지원내역
+- career-application
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 <details>
@@ -84,3 +87,16 @@ LINE과 Yahoo Japan의 광고주, 사용자, 플랫폼, 미디어, 서비스 등
 ![image](https://prod-files-secure.s3.us-west-2.amazonaws.com/1015f006-5818-41f3-a45f-dc51ac449539/0e8da66d-1a26-41c9-a902-b10a7283f60c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SO7KXP7P%2F20251129%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251129T140815Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAIaCXVzLXdlc3QtMiJHMEUCIQDDenZlhXdD92aFylYsSYnuwakb%2B9bnwO7OtMARjOmt8QIgZsFakDM4TIyIiNpbY8UKS8r1hX8TyckF%2FBkoLKS0QqwqiAQIy%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNpSQrYHl3gyLlxZNSrcAyceUrxEUlKceLr69mfnD8mVkN4C6QJuCfBs14avOq3%2F0K6UztLdNmsE4a%2BX8Dh1rEhNyNJGUH9nSnZOvbQ%2B%2FkrbyJkBGfmUbfV3I965GLAbN%2FvMcFJOwuPE3kNH66UhFO1gCEEN48I7rLMftgFBB6DHChaDr80rtpPW25tUXKu9%2BzHDVqKGz5lkw0ljz%2FrUH%2F0MYoExWODnrY4%2Fj0a2kp4g3ZAwcm4HgDSaahAY63V2MUAsQ1CgPgiPbn1JiF7j%2Fan6nm0N%2BtTVCXA5xs1sKSeTu6ppQlPkkmTe%2Fr2GcgzL7vzQVLR6wvwLBDEWI%2BA7u%2Ft7K%2FIHPGyooGn02G7iEWJPo7fOEyr2rHqXJATgRXMGVIwEjJw3UNxeXUPoc2ht33WeualeIBPLNS7G7A3aaHJm6Pe8VSR7Uqe8a8gpADYBE35JR9Xd47AoQjkbMxsVUI7QWCvUuFFWZ9uudn%2FjIWw4XIHYISHHu0txYfa4UXcdRHfIQtJcGp0N5MFX2BlRr1iXuJzXmFmtLlplX2YNEAMK3ekpmp%2FiMPpX8SFpfk18F1ngoXU36I2TKKY5OwRRDMjCG4x4twj77%2BCNjSZUEA5PmcynWTtTB1ZPylGi7pPoIFLUAM22I1UcUsTJMM%2F3qskGOqUBiJoa4GQ83Nh0oat2tXx95euyQzQ90nfPYFIonJpGIEFOmEZ8YcMTOVZtWFQfwItWqq6tQfd%2BqMBaud2vgWmboiyDYguShjLoewb%2FOqJO8UcRuGo3T6XLHD4ClFSZBKQVUgk8uKVjmAtOOnhazH43Xyt6uKhWKO99qqQ8IvLDmunRwpdGo5%2B60msXO7tbtqZhdkbYYW1vGhlUrWr1KXEvUXllYZjB&X-Amz-Signature=31bdabf71a2002b1a8992ee7bc55a0d300d4bb5a91c33160f5cd05905ee66612&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 </details>
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

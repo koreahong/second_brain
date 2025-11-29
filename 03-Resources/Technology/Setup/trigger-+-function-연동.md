@@ -1,6 +1,12 @@
 ---
 title: trigger + function 연동
 type: resource
+tags:
+- technology
+- sql
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 CREATE OR REPLACE FUNCTION set_dash_purchase_master_seq()
@@ -36,3 +42,16 @@ DROP FUNCTION IF EXISTS set_dash_purchase_master_seq();
 따라서, pk_seq를 pk로 사용하는 경우에는 구성하는 컬럼들이
 null이면 기본값이 들어갈 수 있게 설정을 해줘야 한다.
 ```
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

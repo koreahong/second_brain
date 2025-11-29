@@ -1,10 +1,10 @@
 ---
-type: map
-topic: {{title}}
-coverage: 0%
-notes-count: 0
-created: {{date}}
-updated: {{date}}
+tags:
+- project
+created: '2025-11-30'
+updated: '2025-11-30'
+title: map note
+aliases: []
 ---
 
 # {{title}} Map
@@ -54,3 +54,16 @@ updated: {{date}}
 - Projects: 0개
 - Literature Notes: 0개
 - 평균 재사용: 0회
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

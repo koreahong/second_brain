@@ -3,6 +3,9 @@ title: airflow 아키텍쳐 및 세팅
 type: resource
 tags:
 - airflow
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 # 레퍼런스
@@ -48,3 +51,16 @@ Airflow는 실시간 처리가 아닌 배치 처리를 위한 workflow engine이
 쿠버네티스 executor는 동적으로 worker pod를 생성해서 task를 실행한다. 그런데 여기서 라이브러리 종속성 문제가 발생하게 된다. 하나의 쿠버네티스 클러스터 내에서 하나의 에어플로우를 운영할 때 Spark2, 3 버전을 둘 다 사용해야 하는 경우를 예로 들 수 있다.
 
 Helm은 컨테이너를 쉽게 설치할 수 있도록 돕는 툴
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

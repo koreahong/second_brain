@@ -1,6 +1,16 @@
 ---
 title: cursor
 type: resource
+tags:
+- anger
+- company
+- data
+- project
+- planning
+- technology
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ### New Chat창 열기
@@ -114,3 +124,16 @@ type: resource
   - VSCode 마켓플레이스에는 뜨지만 Cursor의 Extension 목록에서는 검색되지 않음
   - VSCode에서 설치한 뒤 Cursor의 Import VSCode Settings and Extensions 기능을 이용해 가져오는 건 가능. 그런데 실제로 확장 프로그램이 제대로 초기화되지 않음 (관련 이슈)
   - 괜찮아 보여서 개발자가 빨리 고쳐주길 기대
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

@@ -1,11 +1,14 @@
 ---
 title: 연봉협상 feat 규리미
 date: '2025-07-26'
-type: daily-insight
+type: insight
 week: 30
 tags:
 - personal
 - reflection
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 # 연봉협상 feat 규리미

@@ -1,3 +1,14 @@
+---
+tags:
+- anger
+- relationships
+- team
+- work
+created: '2025-11-30'
+updated: '2025-11-30'
+title: LIFE_INSIGHTS_CLASSIFICATION
+aliases: []
+---
 # Life-Insights Classification Report
 
 **Total Files:** 222
@@ -46,4 +57,16 @@
 - 시간을-관리하는-이유.md (conf: 0.50)
 - 생각도-훈련이다.-나는-생각을-못한다.-할-수-없다.-뇌구조를-바꾸고-밑바닥부터-다시-시작해야한다.md (conf: 0.50)
 - 인생이-쳇바퀴처럼-느껴지는-이유.md (conf: 0.50)
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
 

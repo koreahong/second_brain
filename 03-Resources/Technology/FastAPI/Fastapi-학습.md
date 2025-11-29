@@ -2,7 +2,10 @@
 title: Fastapi 학습
 type: resource
 tags:
-- FastAPI
+- fastapi
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 Django, Flask이다. 비교적 가벼운 웹개발이라면 Flask를 사용했고 조금 더 볼륨있는 프로젝트라면 Django를 사용했다.
@@ -65,3 +68,16 @@ ASGI(Asynchronous Server Gateway Interface)를 설명하면서 필요한 네트�
     1. 단일 연결 유지: 한 번의 연결을 통해 여러 메시지를 교환할 수 있습니다. 이를 통해 연결을 만드는 데 필요한 초기화 오버헤드가 줄어듭니다.
     1. 이벤트 기반 프로그래밍: 이벤트 기반의 프로그래밍 모델을 제공하여, 특정 이벤트가 발생할 때마다 특정 동작을 수행할 수 있습니다.
 - ASGI와 웹소켓: ASGI는 웹소켓과 같은 실시간 통신 프로토콜을 지원하여 실시간으로 데이터를 주고 받을 수 있습니다. 이를 통해 웹 애플리케이션에서 실시간 업데이트를 제공할 수 있습니다.
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

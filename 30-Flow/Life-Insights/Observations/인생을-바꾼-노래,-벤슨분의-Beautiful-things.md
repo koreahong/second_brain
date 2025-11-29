@@ -1,8 +1,15 @@
 ---
 title: 인생을 바꾼 노래, 벤슨분의 Beautiful things
 date: '2025-01-13'
-type: daily-insight
+type: insight
 week: 3
+tags:
+- journal
+- growth
+- observations
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 # 인생을 바꾼 노래, 벤슨분의 Beautiful things
@@ -13,3 +20,16 @@ week: 3
 유명한 노래가 없었고 얼굴도 눈에 띄지 않았지만 그의 4년은 눈부신 성장을 했다.
 1시간 30분 가량 쉬지 않고 노래하는데도 감탄이 계속 나오는 노래실력 이었다.
 백덤블링과 같은 퍼포먼스를 하기 위해서, 얼마나 많은 시뮬레이션을 해봤을까.
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

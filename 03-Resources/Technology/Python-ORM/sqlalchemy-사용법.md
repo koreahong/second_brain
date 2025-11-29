@@ -1,6 +1,13 @@
 ---
 title: sqlalchemy 사용법
 type: resource
+tags:
+- python
+- technology
+- sql
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ## 개념
@@ -41,3 +48,16 @@ type: resource
       server_default=text("'CURRENT_TIMESTAMP'"),
   )
   ```
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

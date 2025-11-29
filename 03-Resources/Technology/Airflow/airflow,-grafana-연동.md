@@ -2,8 +2,11 @@
 title: airflow, grafana 연동
 type: resource
 tags:
-- Grafana
 - airflow
+- grafana
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ## 개념
@@ -47,3 +50,16 @@ tags:
     ```
 
   1. airflow 재설치
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

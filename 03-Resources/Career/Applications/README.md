@@ -3,9 +3,12 @@ type: index
 domain: career
 created: 2025-11-29
 tags:
-  - career
-  - job-search
-  - index
+- career
+- job-search
+- index
+updated: '2025-11-30'
+title: README
+aliases: []
 ---
 
 # 커리어 지원 내역
@@ -45,3 +48,16 @@ DAE: 5개
 
 **Last Updated:** 2025-11-29
 **Total Applications:** 45
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

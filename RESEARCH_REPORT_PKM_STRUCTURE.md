@@ -1,3 +1,18 @@
+---
+tags:
+- anger
+- achievement
+- learning
+- postgres
+- data
+- project
+- goal
+- planning
+created: '2025-11-30'
+updated: '2025-11-30'
+title: RESEARCH_REPORT_PKM_STRUCTURE
+aliases: []
+---
 # DAE Second Brain 구조 개선 연구 보고서
 
 > **연구 일자**: 2025-11-28  
@@ -1099,3 +1114,16 @@ mv Resources Archives/Old-Structure/
 *Research Date: 2025-11-28*  
 *Researcher: Claude (Sonnet 4.5)*  
 *Status: ✅ 완료, 승인 대기*
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

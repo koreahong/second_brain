@@ -2,8 +2,11 @@
 title: 투자노트 - TSS
 type: resource
 tags:
-- 주식투자
-- 투자노트
+- stock-investment
+- investment-note
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ### 가치 재투자 사이클
@@ -16,3 +19,16 @@ tags:
 ## 📊 TSS vs Celestica vs Supermicro — 기술적 혜자 비교표
 
 </details>
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

@@ -1,13 +1,12 @@
 ---
-type: project
-domain:
-tags: []
-status: active
-start_date: {{date}}
-end_date:
-company:
-created: {{date}}
-updated: {{date}}
+tags:
+- achievement
+- project
+- goal
+created: '2025-11-30'
+updated: '2025-11-30'
+title: project note
+aliases: []
 ---
 
 # {{title}}
@@ -74,3 +73,16 @@ updated: {{date}}
 *Project Type: [pipeline|analytics|migration|optimization]*
 *Team Size: *
 *Impact: [high|medium|low]*
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

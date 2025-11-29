@@ -2,7 +2,10 @@
 title: '[Tech] Data Engineer - 데이터 파이프라인 개발 및 운영(DSP, 팩토리)'
 type: resource
 tags:
-- 커리어-지원내역
+- career-application
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 <details>
@@ -140,3 +143,16 @@ power bi랑 태블로 비교
 마지막 질문
 
 </details>
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

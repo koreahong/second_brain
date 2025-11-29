@@ -1,3 +1,18 @@
+---
+tags:
+- anger
+- pipeline
+- achievement
+- learning
+- company
+- data
+- datahub
+- project
+created: '2025-11-30'
+updated: '2025-11-30'
+title: PARA_ZETTELKASTEN_RESEARCH
+aliases: []
+---
 # PARA + Zettelkasten 심층 연구 보고서
 
 > **연구 일자**: 2025-11-28  
@@ -1671,3 +1686,16 @@ Fleeting → Literature → Permanent
 *Total Research Time: ~3 hours*  
 *Sources: 25+ articles, papers, case studies*  
 *Status: ✅ 완료, 실행 대기*
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

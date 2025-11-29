@@ -1,12 +1,11 @@
 ---
-type: experience
-domain:
-topic:
-tags: []
-status: practicing
-project:
-created: {{date}}
-updated: {{date}}
+tags:
+- project
+- company
+created: '2025-11-30'
+updated: '2025-11-30'
+title: experience note
+aliases: []
 ---
 
 # {{title}}
@@ -49,3 +48,16 @@ updated: {{date}}
 *Date: {{date}}*
 *Project: [[프로젝트명]]*
 *Company: [회사명]*
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

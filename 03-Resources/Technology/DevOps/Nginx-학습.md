@@ -1,6 +1,11 @@
 ---
 title: Nginx 학습
 type: resource
+tags:
+- technology
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 [https://nginx.org/en/docs/http/ngx_http_core_module.html#location](https://nginx.org/en/docs/http/ngx_http_core_module.html#location)
@@ -44,3 +49,16 @@ http {
 ```
 
 - 적용은 core-> http -> server -> location순으로 적용되며 동일한 simple directives가 block 별로 정의될 경우 depth가 가장 깊은 block의 설정을 따라갑니다.
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

@@ -1,3 +1,18 @@
+---
+tags:
+- anger
+- achievement
+- company
+- data
+- datahub
+- dbt
+- project
+- team
+created: '2025-11-30'
+updated: '2025-11-30'
+title: SECOND_BRAIN_ARCHITECTURE
+aliases: []
+---
 # Second Brain Architecture v2.0
 > 학술 연구 기반 PKM 시스템 설계 (2025)
 

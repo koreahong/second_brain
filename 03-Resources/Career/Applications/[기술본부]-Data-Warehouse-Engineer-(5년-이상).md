@@ -2,7 +2,10 @@
 title: '[기술본부] Data Warehouse Engineer (5년 이상)'
 type: resource
 tags:
-- 커리어-지원내역
+- career-application
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 <details>
@@ -59,3 +62,16 @@ Data Warehouse Engineer와 Data Analyst로 구성된 데이터인텔리전스 �
 <summary>면접</summary>
 
 </details>
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

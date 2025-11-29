@@ -1,8 +1,15 @@
 ---
 title: POWER BI ↔ DB 연결
 date: '2022-11-05'
-type: daily-reflection
+type: reflection
 week: 45
+tags:
+- reflection
+- work
+- action-item
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 # POWER BI ↔ DB 연결
@@ -18,3 +25,16 @@ week: 45
 ## 적용할 것
 
 문제해결력 칭찬해~~~ 그레잇했어
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

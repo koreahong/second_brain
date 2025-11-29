@@ -1,3 +1,11 @@
+---
+tags:
+- airflow
+created: '2025-11-30'
+updated: '2025-11-30'
+title: auto link
+aliases: []
+---
 # Auto-Link Hook
 
 **Trigger:** After file save in vault

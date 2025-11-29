@@ -2,9 +2,12 @@
 title: sqs redrive & dlq
 type: resource
 tags:
-- Lambda
-- SQS
+- sqs
 - aws
+- lambda
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ## 개념
@@ -27,3 +30,16 @@ tags:
     ![image](https://prod-files-secure.s3.us-west-2.amazonaws.com/1015f006-5818-41f3-a45f-dc51ac449539/dba7f6f0-1dc4-464b-8f85-aa364b878590/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZK7JAOG5%2F20251129%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251129T015642Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHfQO1IzONUfEEj2t60DoDh8gf3RAuPo1z%2FKGOMMfhf%2FAiEAjb6w0J3xCoxbEp5%2BYF5HQGQ9MlGgMJcdYViKQhZ%2BiHQqiAQIwv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFBiJ0MQQhheh1MOOCrcA5haNu%2FoAMh56l%2B4xEJkZtAvH7XpfCUbq%2BNAM4nlGxF%2FpYoyRITHAtiyEa0JGfpE48Qaju8Klr6%2B90vLaRx3JEHvvD4E1JopaUM9OXB91fcjkQD8bHNCKHuQdtsM2vKEzJ74qU7uNKjD0X%2BAQHofk%2FXxyRrk7jvRtLFPZEFsyKU5ZaZHYtQaXc%2F9kWXTqUozf1I7qN%2FB7R5NKsr4ZzvYzQxRkGXRH4PEnQCQgO8OSi48y%2F6zYJazIEq2YCX8GC1bhtfXPBniJlzW6B2mD5cC5LYZBWS4z2Elwx0AhErrpGMd6wEYZbrxybkMizr4nY6bO4B%2BrgQP1mADix2OoEytZ076D%2BVXLEIUaAyw6TFr8B669p66dGHc1KI2sx2SXWlONil8SDiQXEEU4%2Bw8gW57rP6k5V48pBkkn38oTPpbsKPYy5%2BYB5Oh8SeeGm3eULyTaAoEkce382t9QgOmvVLQmtXhCR8ZCM1%2BEnHM4FXyl%2FOmO6GIJYcIBcWvFqIrG9%2BA1ES2UukoBrLO6vHh9fJWehmO5weL0ZXrSv3doN2jT2YCRh4bp1RPb44CmF3J1UJYzwY9a3xZeIlRVqemywZXVJA1pNt29yMoZiNkl6JiJzPt90ggU1H3hAR4%2Fex6MLKBqckGOqUBqLYZGm6kOm2Iyok%2BUwjapood6cjEexTorZbEKVa7POjnhICDdIIBE9f%2B%2BVii12hDpSjHc2pKUeG%2BGPN%2FQe16HRcK1doUb7CkFKHAztPaSSNTt%2FPaQ6gOSc6JYUETgho8TAu6KN706tyUzSRJitA35OmLQ%2BGuOGUCzZuumLcrY%2Bs9XQORtOKL53PGdqGD5DcTyMh94MEtArRB5%2FWZPc0aW7yF1xHR&X-Amz-Signature=09ce9569cb27df32d2eb6a004db368aeb7cc285ed57ec3b0516f6c8f0670214e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 docker build -t lambda_container -f dockerfile_lambda .
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

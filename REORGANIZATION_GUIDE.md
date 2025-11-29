@@ -1,3 +1,18 @@
+---
+tags:
+- anger
+- achievement
+- company
+- data
+- datahub
+- dbt
+- project
+- goal
+created: '2025-11-30'
+updated: '2025-11-30'
+title: REORGANIZATION_GUIDE
+aliases: []
+---
 # 📚 Vault 재구성 가이드
 
 ## 🎯 목표

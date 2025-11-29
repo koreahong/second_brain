@@ -1,5 +1,12 @@
 ---
 description: Organize migrated Notion content into PARA structure
+tags:
+- python
+- work
+created: '2025-11-30'
+updated: '2025-11-30'
+title: organize
+aliases: []
 ---
 
 Invoke the content-organizer agent to reorganize migrated content.
@@ -20,3 +27,16 @@ Follow the rules in `.claude/agents/content-organizer.md`.
 Ask which database to organize first, or suggest organizing all if user agrees.
 
 Use Obsidian MCP tools only - no Python scripts or Bash file operations.
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

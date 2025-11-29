@@ -2,8 +2,11 @@
 title: array, linked list 개념
 type: resource
 tags:
-- 알고리즘
+- algorithm
 - 자료구조
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ## 개념
@@ -106,3 +109,16 @@ class linkedList:
         prev = self.get_node(index - 1)
         prev.next = prev.next.next
 ```
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

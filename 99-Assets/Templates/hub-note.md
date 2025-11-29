@@ -1,10 +1,10 @@
 ---
-type: hub
-domain:
-topic:
-tags: [moc]
-created: {{date}}
-updated: {{date}}
+tags:
+- project
+created: '2025-11-30'
+updated: '2025-11-30'
+title: hub note
+aliases: []
 ---
 
 # {{title}} Hub
@@ -59,3 +59,16 @@ updated: {{date}}
 ---
 *Last Updated: {{date}}*
 *Status: [active|archived]*
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

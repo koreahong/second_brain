@@ -2,7 +2,10 @@
 title: '[Tech] Data Engineer (Pipeline, 4년 이상)'
 type: resource
 tags:
-- 커리어-지원내역
+- career-application
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 [우리를 소개해요]
@@ -60,3 +63,16 @@ tags:
 
 • 요기피플을 위한 복지와 혜택을 링크를 통해 확인하세요!
 https://wesang.notion.site/4c694370b9714434bb15b65fcf7de7cb
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

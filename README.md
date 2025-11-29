@@ -1,3 +1,12 @@
+---
+tags:
+- anger
+- project
+created: '2025-11-30'
+updated: '2025-11-30'
+title: README
+aliases: []
+---
 # 🧠 DAE Second Brain
 
 > **PARA + Zettelkasten**: 실행(Execution)과 통찰(Insight)의 완벽한 조화
@@ -148,3 +157,16 @@ Create (01-Projects)
 **License**: Personal Use
 
 🚀 **Start your journey: [[20-Maps/Index]]**
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

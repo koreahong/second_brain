@@ -3,6 +3,12 @@ title: 'HFT팀 데이터 요청 '
 date: '2025-09-10'
 type: project
 status: planned
+tags:
+- qraft
+- data
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ### 홍콩 데이터 배치 오류
@@ -21,3 +27,16 @@ idc → ftp not ok 필요
 ### CME 데이터 NAS로 가져오기
 
 ⇒ 준일님이 진행
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

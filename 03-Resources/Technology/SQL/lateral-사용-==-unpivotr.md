@@ -2,7 +2,10 @@
 title: lateral 사용 == unpivotr
 type: resource
 tags:
-- Query
+- query
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ```sql
@@ -43,3 +46,16 @@ SELECT product_id, 'store3' AS store, store3 AS price
 FROM Products
 WHERE store3 IS NOT NULL;
 ```
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

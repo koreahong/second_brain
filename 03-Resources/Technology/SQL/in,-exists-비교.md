@@ -2,7 +2,10 @@
 title: in, exists 비교
 type: resource
 tags:
-- Query
+- query
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ## ✅ 먼저, IN의 NULL 문제
@@ -191,3 +194,16 @@ where not exists (
 - 🌟 항상 NOT EXISTS > NOT IN
 - IN은 간단하고 서브쿼리 작을 때는 좋지만, NULL이 있으면 의도와 다른 결과가 나올 수 있음
 - 서브쿼리 결과가 많거나, 로그 테이블 등에서 다룬다면 EXISTS가 더 적합
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

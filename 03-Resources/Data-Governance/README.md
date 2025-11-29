@@ -3,8 +3,11 @@ type: index
 domain: data-governance
 created: 2025-11-29
 tags:
-  - data-governance
-  - index
+- data-governance
+- index
+updated: '2025-11-30'
+title: README
+aliases: []
 ---
 
 # Data Governance
@@ -72,3 +75,16 @@ Data Lineage:
 
 **Last Updated:** 2025-11-29
 **Status:** 🌲 Organized
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

@@ -1,6 +1,18 @@
 ---
 title: keycloak으로 Dag 권한관리
 type: resource
+tags:
+- anger
+- data
+- project
+- team
+- qraft
+- docker
+- airflow
+- snowflake
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 # Airflow Keycloak 인증 & 권한 관리 시스템
@@ -664,3 +676,16 @@ Airflow의 인증/권한 시스템 플러그인 인터페이스
 ---
 
 이 문서를 기반으로 다른 개발자가 시스템을 이해하고 유지보수할 수 있습니다!
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

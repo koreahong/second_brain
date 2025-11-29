@@ -3,6 +3,9 @@ title: airflow 기본개념(책)
 type: resource
 tags:
 - airflow
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ---
@@ -94,3 +97,16 @@ airflow 코드 스타일, 자격증명
 ![image](https://prod-files-secure.s3.us-west-2.amazonaws.com/1015f006-5818-41f3-a45f-dc51ac449539/0c6ea041-5e94-42fe-bd21-7c880511e52c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z3662UE5%2F20251129%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251129T015749Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAlcE12JV3EWJNXtMqvpIVg3ha65xO3XSpQjq7ifNr8IAiBgnjbdp8%2FNAmWqF7WQcQakl7ZD%2BcEIYWdbk%2B3q8Xu61iqIBAjC%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMPPwbtisVsDAxPN2YKtwDtZkOdN%2B8017sVqunF%2FLN9MmplHKXtNhlz9J5ShHs41d%2BsbOQ8zuFPJAyuTl76CjITjQMgvz%2F1V79Zz3%2BIrlyjGSRPw33kJtkPBufEFbrv4y7%2BWRqyOhvjQ1j3NBqOjc3QF5S%2BljHEIV4X0OPtyWDXbl671%2BSTwsFtWeOABX7j5SEmvvm80ZqbReho0hPGNmdZjpqNr790LHVJV1IHNSQmNckpUWp7EoU3VXdTISXWXCg5WWnoak6EXR6z7cBWt1JpkEBCC%2FAGXRUx5DgX62XpaNgWI3MoIbnBo52ypJACv1oF%2FhItKEU7ncmTCDaapALSAmn6XVvegC5cPX2KVwSekWaJBHRZhcMl9ydr5osAoRjaM3m5vIBOdZhOYdVFpneoSeQkU2mVFKoqmQ9e%2FQ1YmEnK5rK0gT42vLUb5RGxYQiIFFx1HB%2FG%2BiidNB1H6eukdqWU6OLJMQGntsbD%2BIKg0h4GY0cxNywmcCJcP%2BP1SygpO2dUguQKO1KHaep1eZsHpH0MtiFyezLQLKDDUKVHF52uLmb2dyN%2BGthEBK0KxtcriotX5phW6z4Q58W8q3W3FTa0Jp7CByTCFY7onrg0cXjhR6Ac0qQAlflNyQih3T%2B6tGOPt%2BX00OHr8cwyfyoyQY6pgHvcWTKlrheloAnCyPHShTm%2FqoQwR09PkZaBO4i6QP9A9q3pQ%2BtPLk%2FVKNDE1c27dtsknQ%2FrHjevk2%2FKfm9iSyw805fK9gS9kzF5Sw%2Fok3e8sXHCYlHHyVEKxDsqgbLs%2BLY%2BLymHBQdWH%2BCUc%2FoYBIT6CCtNLaRQOHcdqfOpyjaniniwpsS9ipjaobg8YDPoHeCWM8E%2FQFS0e72%2BBBNmvUlj%2Fu0y9y%2F&X-Amz-Signature=3e4bb2d7bca3d0dfc466998c0eaa55737932de237510e1b73abfa76193a9757c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ![image](https://prod-files-secure.s3.us-west-2.amazonaws.com/1015f006-5818-41f3-a45f-dc51ac449539/ed1be416-a754-40fc-b37d-2c9169067aca/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z3662UE5%2F20251129%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251129T015749Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAlcE12JV3EWJNXtMqvpIVg3ha65xO3XSpQjq7ifNr8IAiBgnjbdp8%2FNAmWqF7WQcQakl7ZD%2BcEIYWdbk%2B3q8Xu61iqIBAjC%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMPPwbtisVsDAxPN2YKtwDtZkOdN%2B8017sVqunF%2FLN9MmplHKXtNhlz9J5ShHs41d%2BsbOQ8zuFPJAyuTl76CjITjQMgvz%2F1V79Zz3%2BIrlyjGSRPw33kJtkPBufEFbrv4y7%2BWRqyOhvjQ1j3NBqOjc3QF5S%2BljHEIV4X0OPtyWDXbl671%2BSTwsFtWeOABX7j5SEmvvm80ZqbReho0hPGNmdZjpqNr790LHVJV1IHNSQmNckpUWp7EoU3VXdTISXWXCg5WWnoak6EXR6z7cBWt1JpkEBCC%2FAGXRUx5DgX62XpaNgWI3MoIbnBo52ypJACv1oF%2FhItKEU7ncmTCDaapALSAmn6XVvegC5cPX2KVwSekWaJBHRZhcMl9ydr5osAoRjaM3m5vIBOdZhOYdVFpneoSeQkU2mVFKoqmQ9e%2FQ1YmEnK5rK0gT42vLUb5RGxYQiIFFx1HB%2FG%2BiidNB1H6eukdqWU6OLJMQGntsbD%2BIKg0h4GY0cxNywmcCJcP%2BP1SygpO2dUguQKO1KHaep1eZsHpH0MtiFyezLQLKDDUKVHF52uLmb2dyN%2BGthEBK0KxtcriotX5phW6z4Q58W8q3W3FTa0Jp7CByTCFY7onrg0cXjhR6Ac0qQAlflNyQih3T%2B6tGOPt%2BX00OHr8cwyfyoyQY6pgHvcWTKlrheloAnCyPHShTm%2FqoQwR09PkZaBO4i6QP9A9q3pQ%2BtPLk%2FVKNDE1c27dtsknQ%2FrHjevk2%2FKfm9iSyw805fK9gS9kzF5Sw%2Fok3e8sXHCYlHHyVEKxDsqgbLs%2BLY%2BLymHBQdWH%2BCUc%2FoYBIT6CCtNLaRQOHcdqfOpyjaniniwpsS9ipjaobg8YDPoHeCWM8E%2FQFS0e72%2BBBNmvUlj%2Fu0y9y%2F&X-Amz-Signature=ec84b58d05219538dfca09cc3287e7d69a27ef2eb4f4b276862516e4bcf0c001&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

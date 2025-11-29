@@ -1,11 +1,9 @@
 ---
-type: concept
-domain:
-topic:
 tags: []
-status: learning
-created: {{date}}
-updated: {{date}}
+created: '2025-11-30'
+updated: '2025-11-30'
+title: concept note
+aliases: []
 ---
 
 # {{title}}
@@ -35,3 +33,16 @@ updated: {{date}}
 ---
 *Sources: [출처]*
 *Last Updated: {{date}}*
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

@@ -3,6 +3,9 @@ title: nepa airflow dag code
 type: resource
 tags:
 - airflow
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 #airflow-chain #airflow-branch
@@ -246,3 +249,16 @@ def tableau_step0_monthly():
         task_list.append(globals()[task_name])
 
 ```
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

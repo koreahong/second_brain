@@ -1,6 +1,18 @@
 ---
 created: 2025-11-28
 type: documentation
+tags:
+- anger
+- achievement
+- learning
+- data
+- project
+- goal
+- planning
+- python
+updated: '2025-11-30'
+title: DAILY_NOTES_SETUP
+aliases: []
 ---
 
 # Daily Notes 설정 가이드
@@ -204,3 +216,16 @@ Calendar 플러그인 설치 후:
 
 *Last Updated: 2025-11-28*
 *Status: Setup Complete*
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

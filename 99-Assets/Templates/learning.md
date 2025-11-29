@@ -1,11 +1,11 @@
 ---
-created: {{date:YYYY-MM-DD}}
-type: learning
-concept: [[]]
-difficulty: ⭐⭐⭐
-importance: ⭐⭐⭐⭐⭐
-reuse-count: 0
-tags: [learning]
+tags:
+- python
+- project
+created: '2025-11-30'
+updated: '2025-11-30'
+title: learning
+aliases: []
 ---
 
 # {{title}}
@@ -99,3 +99,16 @@ tags: [learning]
 
 **재활용 횟수**: {{재활용-count}}
 **마지막 활용**: [[]]
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

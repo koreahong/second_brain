@@ -1,6 +1,17 @@
 ---
 title: cosmos
 type: resource
+tags:
+- postgres
+- dbt
+- project
+- airflow
+- technology
+- python
+- aws
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 - cosmos는 dbt model을 task 단위로 쪼개서 dag를 구성해주는 라이브러리임.
@@ -54,3 +65,16 @@ my_cosmos_dag
 [https://www.astronomer.io/docs/learn/airflow-dbt/](https://www.astronomer.io/docs/learn/airflow-dbt/)
 
 dbtdag와 dbttaskgroup은 taskgroup은 dag안에서 task로 취급해서 다른 task와 관계를 맺을 수 있고 Dbtdag는 dbt를 dag단위로 생성하는 것
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

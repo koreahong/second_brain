@@ -3,6 +3,9 @@ title: Rules for good dags
 type: resource
 tags:
 - airflow
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 [https://www.astronomer.io/docs/learn/dag-best-practices?tab=good-practice#treat-your-dag-file-like-a-config-file](https://www.astronomer.io/docs/learn/dag-best-practices?tab=good-practice#treat-your-dag-file-like-a-config-file)
@@ -38,3 +41,16 @@ tags:
 
 1. airflow 서버 부하 방지
   - 되도록이면 airflow는 오케스트라 역할만 하게 설계. 데이터 전처리 모델링 등 같은 작업은 별도의 서버에서 처리
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

@@ -2,7 +2,10 @@
 title: group by + over()
 type: resource
 tags:
-- Query
+- query
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ```sql
@@ -50,3 +53,16 @@ user1 모든 데이터에 적용이 되는 것
 user1에 1 ~ 9까지 값이 있을 때
 
 여기에서 partition by user1을 하면 user1에 unique한개 나오니까 1로만 찍힘
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

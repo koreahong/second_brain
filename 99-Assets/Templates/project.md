@@ -1,10 +1,11 @@
 ---
-created: {{date:YYYY-MM-DD}}
-status: 진행중
-start: {{date:YYYY-MM-DD}}
-area: [[]]
-jira: MPD-
-tags: [project]
+tags:
+- project
+- goal
+created: '2025-11-30'
+updated: '2025-11-30'
+title: project
+aliases: []
 ---
 
 # {{title}}
@@ -110,3 +111,16 @@ git log --grep="MPD-"
 ---
 
 **Status**: 🟢 진행 중 / 🟡 보류 / 🔴 블로커 / ✅ 완료
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

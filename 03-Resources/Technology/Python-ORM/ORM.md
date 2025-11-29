@@ -1,6 +1,14 @@
 ---
 title: ORM
 type: resource
+tags:
+- achievement
+- technology
+- data
+- sql
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ORM은 "Object-Relational Mapping"의 약자로, 데이터베이스와 프로그래밍 언어의 객체 지향 모델 간에 매핑(mapping)을 제공하는 도구나 라이브러리를 가리킵니다.
@@ -14,3 +22,16 @@ ORM은 "Object-Relational Mapping"의 약자로, 데이터베이스와 프로그
 예를 들어, 학생들이 책상 위에 있는 물건들을 가리키는 '객체'를 만들어야 한다고 생각해봅시다. 그러면 ORM은 책상 위의 물건들이 저장된 '데이터베이스'와 이를 연결해주는 역할을 합니다. 이렇게 하면 학생들은 책상 위의 물건들을 쉽게 찾고 다룰 수 있게 됩니다.
 
 ORM은 프로그래머들이 SQL(Structured Query Language)이라는 데이터베이스 질의 언어를 사용하지 않고도 데이터베이스를 다룰 수 있도록 도와주기 때문에, 코드를 더 쉽게 작성하고 유지보수하기 쉽게 만들어줍니다.
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

@@ -1,6 +1,11 @@
 ---
 title: upsert 쿼리
 type: resource
+tags:
+- technology
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ```plain text
@@ -73,3 +78,16 @@ mix_lv1 = EXCLUDED.mix_lv1,
 mix_lv2 = EXCLUDED.mix_lv2
 
 ```
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

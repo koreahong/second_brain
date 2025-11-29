@@ -2,7 +2,10 @@
 title: Jira 개념
 type: resource
 tags:
-- JIRA
+- jira
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ## 🧱 Jira 이슈 타입 구조 정리 (기본적인 계층 포함)
@@ -61,3 +64,16 @@ Epic
 ```
 
 # Jira connections
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

@@ -1,7 +1,7 @@
 ---
 title: 돌파할 수 있는가, 변화할 수 있는가 to you
 date: '2022-06-09'
-type: daily-insight
+type: insight
 week: 24
 tags:
 - life-decision
@@ -9,6 +9,9 @@ tags:
 - personal
 - reflection
 - relationship
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 # 돌파할 수 있는가, 변화할 수 있는가 to you

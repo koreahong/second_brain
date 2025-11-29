@@ -2,9 +2,12 @@
 title: Hadoop
 type: resource
 tags:
-- Hadoop
-- Storage
-- Technology
+- technology
+- hadoop
+- storage
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ### 하둡의 등장
@@ -235,3 +238,16 @@ tags:
     - 추가 학습 권장 
       - Reed-Solomon 알고리즘과 같은 고급 기술은 필요에 따라 학습 가능하며, 인터넷에서 관련 자료를 쉽게 찾을 수 있음.
       - 이론적 배경은 실무에서 직접적으로 필요하지 않더라도, 기술적 이해를 높이는 데 도움을 줄 수 있음.
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

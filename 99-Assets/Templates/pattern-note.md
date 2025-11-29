@@ -1,11 +1,10 @@
 ---
-type: pattern
-domain:
-topic:
-tags: [best-practice]
-status: mastered
-created: {{date}}
-updated: {{date}}
+tags:
+- python
+created: '2025-11-30'
+updated: '2025-11-30'
+title: pattern note
+aliases: []
 ---
 
 # {{title}}
@@ -51,3 +50,16 @@ updated: {{date}}
 ---
 *Pattern Type: [architectural|code|workflow|configuration]*
 *Confidence: [high|medium|low]*
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

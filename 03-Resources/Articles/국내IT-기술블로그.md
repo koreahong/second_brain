@@ -1,6 +1,14 @@
 ---
 title: 국내IT 기술블로그
 type: resource
+tags:
+- anger
+- team
+- aws
+- growth
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 https://blog.wonkooklee.com/blog/20250201_01
@@ -74,3 +82,16 @@ self-hosted로 직접 만든 곳도 있고, Jekyll 같은 SSG를 사용하거나
 마크다운 지원되는 노트 앱에 붙여넣기 편하도록 코드 블럭에 넣어 제공해드립니다.
 
 코드 블럭 우측 상단에 "복사하기" 아이콘을 누르면 클립보드에 복사됩니다.
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

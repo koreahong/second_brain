@@ -3,6 +3,15 @@ title: MFT팀 배치 작업
 date: '2025-09-22'
 type: project
 status: planned
+tags:
+- anger
+- data
+- qraft
+- airflow
+- sql
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ### 원천 파악
@@ -31,3 +40,16 @@ stocks raw에 데이터 넣기
 daily → raw 배치 확인하기
 
 휴장체크를 어떻게 하지? → 화-토 배치 주기 설정
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

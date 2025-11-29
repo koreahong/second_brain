@@ -1,6 +1,18 @@
 ---
 title: 'AI 보조 코딩이 소프트웨어 엔지니어링을 어떻게 바꿀 것인가: 불편한 진실 | GeekNews'
 type: resource
+tags:
+- anger
+- company
+- project
+- team
+- goal
+- planning
+- development
+- improvement
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 https://news.hada.io/topic?id=18712
@@ -162,3 +174,16 @@ https://news.hada.io/topic?id=18712
   - 기존 기술 기업들도 AI로 인해 늘어나는 복잡성을 다룰 인력이 필요해질 가능성이 큼
 - 소프트웨어 엔지니어가 AI와 함께 일하는 능력을 키우면 더 생산적이며 더 가치 있는 엔지니어가 될 수 있음 
   - 툴을 완전히 “길들이는” 법을 익히기까지 시간이 걸리므로, 빠르게 변하는 도구 환경 속에서 적극적으로 실험하고 학습해보는 것이 중요함
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

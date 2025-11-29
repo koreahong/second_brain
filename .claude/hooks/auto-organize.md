@@ -1,3 +1,15 @@
+---
+tags:
+- datahub
+- dbt
+- airflow
+- snowflake
+- work
+created: '2025-11-30'
+updated: '2025-11-30'
+title: auto organize
+aliases: []
+---
 # Auto-Organize Hook
 
 ## Trigger

@@ -1,3 +1,18 @@
+---
+tags:
+- achievement
+- company
+- data
+- datahub
+- dbt
+- project
+- team
+- qraft
+created: '2025-11-30'
+updated: '2025-11-30'
+title: content organizer
+aliases: []
+---
 # Content Organizer Agent
 
 ## Purpose

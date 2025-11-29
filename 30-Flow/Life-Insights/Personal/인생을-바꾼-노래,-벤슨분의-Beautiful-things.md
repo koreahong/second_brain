@@ -1,13 +1,16 @@
 ---
 title: 인생을 바꾼 노래, 벤슨분의 Beautiful things
 date: '2025-01-13'
-type: daily-insight
+type: insight
 week: 3
 tags:
 - entertainment
 - friends
 - personal
 - reflection
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 # 인생을 바꾼 노래, 벤슨분의 Beautiful things

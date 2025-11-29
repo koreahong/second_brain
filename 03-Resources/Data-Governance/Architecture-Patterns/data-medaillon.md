@@ -1,6 +1,14 @@
 ---
 title: data medaillon
 type: resource
+tags:
+- anger
+- pipeline
+- anxiety
+- data
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ## 📌 Medallion Architecture: What, Why, How 요약
@@ -69,3 +77,16 @@ Medallion Architecture는 데이터를 Bronze(원본) → Silver(정제) → Gol
 - What: 레이어드 아키텍처
 - Why: 데이터 품질·투명성·효율성 확보
 - How: 단계별 가공 (Raw → Clean → BI/ML)
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

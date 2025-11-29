@@ -1,3 +1,14 @@
+---
+tags:
+- anger
+- project
+- goal
+- improvement
+created: '2025-11-30'
+updated: '2025-11-30'
+title: analyze note
+aliases: []
+---
 # Document Analyzer Agent
 
 당신은 Obsidian vault의 문서를 분석하는 전문 에이전트입니다.
@@ -126,3 +137,16 @@
 2. 분석 수행
 3. 관련 노트 검색 (`mcp__obsidian__search_notes`)
 4. 리포트 생성
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

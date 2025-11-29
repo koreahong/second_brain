@@ -1,15 +1,9 @@
 ---
-type: permanent
-id: {{date:YYYY-MM-DD}}-{{sequence}}
-created: {{date:YYYY-MM-DD}}
-updated: {{date:YYYY-MM-DD}}
-domain:
-subdomain:
-status: seedling
-tags:
-  - zettelkasten
-  -
-related:
+tags: []
+created: '2025-11-30'
+updated: '2025-11-30'
+title: Atomic Note
+aliases: []
 ---
 
 # {{title}} - One Clear Idea

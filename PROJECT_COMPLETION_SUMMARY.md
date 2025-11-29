@@ -1,3 +1,18 @@
+---
+tags:
+- anger
+- achievement
+- company
+- data
+- project
+- goal
+- development
+- airflow
+created: '2025-11-30'
+updated: '2025-11-30'
+title: PROJECT_COMPLETION_SUMMARY
+aliases: []
+---
 # Second Brain 구축 프로젝트 완료 요약
 
 > 2025-11-29 완료
@@ -522,3 +537,16 @@ Career:
 > - Niklas Luhmann, Zettelkasten Creator
 
 당신의 Second Brain이 당신보다 똑똑해질 준비가 되었습니다! 🧠✨
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

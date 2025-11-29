@@ -2,7 +2,10 @@
 title: '[아이디어스/텀블벅] Data Engineer (3년 이상)'
 type: resource
 tags:
-- 커리어-지원내역
+- career-application
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 <details>
@@ -91,3 +94,16 @@ Shall We Backpacking?
 <summary>면접</summary>
 
 </details>
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

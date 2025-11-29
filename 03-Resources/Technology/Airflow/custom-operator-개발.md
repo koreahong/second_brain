@@ -3,6 +3,9 @@ title: custom operator 개발
 type: resource
 tags:
 - airflow
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 [https://mightytedkim.tistory.com/150](https://mightytedkim.tistory.com/150)
@@ -22,3 +25,16 @@ tags:
 custom opreator 만들고 .output으로 값 호출
 
 add >> multiply >> use_cat_fact_hook(multiply.output)
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

@@ -3,6 +3,9 @@ title: AWS airflow 설치
 type: resource
 tags:
 - airflow
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 1. docker-compose.yaml 다운로드
@@ -57,3 +60,16 @@ tags:
   
   sudo resize2fs /dev/root
   ```
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

@@ -1,12 +1,10 @@
 ---
-type: moc
-role: hub
-domain:
-created: {{date:YYYY-MM-DD}}
-updated: {{date:YYYY-MM-DD}}
 tags:
-  - hub
-  - moc
+- project
+created: '2025-11-30'
+updated: '2025-11-30'
+title: Hub Note
+aliases: []
 ---
 
 # {{title}} Hub

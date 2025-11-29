@@ -1,8 +1,10 @@
 ---
-id: {{date:YYYYMMDDHHmm}}
-type: permanent
-created: {{date}}
 tags:
+- data
+created: '2025-11-30'
+updated: '2025-11-30'
+title: permanent note
+aliases: []
 ---
 
 # {{title}}
@@ -31,3 +33,16 @@ tags:
 
 - 재사용 횟수: 0
 - 마지막 참조: {{date}}
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

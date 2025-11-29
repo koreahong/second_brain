@@ -3,6 +3,16 @@ title: postgres / snowflake 권한관리
 date: '2025-10-10'
 type: project
 status: planned
+tags:
+- postgres
+- query
+- qraft
+- snowflake
+- sql
+- aws
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 postgres도 organization이 있어서 
@@ -409,3 +419,16 @@ def downgrade() -> None:
     )
 
 ```
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

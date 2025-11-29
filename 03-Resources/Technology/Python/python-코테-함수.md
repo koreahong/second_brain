@@ -2,7 +2,10 @@
 title: python 코테 함수
 type: resource
 tags:
-- 알고리즘
+- algorithm
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 .count('1') 
@@ -21,3 +24,16 @@ from collections import Counter, defaultdict, deque
 - col = i % n
 zip(*arr2)
 → [[1,2,3], [4,5,6]] → [[1,4], [2,5], [3,6]]
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

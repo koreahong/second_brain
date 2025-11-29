@@ -2,7 +2,10 @@
 title: Dataops manager
 type: resource
 tags:
-- 커리어-지원내역
+- career-application
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 <details>
@@ -136,3 +139,16 @@ JD에 기재된 역할과 임무는 지난 4년간 실제로 수행해온 업무
  
 
 ---
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

@@ -4,9 +4,11 @@ domain: personal-insights
 created: 2025-11-30
 updated: 2025-11-30
 tags:
-  - life-insights
-  - index
+- life-insights
+- index
 status: organized
+title: README
+aliases: []
 ---
 
 # Life-Insights (본깨적)
@@ -274,3 +276,16 @@ Human Nature:
 ---
 
 > "본질을 깨닫고 적용하자 - 경험을 지혜로 전환하는 공간"
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

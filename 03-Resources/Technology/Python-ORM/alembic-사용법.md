@@ -2,8 +2,11 @@
 title: alembic 사용법
 type: resource
 tags:
-- Alembic
-- DB
+- alembic
+- db
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ## 개념
@@ -181,3 +184,16 @@ def downgrade():
     op.drop_constraint('uq_users_email', 'users', type_='unique')
     op.drop_constraint('ck_users_age', 'users', type_='check')
 ```
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

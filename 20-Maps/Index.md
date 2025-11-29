@@ -2,6 +2,11 @@
 type: index
 created: 2025-11-28
 updated: 2025-11-28
+tags:
+- anger
+- project
+title: Index
+aliases: []
 ---
 
 # 🗺️ Maps Index
@@ -91,3 +96,16 @@ updated: 2025-11-28
 
 *Last Updated: 2025-11-28*
 *Start your journey from here! 🚀*
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

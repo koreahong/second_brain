@@ -1,6 +1,15 @@
 ---
 title: alembic
 type: resource
+tags:
+- postgres
+- data
+- technology
+- sql
+- python
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 ### 스키마 위치 변경시
@@ -74,3 +83,16 @@ def downgrade():
 - Alembic autogenerate → 스키마 변경만 자동
 - 데이터 이동은 자동 생성 ❌, 리비전 스크립트에 직접 작성해야 함
 - 단순히 스키마만 바꿀 거라면 ALTER TABLE ... SET SCHEMA가 제일 간단하고, 데이터까지 가공해서 옮길 거면 INSERT ... SELECT 문을 추가
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

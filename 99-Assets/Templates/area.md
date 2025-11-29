@@ -1,7 +1,12 @@
 ---
 type: area
 responsibility: 지속적
-tags: [area]
+tags:
+- area
+created: '2025-11-30'
+updated: '2025-11-30'
+title: area
+aliases: []
 ---
 
 # {{title}}
@@ -116,3 +121,16 @@ SORT created DESC
 **마지막 업데이트**: {{date:YYYY-MM-DD}}
 **프로젝트 수**: `= length(filter(this.file.outlinks, (l) => contains(l.path, "1-Projects")))`
 **학습 수**: `= length(filter(this.file.outlinks, (l) => contains(l.path, "Learning")))`
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

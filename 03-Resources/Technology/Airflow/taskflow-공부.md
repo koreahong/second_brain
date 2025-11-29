@@ -3,6 +3,9 @@ title: taskflow 공부
 type: resource
 tags:
 - airflow
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 [https://www.astronomer.io/docs/learn/airflow-decorators?tab=traditional#how-to-use-airflow-decorators](https://www.astronomer.io/docs/learn/airflow-decorators?tab=traditional#how-to-use-airflow-decorators)
@@ -324,3 +327,16 @@ def test_():
 test = test_()
 
 ```
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

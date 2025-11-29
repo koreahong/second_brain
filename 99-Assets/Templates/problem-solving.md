@@ -1,10 +1,12 @@
 ---
-created: {{date:YYYY-MM-DD}}
-type: problem
-status: 해결됨
-severity: 🔴 Critical / 🟡 Medium / 🟢 Low
-project: [[]]
-tags: [problem, solved]
+tags:
+- airflow
+- snowflake
+- datahub
+created: '2025-11-30'
+updated: '2025-11-30'
+title: problem solving
+aliases: []
 ---
 
 # {{title}}
@@ -122,3 +124,16 @@ tags: [problem, solved]
 
 **Status**: ✅ 해결 / ⏳ 진행중 / ⚠️ 회피 / ❌ 미해결
 **Reusable**: 이 해결법을 [[학습 노트]]로 전환
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+

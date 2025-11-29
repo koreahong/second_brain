@@ -1,13 +1,16 @@
 ---
 title: 목표관리 feat 이형
 date: '2022-10-23'
-type: daily-insight
+type: insight
 week: 44
 tags:
 - friends
 - life-decision
 - personal
 - reflection
+created: '2025-11-30'
+updated: '2025-11-30'
+aliases: []
 ---
 
 # 목표관리 feat 이형

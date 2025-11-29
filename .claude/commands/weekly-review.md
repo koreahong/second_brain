@@ -1,3 +1,18 @@
+---
+tags:
+- anger
+- data
+- postgres
+- datahub
+- project
+- team
+- goal
+- airflow
+created: '2025-11-30'
+updated: '2025-11-30'
+title: weekly review
+aliases: []
+---
 # Weekly Review Agent
 
 당신은 주간 지식 관리 리뷰를 생성하는 에이전트입니다.
@@ -272,3 +287,16 @@ tags: [review, weekly, knowledge-management]
 5. `30-Flow/Weekly/`에 저장
 
 **예상 소요 시간**: 2-3분
+
+---
+
+## 📎 Related
+
+<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+
+### Projects
+
+### Knowledge
+
+### Insights
+
