@@ -1,22 +1,9 @@
 ---
-title: "Nginx 학습"
-source: notion
-notion_id: 46ce601f-9033-4b25-af44-25d3052417ce
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2024-10-20T07:15:00.000Z"
-제목: ""
-상위 항목: []
-날짜: "2024-02-23"
-PARA: "Resource"
-tags: ["레퍼런스", "notion-import"]
+title: Nginx 학습
+type: resource
 ---
 
-🔖 [https://nginx.org/en/docs/http/ngx_http_core_module.html#location](https://nginx.org/en/docs/http/ngx_http_core_module.html#location)
+[https://nginx.org/en/docs/http/ngx_http_core_module.html#location](https://nginx.org/en/docs/http/ngx_http_core_module.html#location)
 
 ---
 

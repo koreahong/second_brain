@@ -1,13 +1,8 @@
 ---
-title: "데이터 엔지니어 (Data Engineer)"
-source: notion
-notion_id: 229c6d43-3b4d-80e4-b341-e06037bf797a
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "페이커즈"
-우선순위: "중"
-결과: "대기"
-tags: ["notion-import", "커리어-지원내역"]
+title: 데이터 엔지니어 (Data Engineer)
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 <details>
@@ -44,4 +39,3 @@ tags: ["notion-import", "커리어-지원내역"]
 <summary>면접</summary>
 
 </details>
-

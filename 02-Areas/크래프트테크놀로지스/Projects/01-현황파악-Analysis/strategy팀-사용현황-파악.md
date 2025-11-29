@@ -1,24 +1,8 @@
 ---
-title: "strategy팀 사용현황 파악"
-source: notion
-notion_id: 26cc6d43-3b4d-8055-b34f-c6241bdbe2e3
-imported: 2025-11-29
-database: 업무리스트
-태그: []
-Git 커밋: ""
-Jira Key: ""
-상태: "완료"
-시행착오 (Trial & Error): ""
-업무 구상 1: []
-날짜: "2025-09-15"
-작업 히스토리: ""
-상위 항목: []
-Jira 결과: ""
-업무 구상: ["25dc6d43-3b4d-8080-b26f-ccd562ec8902"]
-생성 일시: "2025-09-12T12:12:00.000Z"
-주차: "38주차"
-하위 항목: []
-tags: ["notion-import", "업무리스트"]
+title: strategy팀 사용현황 파악
+date: '2025-09-15'
+type: project
+status: planned
 ---
 
 # 데이터 매핑관련 질문

@@ -1,18 +1,10 @@
 ---
-title: "Hadoop"
-source: notion
-notion_id: 215c6d43-3b4d-8001-a06f-c61dc64f2c63
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Technology", "Storage", "Hadoop"]
-링크: []
-최종편집시각: "2025-09-13T02:50:00.000Z"
-제목: ""
-상위 항목: ["26dc6d43-3b4d-804d-80d7-f1ec216b1e6d"]
-PARA: "Resource"
-tags: ["notion-import", "Storage", "Technology", "Hadoop", "레퍼런스"]
+title: Hadoop
+type: resource
+tags:
+- Hadoop
+- Storage
+- Technology
 ---
 
 ### 하둡의 등장

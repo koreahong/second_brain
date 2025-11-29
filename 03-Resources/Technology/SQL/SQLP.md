@@ -1,19 +1,8 @@
 ---
-title: "SQLP"
-source: notion
-notion_id: 248c6d43-3b4d-8001-b047-dd278e5208c8
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["SQLP"]
-링크: []
-최종편집시각: "2025-08-11T13:30:00.000Z"
-제목: ""
-상위 항목: []
-날짜: "2025-07-21"
-PARA: "Project"
-tags: ["레퍼런스", "SQLP", "notion-import"]
+title: SQLP
+type: resource
+tags:
+- SQLP
 ---
 
 In 으로 되어 있으면 skip scan 사용 못함
@@ -81,4 +70,3 @@ View 머징이 일어나지 않으면 실행계획에 view라고 써있고 push 
 Use concat은 or를 union all으로 변환, no_expand는 방지
 
 Stopkey는 인덱스로 정렬을 스킵하면서 원하는 조건에 부합하는 데이터를 빨리 찾는 것이다. 정렬을 안하는 방식으로 코드를 짜고 나머지컬럼은 테이블엑세스를 하더라도 행을 빨리 찾는게 이득일 경우에 사용하면 좋다 sqlp2 28 17
-

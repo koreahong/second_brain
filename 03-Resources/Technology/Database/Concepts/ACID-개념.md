@@ -1,17 +1,6 @@
 ---
-title: "ACID 개념"
-source: notion
-notion_id: 1dfc6d43-3b4d-80f9-b0b8-d9bd175cd44f
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2025-04-27T07:40:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["레퍼런스", "notion-import"]
+title: ACID 개념
+type: resource
 ---
 
 ## 개념
@@ -47,5 +36,4 @@ Eventual Consistency
 
 여러 서버가 있을때, 특정 인스턴스만 업데이트 되고 나머지는 업데이트가 아직 안됐을때, 서버간의 inconsistency 발생
 
-커밋할 때 발생하는 오류가 많기 때문에, 커밋이 진행되는 속도를 줄일 수 있어야 함. 
-
+커밋할 때 발생하는 오류가 많기 때문에, 커밋이 진행되는 속도를 줄일 수 있어야 함.

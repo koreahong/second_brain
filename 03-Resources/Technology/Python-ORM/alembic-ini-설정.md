@@ -1,17 +1,9 @@
 ---
-title: "alembic ini 설정"
-source: notion
-notion_id: 135c6d43-3b4d-80c5-95bd-c0d64483c07f
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["DB", "Alembic"]
-링크: ["https://learningtotest.com/2021/06/17/managing-alembic-migrations-with-a-single-alembic-ini-env-py/"]
-최종편집시각: "2024-11-06T00:52:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["레퍼런스", "DB", "Alembic", "notion-import"]
+title: alembic ini 설정
+type: resource
+tags:
+- Alembic
+- DB
 ---
 
 ## 개념
@@ -46,4 +38,3 @@ version_locations = alembic/aivelabs_sv
 ```
 
 alembic.ini 파일의 내용은 context.config(from alembic import context)로 가져올 수 있음
-

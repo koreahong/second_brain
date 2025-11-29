@@ -1,17 +1,9 @@
 ---
-title: "alembic 사용법"
-source: notion
-notion_id: 132c6d43-3b4d-800d-8bff-c98057d216f4
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["DB", "Alembic"]
-링크: ["https://storyofvector7.tistory.com/80"]
-최종편집시각: "2024-11-02T12:29:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["레퍼런스", "DB", "Alembic", "notion-import"]
+title: alembic 사용법
+type: resource
+tags:
+- Alembic
+- DB
 ---
 
 ## 개념
@@ -71,7 +63,6 @@ alembic revision -m "{commit 메세지}"
 	def downgrade():
 	    # 컬럼 삭제
 	    op.drop_column('users', 'age')
-
 
 3. 컬럼 이름 변경
 	def upgrade():
@@ -190,4 +181,3 @@ def downgrade():
     op.drop_constraint('uq_users_email', 'users', type_='unique')
     op.drop_constraint('ck_users_age', 'users', type_='check')
 ```
-

@@ -1,17 +1,10 @@
 ---
-title: "lambda by docker in documentation"
-source: notion
-notion_id: 140c6d43-3b4d-80ac-8c4e-f54a74842c2a
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["AWS", "Lambda", "ECR"]
-링크: ["https://docs.aws.amazon.com/ko_kr/prescriptive-guidance/latest/patterns/deploy-lambda-functions-with-container-images.html"]
-최종편집시각: "2024-11-16T17:13:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["AWS", "notion-import", "Lambda", "레퍼런스", "ECR"]
+title: lambda by docker in documentation
+type: resource
+tags:
+- ECR
+- Lambda
+- aws
 ---
 
 ## 개념
@@ -54,4 +47,3 @@ tags: ["AWS", "notion-import", "Lambda", "레퍼런스", "ECR"]
   ```
 
   workdir에 있는 app.py에 lambda_handler 함수를 실행한다는 뜻
-

@@ -1,15 +1,8 @@
 ---
-title: "[JYP ENTERTAINMENT] Software Engineer Data (경력)"
-source: notion
-notion_id: 229c6d43-3b4d-800f-8332-c79cdda965d6
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "(주)JYP엔터테인먼트"
-우선순위: "중"
-마감날짜: "2025-07-18"
-결과: "서탈"
-지원날짜: "2025-07-16"
-tags: ["notion-import", "커리어-지원내역"]
+title: '[JYP ENTERTAINMENT] Software Engineer Data (경력)'
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 <details>
@@ -145,7 +138,6 @@ AI CRM 서비스 플랫폼 구축
 - SQS + Lambda 기반 메시지 발송 시스템 설계 및 구현
 - 발송 성공/실패 로그를 저장하고, 재시도/모니터링을 위한 후속 처리 구성
 
-
 현대홈쇼핑 상품실적 시뮬레이션 및 트렌드 리포트 구축 프로젝트
 2022.04 - 2023.01
 6명 | 기여도 60%
@@ -202,4 +194,3 @@ AI CRM 서비스 플랫폼 구축
 <summary>면접</summary>
 
 </details>
-

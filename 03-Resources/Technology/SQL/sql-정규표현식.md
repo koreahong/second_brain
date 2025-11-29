@@ -1,18 +1,8 @@
 ---
-title: "sql 정규표현식"
-source: notion
-notion_id: 1f4c6d43-3b4d-8038-adcb-fbef78b644ad
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Query"]
-링크: []
-최종편집시각: "2025-06-04T10:17:00.000Z"
-제목: ""
-상위 항목: []
-PARA: "Resource"
-tags: ["Query", "레퍼런스", "notion-import"]
+title: sql 정규표현식
+type: resource
+tags:
+- Query
 ---
 
 ## ✅ PostgreSQL 정규표현식 문법
@@ -35,7 +25,6 @@ SELECT *
 FROM Users
 WHERE email ~ '^[a-zA-Z0-9_]+@[a-zA-Z]+\.(com|net|org)$'
 
-
 ```
 
 ### 2. 전화번호 형식 (010-1234-5678)
@@ -46,7 +35,6 @@ SELECT *
 FROM Phones
 WHERE number ~ '^010-\d{4}-\d{4}$';
 
-
 ```
 
 ### 3. 영문 이름만 필터링 (공백 없이)
@@ -56,7 +44,6 @@ WHERE number ~ '^010-\d{4}-\d{4}$';
 SELECT *
 FROM People
 WHERE name ~ '^[A-Za-z]+$';
-
 
 ```
 
@@ -74,7 +61,6 @@ WHERE name ~ '^[A-Za-z]+$';
 
 SELECT regexp_matches('abc123def', '[a-z]+');
 -- 결과: {"abc"} 첫 문자만 매칭
-
 
 ```
 
@@ -173,7 +159,6 @@ cardinality(string_to_array(content, '@'))
 
 cardinality(string_to_array(content, '@')) - 1 > 3
 
-
 ```
 
 ---
@@ -189,7 +174,6 @@ WHERE
     OR (cardinality(string_to_array(content, '@')) - 1) > 3
     OR (cardinality(string_to_array(content, '#')) - 1) > 3
 ORDER BY tweet_id;
-
 
 ```
 
@@ -228,7 +212,6 @@ postgresql에서 배열로 변환하면 이점이 있어?
 SELECT unnest(string_to_array(content, ' '))
 WHERE value LIKE '@%';
 
-
 ```
 
 👉 트윗에서 멘션만 추출 가능
@@ -243,7 +226,6 @@ WHERE value LIKE '@%';
 
 SELECT regexp_split_to_array('a@b@c@d', '@');
 -- 결과: {a, b, c, d}
-
 
 ```
 
@@ -280,7 +262,6 @@ WHERE
         WHERE word LIKE '@%'
     ) > 3;
 
-
 ```
 
 이렇게 하면 공백 기준으로 split 후, 진짜 @멘션만 카운트할 수 있습니다.
@@ -293,7 +274,6 @@ WHERE
 sql
 복사편집
 regexp_matches(source_text, pattern, [flags])
-
 
 ```
 
@@ -310,7 +290,6 @@ sql
 복사편집
 SELECT regexp_matches('hello #SQL and #Postgres', '(#[A-z]+)', 'g');
 
-
 ```
 
 📌 결과:
@@ -320,7 +299,6 @@ bash
 복사편집
 {#SQL}
 {#Postgres}
-
 
 ```
 
@@ -335,7 +313,6 @@ sql
 복사편집
 SELECT tweet_id, unnest(regexp_matches(tweet, '(#[A-z]+)', 'g')) AS hashtag
 FROM Tweets;
-
 
 ```
 
@@ -370,7 +347,6 @@ sql
 복사편집
 SELECT regexp_matches('hi #sql #data #AI', '(#[A-z]+)', 'g');
 
-
 ```
 
 📌 결과:
@@ -381,7 +357,6 @@ bash
 {#sql}
 {#data}
 {#AI}
-
 
 ```
 
@@ -398,7 +373,6 @@ sql
 복사편집
 SELECT regexp_matches('I love #SQL and #sql', '(#sql)', 'gi');
 
-
 ```
 
 📌 결과:
@@ -408,7 +382,6 @@ bash
 복사편집
 {#SQL}
 {#sql}
-
 
 ```
 

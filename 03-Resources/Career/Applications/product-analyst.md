@@ -1,15 +1,8 @@
 ---
-title: "product analyst"
-source: notion
-notion_id: 20fc6d43-3b4d-8090-9cce-db271520211a
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "뤼튼"
-우선순위: "중상"
-최종날짜: "2025-06-06"
-결과: "서탈"
-지원날짜: "2025-06-11"
-tags: ["notion-import", "커리어-지원내역"]
+title: product analyst
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 ## AI 유니콘의 기회, 놓치지 마세요!

@@ -1,19 +1,6 @@
 ---
-title: "upsert 쿼리"
-source: notion
-notion_id: dd4cb723-72b0-4b6d-b63a-faada1485f1f
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2024-10-20T07:15:00.000Z"
-제목: ""
-상위 항목: []
-날짜: "2024-02-23"
-PARA: "Resource"
-tags: ["레퍼런스", "notion-import"]
+title: upsert 쿼리
+type: resource
 ---
 
 ```plain text
@@ -86,4 +73,3 @@ mix_lv1 = EXCLUDED.mix_lv1,
 mix_lv2 = EXCLUDED.mix_lv2
 
 ```
-

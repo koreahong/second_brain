@@ -1,19 +1,8 @@
 ---
-title: "DW, DM"
-source: notion
-notion_id: dee850c1-62db-4886-97d9-861066c28f5b
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["DB"]
-링크: []
-최종편집시각: "2024-10-20T07:15:00.000Z"
-제목: ""
-상위 항목: []
-날짜: "2024-07-13"
-PARA: "Resource"
-tags: ["레퍼런스", "DB", "notion-import"]
+title: DW, DM
+type: resource
+tags:
+- DB
 ---
 
 # 레퍼런스
@@ -31,4 +20,3 @@ tags: ["레퍼런스", "DB", "notion-import"]
 요기요 빅쿼리 쿼리 최적화
 
 브로드 캐스트 조인
-

@@ -1,18 +1,6 @@
 ---
-title: "keycloak으로 Dag 권한관리"
-source: notion
-notion_id: 27fc6d43-3b4d-80a3-88ab-f5f41bb564ad
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2025-11-13T04:09:00.000Z"
-제목: ""
-상위 항목: ["26dc6d43-3b4d-80f7-a162-ed9945c8906b"]
-PARA: "Resource"
-tags: ["레퍼런스", "notion-import"]
+title: keycloak으로 Dag 권한관리
+type: resource
 ---
 
 # Airflow Keycloak 인증 & 권한 관리 시스템
@@ -676,4 +664,3 @@ Airflow의 인증/권한 시스템 플러그인 인터페이스
 ---
 
 이 문서를 기반으로 다른 개발자가 시스템을 이해하고 유지보수할 수 있습니다!
-

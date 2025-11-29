@@ -1,12 +1,11 @@
 ---
-title: "모니터링 및 DM 수정 대응"
-source: notion
-notion_id: 21ec6d43-3b4d-8085-bd6d-c5f02741c7a1
-imported: 2025-11-29
-database: 커리어
-선택: "영구"
-유형: ["힘들었던 시기", "역량", "문제해결"]
-tags: ["힘들었던 시기", "notion-import", "역량", "커리어", "문제해결"]
+title: 모니터링 및 DM 수정 대응
+type: resource
+tags:
+- 문제해결
+- 역량
+- 커리어
+- 힘들었던 시기
 ---
 
 ## 관점

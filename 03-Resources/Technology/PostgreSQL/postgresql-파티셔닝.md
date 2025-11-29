@@ -1,17 +1,8 @@
 ---
-title: "postgresql 파티셔닝"
-source: notion
-notion_id: 12fc6d43-3b4d-806d-8631-ef006b4017a7
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["DB"]
-링크: []
-최종편집시각: "2024-10-30T06:38:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["레퍼런스", "DB", "notion-import"]
+title: postgresql 파티셔닝
+type: resource
+tags:
+- DB
 ---
 
 ## 개념
@@ -49,4 +40,3 @@ tags: ["레퍼런스", "DB", "notion-import"]
     PARTITION OF aivelabs.ga_view_mart
     FOR VALUES IN ('{data_interval_end}');
     ```
-

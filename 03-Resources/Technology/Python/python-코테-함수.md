@@ -1,18 +1,8 @@
 ---
-title: "python 코테 함수"
-source: notion
-notion_id: 20ac6d43-3b4d-8022-b52c-fc5181e8c7e5
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["알고리즘"]
-링크: []
-최종편집시각: "2025-06-17T01:16:00.000Z"
-제목: ""
-상위 항목: []
-PARA: "Resource"
-tags: ["레퍼런스", "알고리즘", "notion-import"]
+title: python 코테 함수
+type: resource
+tags:
+- 알고리즘
 ---
 
 .count('1') 
@@ -31,4 +21,3 @@ from collections import Counter, defaultdict, deque
 - col = i % n
 zip(*arr2)
 → [[1,2,3], [4,5,6]] → [[1,4], [2,5], [3,6]]
-

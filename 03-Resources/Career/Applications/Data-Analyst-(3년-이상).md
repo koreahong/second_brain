@@ -1,13 +1,8 @@
 ---
-title: "Data Analyst (3년 이상)"
-source: notion
-notion_id: 215c6d43-3b4d-80ec-ae6a-c838ebcaadf0
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "버즈빌"
-우선순위: "중"
-결과: "대기"
-tags: ["notion-import", "커리어-지원내역"]
+title: Data Analyst (3년 이상)
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 <details>
@@ -64,4 +59,3 @@ https://www.buzzvil.com/career/culture_blog/7jR61BZhbYgo5tz2cvAxJS
 <summary>면접</summary>
 
 </details>
-

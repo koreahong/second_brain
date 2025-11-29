@@ -1,17 +1,6 @@
 ---
-title: "lambda db connection 관리"
-source: notion
-notion_id: 19ac6d43-3b4d-804d-a9a6-e8d91e074ebe
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2025-02-14T03:57:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["레퍼런스", "notion-import"]
+title: lambda db connection 관리
+type: resource
 ---
 
 ## 개념

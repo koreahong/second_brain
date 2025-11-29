@@ -1,19 +1,8 @@
 ---
-title: "Jenkins 학습"
-source: notion
-notion_id: ca6adaa2-fb3e-4bc8-9609-059722df8e17
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Jenkins"]
-링크: []
-최종편집시각: "2025-09-13T03:51:00.000Z"
-제목: ""
-상위 항목: ["26dc6d43-3b4d-8080-bd88-e3d9c3a3a847"]
-날짜: "2024-02-23"
-PARA: "Resource"
-tags: ["레퍼런스", "Jenkins", "notion-import"]
+title: Jenkins 학습
+type: resource
+tags:
+- Jenkins
 ---
 
 ## 젠킨스 서치

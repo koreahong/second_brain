@@ -1,14 +1,8 @@
 ---
-title: "Data Engineer"
-source: notion
-notion_id: 229c6d43-3b4d-8005-ae68-e3871e78e8c5
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "트릿지"
-우선순위: "중"
-마감날짜: "2025-08-02"
-결과: "대기"
-tags: ["notion-import", "커리어-지원내역"]
+title: Data Engineer
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 <details>
@@ -66,4 +60,3 @@ tags: ["notion-import", "커리어-지원내역"]
 <summary>면접</summary>
 
 </details>
-

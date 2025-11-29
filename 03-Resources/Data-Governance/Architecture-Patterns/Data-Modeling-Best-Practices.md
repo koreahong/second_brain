@@ -1,23 +1,11 @@
 ---
-title: "좋은 데이터 모델링이란"
-source: notion
-notion_id: 2a2c6d43-3b4d-806d-8ff5-d6be55a14984
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2025-11-05T08:39:00.000Z"
-제목: ""
-상위 항목: ["2a2c6d43-3b4d-806c-931a-eb9fde7b9793"]
-PARA: "Resource"
-tags: ["레퍼런스", "notion-import"]
+title: 좋은 데이터 모델링이란
+type: resource
 ---
 
 ### 출처
 
-🔖 [https://medium.com/@bassam.data.mediator/data-modeling-for-endurance-building-a-trusted-bigquery-warehouse-with-layers-and-kimball-thinking-a685f6d676c4](https://medium.com/@bassam.data.mediator/data-modeling-for-endurance-building-a-trusted-bigquery-warehouse-with-layers-and-kimball-thinking-a685f6d676c4)
+[https://medium.com/@bassam.data.mediator/data-modeling-for-endurance-building-a-trusted-bigquery-warehouse-with-layers-and-kimball-thinking-a685f6d676c4](https://medium.com/@bassam.data.mediator/data-modeling-for-endurance-building-a-trusted-bigquery-warehouse-with-layers-and-kimball-thinking-a685f6d676c4)
 
 ### 인사이트
 
@@ -181,7 +169,6 @@ source_customer_kakao
 source_customer_site
 | source_system | source_customer_id | name  | email               | last_login  |
 
-
 ```
 
 ### 2) Staging (통합 전처리)
@@ -190,7 +177,6 @@ source_customer_site
 stg_customer_all_channels
 | source_system | source_customer_id | name  | email               | last_login  |
 
-
 ```
 
 ### 3) Conformed Dimension (통합 고객)
@@ -198,7 +184,6 @@ stg_customer_all_channels
 ```plain text
 dim_customer_conformed
 | customer_sk | unified_customer_id | source_system | source_customer_id | name  | email               | last_login |
-
 
 ```
 
@@ -211,9 +196,7 @@ dim_customer_conformed
 fact_orders
 | order_id | source_system | source_customer_id | order_date | amount |
 
-
 ```
 
 - 분석 시 fact_orders를 dim_customer_conformed와 조인해 unified_customer_id 기준으로 집계
 </details>
-

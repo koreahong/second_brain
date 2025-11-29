@@ -1,18 +1,8 @@
 ---
-title: "Jira 개념"
-source: notion
-notion_id: 25cc6d43-3b4d-8006-8fc5-fa6bf0a1f773
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["JIRA"]
-링크: []
-최종편집시각: "2025-08-27T08:33:00.000Z"
-제목: ""
-상위 항목: []
-PARA: "Resource"
-tags: ["JIRA", "레퍼런스", "notion-import"]
+title: Jira 개념
+type: resource
+tags:
+- JIRA
 ---
 
 ## 🧱 Jira 이슈 타입 구조 정리 (기본적인 계층 포함)
@@ -68,8 +58,6 @@ Epic
  ├── Task 1
  │    ├── Sub-task D
 
-
 ```
 
 # Jira connections
-

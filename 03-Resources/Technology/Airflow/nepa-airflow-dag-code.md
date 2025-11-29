@@ -1,19 +1,8 @@
 ---
-title: "nepa airflow dag code"
-source: notion
-notion_id: c2bd9fa6-b263-4dfd-9f08-ff7103c48692
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Airflow"]
-링크: []
-최종편집시각: "2025-09-13T03:53:00.000Z"
-제목: ""
-상위 항목: ["26dc6d43-3b4d-80f7-a162-ed9945c8906b"]
-날짜: "2024-02-23"
-PARA: "Resource"
-tags: ["레퍼런스", "Airflow", "notion-import"]
+title: nepa airflow dag code
+type: resource
+tags:
+- airflow
 ---
 
 #airflow-chain #airflow-branch
@@ -96,14 +85,11 @@ trigger_step3_monthly = TriggerDagRunOperator(
     dag=dag,
 )
 
-
 trigger_step3_daily = TriggerDagRunOperator(
     task_id="trigger_step3_daily",
     trigger_dag_id="step3_daily",
     dag=dag,
 )
-
-
 
 check_status_all_done = EmptyOperator(
     task_id="check_status_all_done", trigger_rule=TriggerRule.ALL_DONE, dag=dag
@@ -157,25 +143,15 @@ import os
 
 import sys
 
-
-
 home_path = "/opt/airflow/scripts"
 
 file_paths = "/opt/airflow/sql/tableau/step0"
 
-
-
 sys.path.append(home_path)
-
-
 
 from airflow_common import *
 
-
-
 tables_config = conf.tables_config_tableau
-
-
 
 file_paths = sorted(
 
@@ -190,9 +166,6 @@ file_paths = sorted(
     ]
 
 )
-
-
-
 
 @dag(
 
@@ -216,17 +189,11 @@ file_paths = sorted(
 
 def tableau_step0_monthly():
 
-
-
     start = DummyOperator(task_id="start")
 
     end = DummyOperator(task_id="end")
 
-
-
     task_list = [start]
-
-
 
     # crtbatch -> mktbidb
 
@@ -238,15 +205,11 @@ def tableau_step0_monthly():
 
         destination_hook = PostgresHook(postgres_conn_id="tableau")
 
-
-
         # make tables in crtbatch
 
         source_query = open(query_path, "r").read()
 
         source_records = source_hook.get_records(source_query)
-
-
 
         if source_records:
 
@@ -254,13 +217,9 @@ def tableau_step0_monthly():
 
             destination_hook.insert_rows(destination_table, source_records)
 
-
-
     for file_path in file_paths:
 
         task_name = f"{file_path.replace('.sql', '')}".split(".")[-1]
-
-
 
         if "KPI_1_new_cus_info" in file_path:
 
@@ -278,8 +237,6 @@ def tableau_step0_monthly():
 
             destination_table = "aivelabs_sv.cus_bought_monthly"
 
-
-
         globals()[task_name] = execute_query.override(task_id=f"{task_name}")(
 
             file_path, destination_table
@@ -289,4 +246,3 @@ def tableau_step0_monthly():
         task_list.append(globals()[task_name])
 
 ```
-

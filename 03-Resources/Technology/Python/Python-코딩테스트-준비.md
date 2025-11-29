@@ -1,19 +1,8 @@
 ---
-title: "Python 코딩테스트 준비"
-source: notion
-notion_id: 20bc6d43-3b4d-8094-871a-ee7cce284d14
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["이직"]
-링크: []
-최종편집시각: "2025-06-19T04:43:00.000Z"
-제목: ""
-상위 항목: []
-날짜: "2025-06-06"
-PARA: "Project"
-tags: ["레퍼런스", "이직", "notion-import"]
+title: Python 코딩테스트 준비
+type: resource
+tags:
+- 이직
 ---
 
 <details>
@@ -39,7 +28,6 @@ tags: ["레퍼런스", "이직", "notion-import"]
 
 최단 거리, 최소 횟수: → 큐를 이용한 BFS
 
-
 간선위주로 연결하는 최소합을 구한다 → cost 오름차순 + Kruskal 
 
 문제가 순서, 흐름 등 관련이 있는거면 스택 / 큐 앞 시간에 의해 영향을 받는다 등
@@ -49,4 +37,3 @@ tags: ["레퍼런스", "이직", "notion-import"]
 최소 조건을 구한다 → 이진탐색 / BFS
 
 idx = (idx + K - 1) % len(people) # 리스트를 초과하더라도 초과한만큼 세는 로직
-

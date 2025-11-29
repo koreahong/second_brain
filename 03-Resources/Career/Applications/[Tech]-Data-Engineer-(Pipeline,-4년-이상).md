@@ -1,22 +1,14 @@
 ---
-title: "[Tech] Data Engineer (Pipeline, 4년 이상)"
-source: notion
-notion_id: 21cc6d43-3b4d-80c2-a657-fcff431ccca3
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "요기요"
-우선순위: "중상"
-최종날짜: "2025-06-19"
-결과: "서탈"
-지원날짜: "2025-06-20"
-tags: ["notion-import", "커리어-지원내역"]
+title: '[Tech] Data Engineer (Pipeline, 4년 이상)'
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 [우리를 소개해요]
 
 요기요 Data Platform은 데이터를 수집·가공·분석할 수 있는 시스템을 구축하고, 이해관계자들이 데이터를 기반으로 의사결정을 내릴 수 있도록 표준화된 데이터, 전사 지표를 지원하는 역할을 합니다.
 특히, Data Engineer(ETL) 직무는 요기요의 각 서비스에서 생성되는 내부 데이터, Real Time Data 및 공공 데이터를 수집하기 위한 Data Pipeline을 개발 하며, 효율적인 데이터 수집을 위한 Cloud Infra(AWS/Google Cloud)를 구축/운영하는 역할을 하고 있어요.
-
 
 [What you will get]
 
@@ -68,4 +60,3 @@ tags: ["notion-import", "커리어-지원내역"]
 
 • 요기피플을 위한 복지와 혜택을 링크를 통해 확인하세요!
 https://wesang.notion.site/4c694370b9714434bb15b65fcf7de7cb
-

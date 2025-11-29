@@ -1,19 +1,6 @@
 ---
-title: "trigger + function 연동"
-source: notion
-notion_id: d299eb45-79e3-4a49-b1ed-55706d7d0bf6
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2024-10-20T07:15:00.000Z"
-제목: ""
-상위 항목: []
-날짜: "2024-02-23"
-PARA: "Resource"
-tags: ["레퍼런스", "notion-import"]
+title: trigger + function 연동
+type: resource
 ---
 
 CREATE OR REPLACE FUNCTION set_dash_purchase_master_seq()
@@ -49,4 +36,3 @@ DROP FUNCTION IF EXISTS set_dash_purchase_master_seq();
 따라서, pk_seq를 pk로 사용하는 경우에는 구성하는 컬럼들이
 null이면 기본값이 들어갈 수 있게 설정을 해줘야 한다.
 ```
-

@@ -1,17 +1,6 @@
 ---
-title: "sqlalchemy type 주의사항"
-source: notion
-notion_id: 157c6d43-3b4d-8058-a9e8-eda24773fe8a
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2024-12-09T15:16:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["레퍼런스", "notion-import"]
+title: sqlalchemy type 주의사항
+type: resource
 ---
 
 ## 개념

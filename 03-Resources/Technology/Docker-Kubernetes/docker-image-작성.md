@@ -1,17 +1,8 @@
 ---
-title: "docker image 작성"
-source: notion
-notion_id: 13bc6d43-3b4d-8075-aebf-e6216ed61c6a
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Docker"]
-링크: []
-최종편집시각: "2024-11-16T17:19:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["레퍼런스", "Docker", "notion-import"]
+title: docker image 작성
+type: resource
+tags:
+- docker
 ---
 
 ## 개념

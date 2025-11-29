@@ -1,18 +1,8 @@
 ---
-title: "lateral 사용 == unpivotr"
-source: notion
-notion_id: 1f2c6d43-3b4d-80e3-a2da-ca7592025b10
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Query"]
-링크: []
-최종편집시각: "2025-05-20T07:43:00.000Z"
-제목: ""
-상위 항목: []
-PARA: "Resource"
-tags: ["Query", "레퍼런스", "notion-import"]
+title: lateral 사용 == unpivotr
+type: resource
+tags:
+- Query
 ---
 
 ```sql
@@ -53,4 +43,3 @@ SELECT product_id, 'store3' AS store, store3 AS price
 FROM Products
 WHERE store3 IS NOT NULL;
 ```
-

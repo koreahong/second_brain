@@ -1,17 +1,8 @@
 ---
-title: "bigquery 파티셔닝"
-source: notion
-notion_id: 12fc6d43-3b4d-80b3-a089-fe97b03b9cdb
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["DB"]
-링크: []
-최종편집시각: "2024-10-30T07:00:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["레퍼런스", "DB", "notion-import"]
+title: bigquery 파티셔닝
+type: resource
+tags:
+- DB
 ---
 
 ## 개념

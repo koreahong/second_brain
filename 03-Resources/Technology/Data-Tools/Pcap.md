@@ -1,18 +1,9 @@
 ---
-title: "Pcap"
-source: notion
-notion_id: 268c6d43-3b4d-8050-8797-dc5aae44f837
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Data Type", "Pcap"]
-링크: []
-최종편집시각: "2025-09-13T03:26:00.000Z"
-제목: ""
-상위 항목: ["26dc6d43-3b4d-80da-aa05-f83e1cf44389"]
-PARA: "Resource"
-tags: ["레퍼런스", "Pcap", "Data Type", "notion-import"]
+title: Pcap
+type: resource
+tags:
+- Data Type
+- Pcap
 ---
 
 ## 📊 PCAP vs Iceberg(같은 거버넌스 레이어) 비교

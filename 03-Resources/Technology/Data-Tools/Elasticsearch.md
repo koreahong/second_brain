@@ -1,19 +1,8 @@
 ---
-title: "Elasticsearch"
-source: notion
-notion_id: 164c6d43-3b4d-80ca-a298-c9a71c59df34
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["DB"]
-링크: []
-최종편집시각: "2024-12-22T10:22:00.000Z"
-제목: ""
-상위 항목: []
-날짜: "2024-12-22"
-PARA: "Resource"
-tags: ["레퍼런스", "DB", "notion-import"]
+title: Elasticsearch
+type: resource
+tags:
+- DB
 ---
 
 ## 개념

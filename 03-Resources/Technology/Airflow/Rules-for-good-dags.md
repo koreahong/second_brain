@@ -1,22 +1,11 @@
 ---
-title: "Rules for good dags"
-source: notion
-notion_id: 39445c40-368f-4061-90e1-3f09dc0811b7
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Airflow"]
-링크: []
-최종편집시각: "2024-10-20T07:15:00.000Z"
-제목: ""
-상위 항목: []
-날짜: "2024-06-11"
-PARA: "Resource"
-tags: ["레퍼런스", "Airflow", "notion-import"]
+title: Rules for good dags
+type: resource
+tags:
+- airflow
 ---
 
-🔖 [https://www.astronomer.io/docs/learn/dag-best-practices?tab=good-practice#treat-your-dag-file-like-a-config-file](https://www.astronomer.io/docs/learn/dag-best-practices?tab=good-practice#treat-your-dag-file-like-a-config-file)
+[https://www.astronomer.io/docs/learn/dag-best-practices?tab=good-practice#treat-your-dag-file-like-a-config-file](https://www.astronomer.io/docs/learn/dag-best-practices?tab=good-practice#treat-your-dag-file-like-a-config-file)
 
 ---
 

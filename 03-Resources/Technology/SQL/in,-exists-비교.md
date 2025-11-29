@@ -1,18 +1,8 @@
 ---
-title: "in, exists 비교"
-source: notion
-notion_id: 1f2c6d43-3b4d-8070-bd14-e0ea06b4d283
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Query"]
-링크: []
-최종편집시각: "2025-05-19T02:09:00.000Z"
-제목: ""
-상위 항목: []
-PARA: "Resource"
-tags: ["Query", "레퍼런스", "notion-import"]
+title: in, exists 비교
+type: resource
+tags:
+- Query
 ---
 
 ## ✅ 먼저, IN의 NULL 문제
@@ -25,7 +15,6 @@ sql
 select *
 from users
 where user_id in (1, 2, null);
-
 
 ```
 
@@ -49,7 +38,6 @@ where exists (
     where l.user_id = u.user_id  -- l.user_id가 NULL이어도 됨
 );
 
-
 ```
 
 - EXISTS는 서브쿼리 결과가 한 행이라도 있으면 True
@@ -69,7 +57,6 @@ sql
 select 1
 where 1 in (null, 2);  -- 결과 없음!
 
-
 ```
 
 - null이 포함되어 있으면 → 1 = null → UNKNOWN
@@ -84,7 +71,6 @@ where exists (
     select 1
     where null is null  -- 이 조건은 True
 );
-
 
 ```
 
@@ -127,7 +113,6 @@ select name
 from users
 where dept_id in (select id from departments where region = 'KR');
 
-
 ```
 
 → dept_id가 'KR' 지역에 있는 부서 중 하나에 속한 사람
@@ -148,7 +133,6 @@ where exists (
     from departments d
     where d.region = 'KR' and d.id = u.dept_id
 );
-
 
 ```
 
@@ -173,7 +157,6 @@ select name
 from users
 where dept_id not in (select id from departments);  -- id에 NULL 있으면 전체 결과 없음!
 
-
 ```
 
 - departments.id에 NULL이 있으면 → 전체 dept_id not in (...) 조건이 UNKNOWN → 모두 실패
@@ -192,7 +175,6 @@ where not exists (
     from departments d
     where d.id = u.dept_id
 );
-
 
 ```
 

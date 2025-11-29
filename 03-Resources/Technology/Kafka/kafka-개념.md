@@ -1,18 +1,8 @@
 ---
-title: "kafka 개념"
-source: notion
-notion_id: 16fc6d43-3b4d-8013-a441-ea82064e084f
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Kafka"]
-링크: ["https://velog.io/@holicme7/Apache-Kafka-%EC%B9%B4%ED%94%84%EC%B9%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80"]
-최종편집시각: "2025-09-13T03:50:00.000Z"
-제목: ""
-상위 항목: ["26dc6d43-3b4d-80ef-9be9-e48bcd32d4d5"]
-PARA: "Resource"
-tags: ["레퍼런스", "Kafka", "notion-import"]
+title: kafka 개념
+type: resource
+tags:
+- Kafka
 ---
 
 ## 개념

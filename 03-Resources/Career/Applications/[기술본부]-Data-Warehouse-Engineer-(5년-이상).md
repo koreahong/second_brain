@@ -1,13 +1,8 @@
 ---
-title: "[기술본부] Data Warehouse Engineer (5년 이상)"
-source: notion
-notion_id: 229c6d43-3b4d-803e-8f73-c29d6240280e
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "데브시스터즈(Devsisters)"
-우선순위: "중하"
-결과: "대기"
-tags: ["notion-import", "커리어-지원내역"]
+title: '[기술본부] Data Warehouse Engineer (5년 이상)'
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 <details>
@@ -64,4 +59,3 @@ Data Warehouse Engineer와 Data Analyst로 구성된 데이터인텔리전스 �
 <summary>면접</summary>
 
 </details>
-

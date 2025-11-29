@@ -1,18 +1,9 @@
 ---
-title: "Data Governance"
-source: notion
-notion_id: 25bc6d43-3b4d-808c-8c99-e7851455d4fe
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: ["263c6d43-3b4d-80ea-a4ea-fbd239419f81", "262c6d43-3b4d-808a-8232-e82ef63dd6b0", "262c6d43-3b4d-80f9-bfa5-c6d71e3b4ff2", "267c6d43-3b4d-80b0-9c91-cfb3e71d5e6f", "26dc6d43-3b4d-8091-b05b-d27ddd0d8963", "26dc6d43-3b4d-80c8-88a8-e625bc9f244d", "26dc6d43-3b4d-807e-997b-fd9a54cfd8d2", "2a2c6d43-3b4d-806c-931a-eb9fde7b9793", "27ac6d43-3b4d-8052-a5f2-f403b11d9aab"]
-구상기록: []
-구분: ["Data Governance", "Policy"]
-링크: []
-최종편집시각: "2025-11-05T01:52:00.000Z"
-제목: ""
-상위 항목: ["26dc6d43-3b4d-8025-9929-c4616539d382"]
-PARA: "Resource"
-tags: ["레퍼런스", "Policy", "Data Governance", "notion-import"]
+title: Data Governance
+type: resource
+tags:
+- Data Governance
+- Policy
 ---
 
 <details>
@@ -75,7 +66,6 @@ tags: ["레퍼런스", "Policy", "Data Governance", "notion-import"]
 | 주문체결 | 금융사 전용 TCP | 리서치1팀 | 실시간 | 전략 백테스트 | NAS 서버 | 없음 |
 | KOSPI 일별 | Snowflake | 전략팀 | 배치 | 리스크 관리 | Snowflake | O (중복/결측 체크) |
 
-
 ```
 
 ✅ Step 2: 카탈로그/계보 연결
@@ -101,4 +91,3 @@ tags: ["레퍼런스", "Policy", "Data Governance", "notion-import"]
 - 보완책
   - “카탈로그 & 계보”부터 시작 → Visibility 확보 → 신뢰 구축 → 점진적 통합
 </details>
-

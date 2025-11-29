@@ -1,18 +1,6 @@
 ---
-title: "cursor"
-source: notion
-notion_id: 28dc6d43-3b4d-8069-b03e-cf66739815db
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2025-10-15T01:42:00.000Z"
-제목: ""
-상위 항목: ["28dc6d43-3b4d-807f-af4a-fa3fe749d343"]
-PARA: "Resource"
-tags: ["레퍼런스", "notion-import"]
+title: cursor
+type: resource
 ---
 
 ### New Chat창 열기

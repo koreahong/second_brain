@@ -1,17 +1,6 @@
 ---
-title: "AI 보조 코딩이 소프트웨어 엔지니어링을 어떻게 바꿀 것인가: 불편한 진실 | GeekNews"
-source: notion
-notion_id: 17ac6d43-3b4d-810d-acfc-da7ce73c0cf1
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2025-05-07T05:00:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["레퍼런스", "notion-import"]
+title: 'AI 보조 코딩이 소프트웨어 엔지니어링을 어떻게 바꿀 것인가: 불편한 진실 | GeekNews'
+type: resource
 ---
 
 https://news.hada.io/topic?id=18712

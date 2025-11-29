@@ -1,19 +1,6 @@
 ---
-title: "flowchart"
-source: notion
-notion_id: b4ffdd8b-adae-4afe-83b4-40a260526373
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2024-10-20T07:16:00.000Z"
-제목: ""
-상위 항목: []
-날짜: "2024-07-16"
-PARA: "Resource"
-tags: ["레퍼런스", "notion-import"]
+title: flowchart
+type: resource
 ---
 
 # 레퍼런스
@@ -23,4 +10,3 @@ tags: ["레퍼런스", "notion-import"]
 - 예식
 
 ![image](https://prod-files-secure.s3.us-west-2.amazonaws.com/1015f006-5818-41f3-a45f-dc51ac449539/d7350f4d-7e9c-477e-8b18-5520d8487c9f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XZDBKTDF%2F20251129%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251129T021215Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHFIvmguYSjA2fRrSCHgFuCc8P%2B%2BJLHRSaPH13quN%2FH%2BAiEA1NjOcHIFzftp8e2LiR4vRIXI2GdEHQuVLhsPNNEZA2AqiAQIvv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEtzoiHlr%2F3qMGPjfSrcAz3u4p47rpSW1aFcv2KmtZYVSS3d0zCSLQN9%2FQ4adTcoP8AAh9HQHLA54%2BNL%2Fg1qc4Zwm%2BdW0MODGFPTsj2AUI4YsYS4gvwGrQyGTniBMMJtbnXhBjzdRZvI%2BpxL9P%2Bu8NcWtSrM5qBhIvzkgh5WjXCm212rgcTsmcBt%2BjISAvOkle1JCpsTRt7p%2FuwuuJ%2FAwvGVkfaU6xXvRoVdofkKW1hd%2FNcA8lL2nHJqK0yW1BnMd6wAbTWjk5bOC5rF7aZDEVY7I6zEHOXBrp3YkclAI3mjNXXFICSvU6QI4qStVCaLCD6kvuIPSu%2Fhtxh2TbiVIIOf1PpAD42wcUE%2FxORXjXHlXsnACjYEccI2rJcdvX1AXaW6dTS5ht2BQvJMURAW%2BYb7NE25Iq8O8ct2IWVVK9D5CLBhC1HU9FaKHbIvotr4Sw%2B0APFaVV3hGtPmPXa4HlJyPq3jS6fQ8z1nm1DC%2FMrtEbeFVNPYezr8ImFqT6llXna9tTZy1trR5NXUHnVQFECRHXLbKvG6PVYkUQ%2FnZSQGvb23C76%2FDFbnAgwdsVBmSKxhAEw%2FVc%2FfZYXmoHz1VgDyquRILDjc38PKos6ndKrPnNLPKHX0otyPKwhhoOSU3grdlz3jzuihLfMNMOiXqMkGOqUBmXBD5VFtbfFG6tuHAh%2BIJmbjEoV%2BbE25SDe4esTLynz2%2FPgWFW4WcX4uDTJTMXWBW5QxFw2vW82aHjYqXX5k3zIUzA1IrsZQgMuYAiNrS%2Fk4CYz12Z1g59UqufG1O%2BwT8Y4GFNanKFKVj4Yp%2F6jBo%2FcNJZniByPxcWs5MSFG%2BtK%2BHEaWf107DSr6ci5zjMlYdbJAOsuoEIUhANGgzp3i4f16pVNv&X-Amz-Signature=652fed5c4843b15dd15f9f44267bca16b8b0e542c0a20dd078609dfefaffb380&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
-

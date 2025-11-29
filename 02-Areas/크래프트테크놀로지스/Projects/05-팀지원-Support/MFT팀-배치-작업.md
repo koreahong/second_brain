@@ -1,24 +1,8 @@
 ---
-title: "MFT팀 배치 작업"
-source: notion
-notion_id: 271c6d43-3b4d-807e-9f34-da2e73bf1f12
-imported: 2025-11-29
-database: 업무리스트
-태그: []
-Git 커밋: ""
-Jira Key: ""
-상태: "완료"
-시행착오 (Trial & Error): ""
-업무 구상 1: []
-날짜: "2025-09-22"
-작업 히스토리: ""
-상위 항목: []
-Jira 결과: ""
-업무 구상: ["279c6d43-3b4d-8096-bea5-d5b12d3b892a"]
-생성 일시: "2025-09-17T05:56:00.000Z"
-주차: "39주차"
-하위 항목: []
-tags: ["notion-import", "업무리스트"]
+title: MFT팀 배치 작업
+date: '2025-09-22'
+type: project
+status: planned
 ---
 
 ### 원천 파악
@@ -47,4 +31,3 @@ stocks raw에 데이터 넣기
 daily → raw 배치 확인하기
 
 휴장체크를 어떻게 하지? → 화-토 배치 주기 설정
-

@@ -1,13 +1,8 @@
 ---
-title: "Data Engineer 3년 이상"
-source: notion
-notion_id: 229c6d43-3b4d-8091-9df4-d96bd30818fd
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "에이비일팔공(AB180)"
-우선순위: "중상"
-결과: "대기"
-tags: ["notion-import", "커리어-지원내역"]
+title: Data Engineer 3년 이상
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 <details>
@@ -42,4 +37,3 @@ AB180은 광고 성과 분석 솔루션 Airbridge를 개발하는 B2B SaaS 스�
 <summary>면접</summary>
 
 </details>
-

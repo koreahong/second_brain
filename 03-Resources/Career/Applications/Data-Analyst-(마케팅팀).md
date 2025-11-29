@@ -1,13 +1,8 @@
 ---
-title: "Data Analyst (마케팅팀)"
-source: notion
-notion_id: 215c6d43-3b4d-809b-9267-ec1cc7c91f1f
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "타다"
-우선순위: "중"
-결과: "종료"
-tags: ["notion-import", "커리어-지원내역"]
+title: Data Analyst (마케팅팀)
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 <details>
@@ -40,4 +35,3 @@ tags: ["notion-import", "커리어-지원내역"]
 채용 전형[채용 Process]• 서류 전형 - 온라인 SQL 테스트(live) - 직무 적합성 인터뷰 - 최종(컬쳐핏) 인터뷰 - 연봉 및 처우 협상 - 최종 합격
 
 </details>
-

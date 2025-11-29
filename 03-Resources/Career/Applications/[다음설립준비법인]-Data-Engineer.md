@@ -1,15 +1,8 @@
 ---
-title: "[다음설립준비법인] Data Engineer"
-source: notion
-notion_id: 1ffc6d43-3b4d-805b-9fd9-cb3f106fcf45
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "카카오 다음"
-우선순위: "중"
-최종날짜: "2025-06-16"
-결과: "서탈"
-지원날짜: "2025-05-23"
-tags: ["notion-import", "커리어-지원내역"]
+title: '[다음설립준비법인] Data Engineer'
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 ### 카카오(KAKAO)∙경기 성남시∙경력 3-5년[다음설립준비법인] Data Engineer
@@ -31,4 +24,3 @@ tags: ["notion-import", "커리어-지원내역"]
 자격요건• 컴퓨터공학, 통계학, 전산학 등 관련 전공에 대한 기본적인 이해• Python / Java 기반 데이터 처리, REST API 개발• 데이터 파이프라인 구축 경험 (ETL/ELT 설계 및 운영)• SQL 및 DW(BigQuery, Hive 등) 활용 개발• Grafana, Tableau, Metabase 등 BI 도구 중 하나 이상 사용 경험
 
 우대사항• 광고 및 서비스 지표 데이터 분석 경험 보유• 코호트/퍼널 지표 설계 및 집계 자동화 경험 보유• Apache Airflow, Spark, Kafka 등 데이터 처리/스케줄링 도구 경험• DW/BI용 데이터 마트 설계 경험 보유
-

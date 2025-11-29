@@ -1,15 +1,8 @@
 ---
-title: "[Tech] Data Engineer - 데이터 파이프라인 개발 및 운영(DSP, 팩토리)"
-source: notion
-notion_id: 1edc6d43-3b4d-807e-9f04-d5a79f59cf7b
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "현대오토에버"
-우선순위: "중"
-최종날짜: "2025-07-03"
-결과: "면탈"
-지원날짜: "2025-04-29"
-tags: ["notion-import", "커리어-지원내역"]
+title: '[Tech] Data Engineer - 데이터 파이프라인 개발 및 운영(DSP, 팩토리)'
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 <details>
@@ -121,7 +114,7 @@ tags: ["notion-import", "커리어-지원내역"]
 <details>
 <summary>코테</summary>
 
-🔖 [https://crush-on-study.tistory.com/261#google_vignette](https://crush-on-study.tistory.com/261#google_vignette)
+[https://crush-on-study.tistory.com/261#google_vignette](https://crush-on-study.tistory.com/261#google_vignette)
 
 </details>
 
@@ -147,4 +140,3 @@ power bi랑 태블로 비교
 마지막 질문
 
 </details>
-

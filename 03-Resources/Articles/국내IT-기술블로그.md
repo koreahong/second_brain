@@ -1,17 +1,6 @@
 ---
-title: "국내IT 기술블로그"
-source: notion
-notion_id: 191c6d43-3b4d-8168-a078-f4cd8f1fbf0b
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2025-05-07T05:00:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["레퍼런스", "notion-import"]
+title: 국내IT 기술블로그
+type: resource
 ---
 
 https://blog.wonkooklee.com/blog/20250201_01
@@ -85,4 +74,3 @@ self-hosted로 직접 만든 곳도 있고, Jekyll 같은 SSG를 사용하거나
 마크다운 지원되는 노트 앱에 붙여넣기 편하도록 코드 블럭에 넣어 제공해드립니다.
 
 코드 블럭 우측 상단에 "복사하기" 아이콘을 누르면 클립보드에 복사됩니다.
-

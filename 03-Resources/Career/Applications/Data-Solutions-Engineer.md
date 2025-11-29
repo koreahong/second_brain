@@ -1,14 +1,8 @@
 ---
-title: "Data Solutions Engineer"
-source: notion
-notion_id: 232c6d43-3b4d-8095-a5b4-f90685824f7e
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "ada"
-우선순위: "중"
-결과: "드랍"
-지원날짜: "2025-07-16"
-tags: ["notion-import", "커리어-지원내역"]
+title: Data Solutions Engineer
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 <details>
@@ -69,4 +63,3 @@ ADA Korea 대표 / 그로스해커 & 데이터사이언티스트고영혁.
 <summary>면접</summary>
 
 </details>
-

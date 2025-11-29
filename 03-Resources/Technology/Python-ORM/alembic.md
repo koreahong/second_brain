@@ -1,18 +1,6 @@
 ---
-title: "alembic"
-source: notion
-notion_id: 271c6d43-3b4d-8057-9845-e0f92959c100
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: ["271c6d43-3b4d-8068-a0fb-c82e3175ec72", "271c6d43-3b4d-80d7-9709-f90f044fb71a", "27ec6d43-3b4d-80e8-b089-f42fab5f7ab3"]
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2025-09-30T07:05:00.000Z"
-제목: ""
-상위 항목: ["26dc6d43-3b4d-801f-9b01-f92f121a8f37"]
-PARA: "Resource"
-tags: ["레퍼런스", "notion-import"]
+title: alembic
+type: resource
 ---
 
 ### 스키마 위치 변경시
@@ -43,7 +31,6 @@ def upgrade():
 def downgrade():
     # 되돌리기 (다시 public으로)
     op.execute("ALTER TABLE mft.users SET SCHEMA public")
-
 
 ```
 
@@ -77,7 +64,6 @@ def downgrade():
         SELECT id, name FROM mft.users
     """)
     op.drop_table("users", schema="mft")
-
 
 ```
 

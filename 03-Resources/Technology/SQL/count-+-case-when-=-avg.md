@@ -1,18 +1,8 @@
 ---
-title: "count + case when = avg"
-source: notion
-notion_id: 1f2c6d43-3b4d-8038-b206-da612648f1a6
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Query"]
-링크: []
-최종편집시각: "2025-05-19T02:09:00.000Z"
-제목: ""
-상위 항목: []
-PARA: "Resource"
-tags: ["Query", "레퍼런스", "notion-import"]
+title: count + case when = avg
+type: resource
+tags:
+- Query
 ---
 
 ```sql
@@ -52,4 +42,3 @@ left join Confirmations c
 group by
     s.user_id;
 ```
-

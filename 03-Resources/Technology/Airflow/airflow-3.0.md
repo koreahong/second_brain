@@ -1,18 +1,6 @@
 ---
-title: "airflow 3.0"
-source: notion
-notion_id: 270c6d43-3b4d-80bb-9b0d-ecce776c5bf0
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: ["276c6d43-3b4d-8063-bb28-e1c4ba944699", "277c6d43-3b4d-8039-a343-ca4242c14fb3"]
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2025-09-23T02:29:00.000Z"
-제목: ""
-상위 항목: ["26dc6d43-3b4d-80f7-a162-ed9945c8906b"]
-PARA: "Resource"
-tags: ["레퍼런스", "notion-import"]
+title: airflow 3.0
+type: resource
 ---
 
 ## Asset 개념
@@ -36,7 +24,6 @@ with DAG(...):
         bash_command="echo hello > /tmp/output.txt && aws s3 cp /tmp/output.txt s3://dag1/output_1.txt",
         outlets=[dag1_asset],
     )
-
 
 ```
 
@@ -62,7 +49,6 @@ with DAG(
         task_id="consuming_1",
         bash_command="echo consuming asset1",
     )
-
 
 ```
 
@@ -90,7 +76,6 @@ s3_sensor = S3KeySensor(
     poke_interval=60,
     timeout=600,
 )
-
 
 ```
 
@@ -256,4 +241,3 @@ with DAG(
 ## dbt 작성
 
 ## datahub 연결
-

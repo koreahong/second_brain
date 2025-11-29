@@ -1,24 +1,8 @@
 ---
-title: "HFT팀 NYSE ARCA 데이터 찾기"
-source: notion
-notion_id: 26bc6d43-3b4d-8032-a6ef-fa4acb21c064
-imported: 2025-11-29
-database: 업무리스트
-태그: []
-Git 커밋: ""
-Jira Key: ""
-상태: "완료"
-시행착오 (Trial & Error): ""
-업무 구상 1: []
-날짜: "2025-09-10 - 2025-09-12"
-작업 히스토리: ""
-상위 항목: []
-Jira 결과: ""
-업무 구상: ["26bc6d43-3b4d-809c-9825-f02505ef6c95"]
-생성 일시: "2025-09-11T00:38:00.000Z"
-주차: "37주차"
-하위 항목: []
-tags: ["notion-import", "업무리스트"]
+title: HFT팀 NYSE ARCA 데이터 찾기
+date: 2025-09-10 - 2025-09-12
+type: project
+status: planned
 ---
 
 1. 컨플 뒤지기
@@ -32,4 +16,3 @@ tags: ["notion-import", "업무리스트"]
 혹시 모르니까 김민찬님에게도 물어봄
 ⇒ 주연님이 notebook 얘기했는데 찾아봐야 할듯
 1. 준일님한테 노트북 다른 서버로 있는지 물어봄
-

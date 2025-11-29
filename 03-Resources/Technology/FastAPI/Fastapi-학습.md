@@ -1,19 +1,8 @@
 ---
-title: "Fastapi 학습"
-source: notion
-notion_id: 6914010f-3647-48cf-af0d-a247825a33f7
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["FastAPI"]
-링크: []
-최종편집시각: "2025-09-13T03:54:00.000Z"
-제목: ""
-상위 항목: ["26dc6d43-3b4d-80a3-b609-fcad9fbf7e51"]
-날짜: "2024-02-23"
-PARA: "Resource"
-tags: ["레퍼런스", "FastAPI", "notion-import"]
+title: Fastapi 학습
+type: resource
+tags:
+- FastAPI
 ---
 
 Django, Flask이다. 비교적 가벼운 웹개발이라면 Flask를 사용했고 조금 더 볼륨있는 프로젝트라면 Django를 사용했다.

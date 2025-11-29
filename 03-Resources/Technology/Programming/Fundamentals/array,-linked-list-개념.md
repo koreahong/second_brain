@@ -1,18 +1,9 @@
 ---
-title: "array, linked list 개념"
-source: notion
-notion_id: 1f1c6d43-3b4d-80d8-aa33-d7351b3a6ae4
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["알고리즘", "자료구조"]
-링크: ["https://drive.google.com/drive/folders/1ci3cy4TaN-BI7alJrBKRf0OGeb7FYEvy"]
-최종편집시각: "2025-05-19T02:09:00.000Z"
-제목: ""
-상위 항목: []
-PARA: "Resource"
-tags: ["레퍼런스", "자료구조", "알고리즘", "notion-import"]
+title: array, linked list 개념
+type: resource
+tags:
+- 알고리즘
+- 자료구조
 ---
 
 ## 개념
@@ -115,4 +106,3 @@ class linkedList:
         prev = self.get_node(index - 1)
         prev.next = prev.next.next
 ```
-

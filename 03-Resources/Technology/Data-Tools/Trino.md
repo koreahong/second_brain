@@ -1,18 +1,8 @@
 ---
-title: "Trino"
-source: notion
-notion_id: 263c6d43-3b4d-804a-a1cb-d7ba3eb316cd
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Trino"]
-링크: []
-최종편집시각: "2025-09-13T02:51:00.000Z"
-제목: ""
-상위 항목: ["26dc6d43-3b4d-80c4-809e-f2d8f9c5eafa"]
-PARA: "Resource"
-tags: ["레퍼런스", "Trino", "notion-import"]
+title: Trino
+type: resource
+tags:
+- Trino
 ---
 
 ## 🔹 Trino
@@ -42,4 +32,3 @@ tags: ["레퍼런스", "Trino", "notion-import"]
 👉 그래서 리서처 중심 조직에서는 “아무것도 안 해도 빠른 게 좋다” → Dremio 유리
 
 👉 엔지니어링 팀이 있고 “우리가 직접 최적화할게” → Trino 유리
-

@@ -1,24 +1,8 @@
 ---
-title: "postgres / snowflake 권한관리"
-source: notion
-notion_id: 271c6d43-3b4d-8019-b9fd-ddb80b6fedc2
-imported: 2025-11-29
-database: 업무리스트
-태그: []
-Git 커밋: ""
-Jira Key: ""
-상태: "완료"
-시행착오 (Trial & Error): ""
-업무 구상 1: []
-날짜: "2025-10-10"
-작업 히스토리: ""
-상위 항목: []
-Jira 결과: ""
-업무 구상: ["288c6d43-3b4d-80c5-91fc-d09666ca7443"]
-생성 일시: "2025-09-17T06:17:00.000Z"
-주차: "41주차"
-하위 항목: []
-tags: ["notion-import", "업무리스트"]
+title: postgres / snowflake 권한관리
+date: '2025-10-10'
+type: project
+status: planned
 ---
 
 postgres도 organization이 있어서 
@@ -29,7 +13,6 @@ postgres도 organization이 있어서
 SELECT ROLE
 FROM SNOWFLAKE.ACCOUNT_USAGE.GRANTS_TO_USERS
 WHERE GRANTEE_NAME = 'LONG_TERM_STG';
-
 
 LONG_TERM_STG_ROLE;
 show roles;
@@ -56,11 +39,9 @@ EMAIL = 'jaehyeok.heo@qraftec.com'
 MUST_CHANGE_PASSWORD = true
 DEFAULT_WAREHOUSE = data_engineer;
 
-
 GRANT ROLE public TO USER "hoesu.chung";
 GRANT ROLE public TO USER "dongyeon.park";
 SHOW MFA METHODS FOR USER LONG_TERM_STG_TEAM2;
-
 
 GRANT ROLE LONG_TERM_STG_ROLE TO USER "dongyeon.park";;
 GRANT ROLE LONG_TERM_STG_TEAM2 TO USER "dongyeon.park";
@@ -143,7 +124,6 @@ CREATE STORAGE INTEGRATION portpolio_rebalancing
   STORAGE_ALLOWED_LOCATIONS = ('s3://portpolio-rebalancing/')
   COMMENT = 'Snowflake <-> Qraft S3 connection for rebalancing data';
 
-
 DESC STORAGE INTEGRATION portpolio_rebalancing; 'ExternalId' 확인
 
 s3 정책 설정
@@ -174,10 +154,8 @@ CREATE STAGE qraft_origin.staging.portpolio_rebalancing
 ALTER STAGE qraft_origin.staging.portpolio_rebalancing 
 SET DIRECTORY = (ENABLE = TRUE);
 
-
 LIST @qraft_origin.staging.portpolio_rebalancing;
 ALTER STAGE qraft_origin.staging.portpolio_rebalancing REFRESH;
-
 
 SELECT 
     p.portid,
@@ -228,13 +206,11 @@ from typing import Sequence, Union
 from alembic import op
 import sqlalchemy as sa
 
-
 # revision identifiers, used by Alembic.
 revision: str = "a7c3f8d29e41"
 down_revision: Union[str, Sequence[str], None] = "b40f0d315567"
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
-
 
 def execute_statements(statements: list[str]) -> None:
     """Execute multiple SQL statements individually for Snowflake."""
@@ -242,7 +218,6 @@ def execute_statements(statements: list[str]) -> None:
         stmt = stmt.strip()
         if stmt and not stmt.startswith("--"):
             op.execute(stmt)
-
 
 def upgrade() -> None:
     """Setup RBAC permissions for Snowflake."""
@@ -356,7 +331,6 @@ def upgrade() -> None:
         ]
     )
 
-
 def downgrade() -> None:
     """Remove RBAC permissions and roles."""
 
@@ -435,4 +409,3 @@ def downgrade() -> None:
     )
 
 ```
-

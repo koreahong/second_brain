@@ -1,18 +1,6 @@
 ---
-title: "Snowflake conference"
-source: notion
-notion_id: 268c6d43-3b4d-8022-9512-cfd7d9a92b08
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2025-09-08T04:54:00.000Z"
-제목: ""
-상위 항목: []
-PARA: "Resource"
-tags: ["레퍼런스", "notion-import"]
+title: Snowflake conference
+type: resource
 ---
 
 ![image](https://prod-files-secure.s3.us-west-2.amazonaws.com/1015f006-5818-41f3-a45f-dc51ac449539/159ffd8b-eaa6-44f7-92d7-b075e2826c85/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-09-08_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_1.52.20.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QTE63UTS%2F20251129%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251129T020626Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAqjuq%2FZkxyQPk9gtYDOdyDAS0meE2pBOrTZ5%2FMyIIzvAiATJDxPsiw6WCSguKtCCnVa8W8BF0XtkdmDW9OS5Q2qDiqIBAjC%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMgCaZpw47ibX1sIQjKtwDcotGUU%2BW2%2FpJPrTDNNLRkPjNZCrKQtiyEpRgdYCetN746imj8OxDPxohmt5%2FQdEvas0B2EZOSxMRVjDOmGYDmd%2Bl8xQ6oa1UXiNwZ0tmHYP130kphgcYoG6DNvNseOB4xOUTY6p%2B%2F45%2Br6NlCNBvD%2Fb4YSLXD7UQ4fRr8FIKGqofKTEncfAa3WppoDFBRLYgds3G%2F7cQnPNT0qXZ5lQIFUjdKNFE6rT5KHAxnYe%2FFeB7pi1ao3NRDAy6buY%2Fn3m90dTs4e23KqAHXk%2F%2FgIRGYqUDZVpnR3%2B6PKu1VCBy7rLaJa4SRt5bPZjnpDw09BMgQZ8yu%2BykoEpU0ZhSFhpWC3K5yERFoJFQGHFOdiksZCW2%2Bg9G87SjWkatTtz8bIrqtgpWVMc8D4Kt%2BlOZI4W24HO%2BhsMojbdyW9fWK0fe2rkK0JtQekNCZCPKzGmLCtpYRDKsmo%2BLbw6q45iWGebkdS8AcFDYc9pvB4yyjvWTZqfjXi36zLIJKMZuDfTOoxklaPEw7CDe%2BhHwJmtEXNNn1bmfUiknvltXcn3qnIzkz5htyzXWeC83ARRIb5PXoR%2BXOipXeQuCH0SS0xVsiNEjKU15LaOpbiNM0ljEpHZFf%2Fcan05y6uYhibPDmf0wv4SpyQY6pgHU9TGu%2F1Ps9BPRgddNLLsxHIurMJH5CcTfyQPK%2BgmOE007KcT4swIIOqxNWefftWeC0ke77f5bZKYQYGcXHNo6ECZsZ754A%2FaGumae8JrWHn%2FfKYRnbsJMzu%2Fc%2B6g4infJMg1GwLGpZZgqHxXEbzJGg4yjIMVGfXGlrI9GKP7kDFdN6WgA8FOAzoUmPPlR%2FqRSR7WbUUzNYOf0YceC7f2stwuJyjJK&X-Amz-Signature=e77b837217efdc2aafdd66654a00ac7cad681f637a985849bb57faaad8730522&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
@@ -77,4 +65,3 @@ tags: ["레퍼런스", "notion-import"]
 
 - Happy Hour 네트워킹 (“Make It Snow”)
   (참석자 전원이 참여하는 네트워킹 타임) Snowflake
-

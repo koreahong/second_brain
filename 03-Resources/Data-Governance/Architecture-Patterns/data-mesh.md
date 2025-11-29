@@ -1,18 +1,6 @@
 ---
-title: "data mesh"
-source: notion
-notion_id: 262c6d43-3b4d-80f9-bfa5-c6d71e3b4ff2
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: ["263c6d43-3b4d-804b-acf3-cf3f9f23dec0"]
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2025-09-13T04:00:00.000Z"
-제목: ""
-상위 항목: ["25bc6d43-3b4d-808c-8c99-e7851455d4fe"]
-PARA: "Resource"
-tags: ["레퍼런스", "notion-import"]
+title: data mesh
+type: resource
 ---
 
 데이터 메쉬는
@@ -174,4 +162,3 @@ tags: ["레퍼런스", "notion-import"]
   - 자체 데이터 제품은 만들지 않음
 - 제공: 예제, 문서, 템플릿, 베스트 프랙티스.
 👉 쉽게 말해: “도메인 팀이 데이터 메쉬를 잘 쓰도록 돕는 코치”
-

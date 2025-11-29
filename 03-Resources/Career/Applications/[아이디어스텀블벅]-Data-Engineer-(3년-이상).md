@@ -1,13 +1,8 @@
 ---
-title: "[아이디어스/텀블벅] Data Engineer (3년 이상)"
-source: notion
-notion_id: 229c6d43-3b4d-80d0-a6aa-c81afb017522
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "백패커"
-우선순위: "중"
-결과: "대기"
-tags: ["notion-import", "커리어-지원내역"]
+title: '[아이디어스/텀블벅] Data Engineer (3년 이상)'
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 <details>
@@ -96,4 +91,3 @@ Shall We Backpacking?
 <summary>면접</summary>
 
 </details>
-

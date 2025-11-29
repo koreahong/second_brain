@@ -1,15 +1,8 @@
 ---
-title: "Data Analyst (커머스)"
-source: notion
-notion_id: 225c6d43-3b4d-8081-9832-cb09a696b6c1
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "토스코어"
-우선순위: "중상"
-마감날짜: "2025-07-13"
-결과: "코탈"
-지원날짜: "2025-07-09"
-tags: ["notion-import", "커리어-지원내역"]
+title: Data Analyst (커머스)
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 <details>
@@ -51,4 +44,3 @@ tags: ["notion-import", "커리어-지원내역"]
 - 사전 과제는 약 2시간 정도 소요되는 쿼리 테스트로, 5일 간의 응시 기간을 드리고 있어요.
 - 사전 과제 합격 시 직무 인터뷰가 진행되며, 직무 인터뷰 중 라이브 쿼리 테스트가 진행될 수 있어요.
 </details>
-

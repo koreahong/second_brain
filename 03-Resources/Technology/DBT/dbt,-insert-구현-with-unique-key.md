@@ -1,18 +1,8 @@
 ---
-title: "dbt, insert 구현 with unique key"
-source: notion
-notion_id: 176c6d43-3b4d-8001-834a-c71c952cfda6
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["DBT"]
-링크: []
-최종편집시각: "2025-09-13T03:01:00.000Z"
-제목: ""
-상위 항목: ["267c6d43-3b4d-808e-bd36-d3f92b10fdd7"]
-PARA: "Resource"
-tags: ["레퍼런스", "DBT", "notion-import"]
+title: dbt, insert 구현 with unique key
+type: resource
+tags:
+- dbt
 ---
 
 ## 개념
@@ -71,4 +61,3 @@ from {{ source('temp1', 'tt1') }} t1
 --     SELECT a, b FROM {{ this }}
 -- )
 ```
-

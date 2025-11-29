@@ -1,19 +1,8 @@
 ---
-title: "personalize"
-source: notion
-notion_id: 744b938d-3b0c-4bb6-bc35-6f33c7cada03
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["AWS"]
-링크: []
-최종편집시각: "2024-10-20T07:15:00.000Z"
-제목: ""
-상위 항목: []
-날짜: "2024-08-07"
-PARA: "Resource"
-tags: ["레퍼런스", "AWS", "notion-import"]
+title: personalize
+type: resource
+tags:
+- aws
 ---
 
 # Neurons

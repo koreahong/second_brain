@@ -1,17 +1,6 @@
 ---
-title: "sqlalchemy 사용법"
-source: notion
-notion_id: 150c6d43-3b4d-8055-9b67-fcb58c2f3028
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: []
-링크: []
-최종편집시각: "2024-12-11T02:01:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["레퍼런스", "notion-import"]
+title: sqlalchemy 사용법
+type: resource
 ---
 
 ## 개념
@@ -52,4 +41,3 @@ tags: ["레퍼런스", "notion-import"]
       server_default=text("'CURRENT_TIMESTAMP'"),
   )
   ```
-

@@ -1,24 +1,13 @@
 ---
-title: "taskflow 공부"
-source: notion
-notion_id: c117fb8e-38fd-4cc6-9c0a-6753d4f703b9
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Airflow"]
-링크: []
-최종편집시각: "2025-09-13T03:53:00.000Z"
-제목: ""
-상위 항목: ["26dc6d43-3b4d-80f7-a162-ed9945c8906b"]
-날짜: "2024-02-23"
-PARA: "Resource"
-tags: ["레퍼런스", "Airflow", "notion-import"]
+title: taskflow 공부
+type: resource
+tags:
+- airflow
 ---
 
-🔖 [https://www.astronomer.io/docs/learn/airflow-decorators?tab=traditional#how-to-use-airflow-decorators](https://www.astronomer.io/docs/learn/airflow-decorators?tab=traditional#how-to-use-airflow-decorators)
+[https://www.astronomer.io/docs/learn/airflow-decorators?tab=traditional#how-to-use-airflow-decorators](https://www.astronomer.io/docs/learn/airflow-decorators?tab=traditional#how-to-use-airflow-decorators)
 
-🔖 [https://www.astronomer.io/blog/apache-airflow-taskflow-api-vs-traditional-operators/](https://www.astronomer.io/blog/apache-airflow-taskflow-api-vs-traditional-operators/)
+[https://www.astronomer.io/blog/apache-airflow-taskflow-api-vs-traditional-operators/](https://www.astronomer.io/blog/apache-airflow-taskflow-api-vs-traditional-operators/)
 
 ---
 
@@ -43,7 +32,6 @@ date = "{{ execution_date }}"
 request_body = {"execution_date": date}
 json_body = json.dumps(request_body)
 
-
 @task
 def print_task_type(task_type):
 	"""
@@ -51,7 +39,6 @@ def print_task_type(task_type):
 	"""
 	print(f"The {task_type} task has completed.")
 	print(request_body)
-
 
 default_args = {
 "owner": "airflow",
@@ -61,7 +48,6 @@ default_args = {
 "retries": 1,
 "retry_delay": duration(minutes=5),
 }
-
 
 @dag(
 	start_date=datetime(2021, 1, 1),
@@ -85,7 +71,6 @@ def api_dag_taskflow():
 
 	start_task >> api_trigger_dependent_dag >> end_task
 
-
 api_dag_taskflow()
 
 ```
@@ -108,13 +93,9 @@ from __future__ import annotations
 
 import json
 
-
-
 import pendulum
 
 import time
-
-
 
 from airflow import DAG
 
@@ -138,19 +119,13 @@ from airflow.hooks.base_hook import BaseHook
 
 from airflow.utils.edgemodifier import Label
 
-
-
 import random
 
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 
 from psycopg2 import extras
 
-
-
 from sqlalchemy import create_engine
-
-
 
 def sla_callback(dag, task_list, blocking_task_list, slas, blocking_tis):
 
@@ -173,9 +148,6 @@ def sla_callback(dag, task_list, blocking_task_list, slas, blocking_tis):
         },
 
     )
-
-
-
 
 @dag(
 
@@ -211,8 +183,6 @@ def test_():
 
     """
 
-
-
     @task(sla=datetime.timedelta(seconds=1))
 
     def sleep_20():
@@ -220,8 +190,6 @@ def test_():
         """Sleep for 20 seconds"""
 
         time.sleep(2)
-
-
 
     @task(sla=datetime.timedelta(seconds=0))
 
@@ -231,11 +199,7 @@ def test_():
 
         time.sleep(2)
 
-
-
     sleep_20() >> sleep_30()
-
-
 
     sql_query = """
 
@@ -246,8 +210,6 @@ def test_():
         limit 1
 
     """
-
-
 
     # taskflow api를 활용하면 객체 타입이 json으로 변환이 안됨
 
@@ -273,8 +235,6 @@ def test_():
 
     )
 
-
-
     @task.branch(task_id="branching_task_id")
 
     def random_choice():
@@ -295,15 +255,11 @@ def test_():
 
     postgres_task >> branch_task
 
-
-
     branch_task1 = DummyOperator(
 
         task_id='branch_task1',
 
     )
-
-
 
     branch_task2 = DummyOperator(
 
@@ -311,15 +267,9 @@ def test_():
 
     )
 
-
-
-
-
     branch_task >> Label("return 1") >> branch_task1
 
     branch_task >> Label("return 2") >> branch_task2
-
-
 
     @task_group(group_id='first_group')
 
@@ -345,11 +295,7 @@ def test_():
 
         group1_inner_func1() >> group1_inner_func2()
 
-
-
     branch_task1 >>  group_1()
-
-
 
     @task_group(group_id='second_group', tooltip='두 번째 그룹입니다.')
 
@@ -375,9 +321,6 @@ def test_():
 
     branch_task2 >> group_2()
 
-
-
 test = test_()
 
 ```
-

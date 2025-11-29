@@ -1,17 +1,9 @@
 ---
-title: "airflow, grafana 연동"
-source: notion
-notion_id: 153c6d43-3b4d-80fa-8537-f765cbc5def4
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Airflow", "Grafana"]
-링크: ["https://airflow.apache.org/docs/apache-airflow/stable/administration-and-deployment/logging-monitoring/metrics.html#metric-descriptions", "https://ninano1109.tistory.com/273", "https://wooono.tistory.com/767"]
-최종편집시각: "2024-12-06T01:10:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["레퍼런스", "Grafana", "Airflow", "notion-import"]
+title: airflow, grafana 연동
+type: resource
+tags:
+- Grafana
+- airflow
 ---
 
 ## 개념

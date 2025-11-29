@@ -1,14 +1,8 @@
 ---
-title: "[Riiid/뤼이드] Data Engineer"
-source: notion
-notion_id: 238c6d43-3b4d-80e2-880c-c6f2e9795367
-imported: 2025-11-29
-database: 커리어-지원내역
-회사: "(주)뤼이드"
-우선순위: "중"
-결과: "드랍"
-지원날짜: "2025-07-17"
-tags: ["notion-import", "커리어-지원내역"]
+title: '[Riiid/뤼이드] Data Engineer'
+type: resource
+tags:
+- 커리어-지원내역
 ---
 
 <details>
@@ -89,4 +83,3 @@ AI 튜터를 활용해 학습자의 개별 수준과 학습 패턴에 맞춰 실
 <summary>면접</summary>
 
 </details>
-

@@ -1,12 +1,12 @@
 ---
-title: "CAFE24 데이터 수집 및 정합성"
-source: notion
-notion_id: 21ec6d43-3b4d-80f1-b1b6-ca1de822fb70
-imported: 2025-11-29
-database: 커리어
-선택: "영구"
-유형: ["힘들었던 시기", "역량", "문제해결", "의사소통"]
-tags: ["힘들었던 시기", "notion-import", "역량", "커리어", "문제해결", "의사소통"]
+title: CAFE24 데이터 수집 및 정합성
+type: resource
+tags:
+- 문제해결
+- 역량
+- 의사소통
+- 커리어
+- 힘들었던 시기
 ---
 
 ## 의사소통 역량 설명 중심

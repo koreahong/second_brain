@@ -1,18 +1,8 @@
 ---
-title: "ref source 차이"
-source: notion
-notion_id: 176c6d43-3b4d-80d0-89a2-d688e36200fb
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["DBT"]
-링크: []
-최종편집시각: "2025-09-13T03:01:00.000Z"
-제목: ""
-상위 항목: ["267c6d43-3b4d-808e-bd36-d3f92b10fdd7"]
-PARA: "Resource"
-tags: ["레퍼런스", "DBT", "notion-import"]
+title: ref source 차이
+type: resource
+tags:
+- dbt
 ---
 
 ## 개념

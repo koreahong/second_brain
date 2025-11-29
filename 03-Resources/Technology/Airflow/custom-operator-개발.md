@@ -1,22 +1,11 @@
 ---
-title: "custom operator 개발"
-source: notion
-notion_id: 944cf14a-ec60-4122-b3d7-df562ac29277
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Airflow"]
-링크: []
-최종편집시각: "2024-10-20T07:15:00.000Z"
-제목: ""
-상위 항목: []
-날짜: "2024-06-11"
-PARA: "Resource"
-tags: ["레퍼런스", "Airflow", "notion-import"]
+title: custom operator 개발
+type: resource
+tags:
+- airflow
 ---
 
-🔖 [https://mightytedkim.tistory.com/150](https://mightytedkim.tistory.com/150)
+[https://mightytedkim.tistory.com/150](https://mightytedkim.tistory.com/150)
 
 너무 좋은데 러닝 커브가 있다는게 단점이에요.
 
@@ -28,9 +17,8 @@ tags: ["레퍼런스", "Airflow", "notion-import"]
 
 ---
 
-🔖 [https://www.astronomer.io/docs/learn/airflow-importing-custom-hooks-operators](https://www.astronomer.io/docs/learn/airflow-importing-custom-hooks-operators)
+[https://www.astronomer.io/docs/learn/airflow-importing-custom-hooks-operators](https://www.astronomer.io/docs/learn/airflow-importing-custom-hooks-operators)
 
 custom opreator 만들고 .output으로 값 호출
 
 add >> multiply >> use_cat_fact_hook(multiply.output)
-

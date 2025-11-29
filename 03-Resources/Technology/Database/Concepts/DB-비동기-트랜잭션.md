@@ -1,17 +1,9 @@
 ---
-title: "DB 비동기 트랜잭션"
-source: notion
-notion_id: 148c6d43-3b4d-80f8-b178-e1bdf4eff6fe
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["DB", "Transaction"]
-링크: []
-최종편집시각: "2024-11-24T12:41:00.000Z"
-제목: ""
-상위 항목: []
-tags: ["레퍼런스", "DB", "Transaction", "notion-import"]
+title: DB 비동기 트랜잭션
+type: resource
+tags:
+- DB
+- Transaction
 ---
 
 ## 개념
@@ -190,4 +182,3 @@ tags: ["레퍼런스", "DB", "Transaction", "notion-import"]
 - 트랜잭션 사용 사례: 은행 계좌 이체, 주문 처리, 사용자 등록 등 다양한 상황에서 데이터의 무결성과 일관성을 유지하기 위해 사용됩니다.
 - 장단점: 데이터 일관성을 유지할 수 있지만, 성능 저하나 복잡성 증가 등의 단점도 존재합니다.
 트랜잭션의 개념을 이해하고, 상황에 맞게 적절히 활용하면 데이터베이스 애플리케이션의 안정성과 신뢰성을 크게 향상시킬 수 있습니다.
-

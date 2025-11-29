@@ -1,19 +1,8 @@
 ---
-title: "요기요 airflow dag code"
-source: notion
-notion_id: 2879f31b-0741-4365-82b5-b6de116f636d
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["Airflow"]
-링크: []
-최종편집시각: "2025-09-13T03:53:00.000Z"
-제목: ""
-상위 항목: ["26dc6d43-3b4d-80f7-a162-ed9945c8906b"]
-날짜: "2024-05-03"
-PARA: "Resource"
-tags: ["레퍼런스", "Airflow", "notion-import"]
+title: 요기요 airflow dag code
+type: resource
+tags:
+- airflow
 ---
 
 ```python
@@ -35,14 +24,12 @@ from common.airflow_script_common import *
 
 KST_TZ = pendulum.timezone("Asia/Seoul")
 
-
 default_args = {
     "owner": "airflow",
     "start_date": datetime(2024, 3, 1, tzinfo=KST_TZ),
     "retries": 2,
     "retry_delay": timedelta(minutes=5),
 }
-
 
 @dag(
     dag_id=Path(__file__).absolute().stem,
@@ -170,8 +157,6 @@ def mandalart_monthly():
 
     chain(*group_list)
 
-
 mandalart_monthly()
 
 ```
-

@@ -1,18 +1,9 @@
 ---
-title: "filter, pivot_table, round 사용"
-source: notion
-notion_id: 1ecc6d43-3b4d-801a-9f60-f5a15e6fe2b7
-imported: 2025-11-29
-database: 레퍼런스
-하위 항목: []
-구상기록: []
-구분: ["pandas", "leetcode"]
-링크: ["https://leetcode.com/problems/analyze-subscription-conversion/description/"]
-최종편집시각: "2025-05-14T05:36:00.000Z"
-제목: ""
-상위 항목: []
-PARA: "Resource"
-tags: ["레퍼런스", "leetcode", "pandas", "notion-import"]
+title: filter, pivot_table, round 사용
+type: resource
+tags:
+- leetcode
+- pandas
 ---
 
 ## filter
@@ -98,4 +89,3 @@ print(df.groupby("team")["score"].count())
 # A    1
 # B    2
 ```
-
