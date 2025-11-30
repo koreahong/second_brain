@@ -87,7 +87,7 @@ aliases: []
 
 ### Obsidian MCP
 - **서버**: `@mauricio.wolff/mcp-obsidian`
-- **Vault 경로**: `/Users/qraft_hongjinyoung/DAE-Second-Brain`
+- **Vault 경로**: `/Users/qraft_hongjinyoung/Second-Brain`
 - **설정 파일**: `.mcp.json`
 
 ### Notion MCP

@@ -1,6 +1,13 @@
 {
   "mcpServers": {
-    "obsidian": {},
+    "obsidian": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mauricio.wolff/mcp-obsidian",
+        "/Users/qraft_hongjinyoung/Second-Brain"
+      ]
+    },
     "context7": {}
   }
 }
