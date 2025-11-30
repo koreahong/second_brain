@@ -4,6 +4,11 @@ tags:
 created: {{date:YYYY-MM-DD}}
 updated: {{date:YYYY-MM-DD}}
 title: {{title}}
+url:
+source_type: # newsletter/blog/documentation/medium/substack/etc
+subscribe: # 구독 출처 (e.g., "토스 기술블로그", "AWS Newsletter", "Hacker News")
+author:
+published_date:
 ---
 
 # {{title}}
