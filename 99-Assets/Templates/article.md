@@ -7,21 +7,10 @@ title: {{title}}
 url:
 source_type: # newsletter/blog/documentation/medium/substack/etc
 subscribe: # 구독 출처 (e.g., "토스 기술블로그", "AWS Newsletter", "Hacker News")
-author:
 published_date:
 ---
 
 # {{title}}
-
-## 📋 기본 정보
-
-**제목**:
-
-**출처**:
-
-**링크**:
-
-**작성일**:
 
 ## 📌 주요 이슈 요약
 
