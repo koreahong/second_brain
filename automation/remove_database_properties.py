@@ -53,14 +53,9 @@ def main():
     print("="*80)
     print()
 
-    # Properties to remove (migration-related)
+    # Properties to remove
     properties_to_remove = [
-        "Mig_Date",        # 마이그레이션 날짜
-        "Mig_Notes",       # 마이그레이션 노트
-        "Mig_Priority",    # 마이그레이션 우선순위
-        "Obsidian_Path",   # 옵시디언 경로
-        "Target_Location", # 타겟 위치
-        "Source",          # 소스 (Manual/Notion)
+        "Status",          # 상태
     ]
 
     print("Removing properties:")
