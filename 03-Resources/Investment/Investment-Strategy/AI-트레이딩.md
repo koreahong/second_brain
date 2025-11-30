@@ -2,10 +2,12 @@
 title: AI 트레이딩
 type: resource
 tags:
-- stock-investment
+  - stock-investment
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 바이낸스 API발급

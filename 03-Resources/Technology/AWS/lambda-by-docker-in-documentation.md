@@ -2,12 +2,14 @@
 title: lambda by docker in documentation
 type: resource
 tags:
-- aws
-- ecr
-- lambda
+  - aws
+  - ecr
+  - lambda
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 개념

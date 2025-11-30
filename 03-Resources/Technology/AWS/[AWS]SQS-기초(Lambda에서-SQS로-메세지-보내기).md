@@ -2,11 +2,13 @@
 title: '[AWS]SQS 기초(Lambda에서 SQS로 메세지 보내기)'
 type: resource
 tags:
-- aws
-- lambda
+  - aws
+  - lambda
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 

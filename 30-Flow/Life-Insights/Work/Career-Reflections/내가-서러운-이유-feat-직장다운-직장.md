@@ -4,16 +4,18 @@ date: '2023-10-13'
 type: insight
 week: 41
 tags:
-- anger
-- anxiety
-- family
-- friends
-- work
-- relationships
-- journal
+  - anger
+  - anxiety
+  - family
+  - friends
+  - work
+  - relationships
+  - journal
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # 내가 서러운 이유 feat 직장다운 직장

@@ -2,10 +2,12 @@
 title: Trino
 type: resource
 tags:
-- trino
+  - trino
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 🔹 Trino

@@ -2,10 +2,12 @@
 title: 딜리버리센터 Business Analyst 모집(3년이상)
 type: resource
 tags:
-- career-application
+  - career-application
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 구분: 경력(3년 이상)

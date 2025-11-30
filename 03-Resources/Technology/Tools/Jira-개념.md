@@ -2,10 +2,12 @@
 title: Jira 개념
 type: resource
 tags:
-- jira
+  - jira
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 🧱 Jira 이슈 타입 구조 정리 (기본적인 계층 포함)

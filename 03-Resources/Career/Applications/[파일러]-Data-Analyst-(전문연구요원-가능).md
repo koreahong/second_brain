@@ -2,10 +2,12 @@
 title: '[파일러] Data Analyst (전문연구요원 가능)'
 type: resource
 tags:
-- career-application
+  - career-application
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 본 채용 공고는 전문연구요원 전직/보충역 편입 가능 포지션입니다.

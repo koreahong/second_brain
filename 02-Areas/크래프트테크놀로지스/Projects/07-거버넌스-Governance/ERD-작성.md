@@ -2,12 +2,12 @@
 title: ERD 작성
 date: '2025-09-30'
 type: project
-status: planned
+status: seedling
 tags:
-- qraft
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 - ERD Cloud로 진행

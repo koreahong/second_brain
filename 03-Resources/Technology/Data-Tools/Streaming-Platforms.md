@@ -2,10 +2,12 @@
 title: Streaming Platforms
 type: resource
 tags:
-- streaming-platforms
+  - streaming-platforms
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 

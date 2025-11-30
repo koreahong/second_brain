@@ -2,14 +2,19 @@
 title: alembic
 type: resource
 tags:
-- postgres
-- data
-- technology
-- sql
-- python
+  - - postgres
+  - - data
+  - - technology
+  - - sql
+  - - python
+  - alembic
+  - database-migration
+  - orm
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ### 스키마 위치 변경시
@@ -88,11 +93,16 @@ def downgrade():
 
 ## 📎 Related
 
-<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+### 사용된 프로젝트 (Qraft)
 
-### Projects
+**[[jira,-keycloak-권한-자동화|Keycloak 권한 자동화]]** (2025년 11월)
+   - **시기**: [[2025년-11월-03일|2025년 11월 3일]]
+   - **역할**: Employee Master 테이블 스키마 관리
+   - **사용**: Alembic으로 사번, 조직, 직책, 입사일, 퇴사일 스키마 버전 관리
+   - **성과**: 권한 자동화 기반 데이터 구조 확립
 
 ### Knowledge
 
-### Insights
+- [[postgres|PostgreSQL]] - Alembic이 관리하는 DB
+- [[ORM|ORM]] - SQLAlchemy와 함께 사용
 

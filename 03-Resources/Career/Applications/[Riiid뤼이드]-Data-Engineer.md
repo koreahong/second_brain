@@ -2,10 +2,12 @@
 title: '[Riiid/뤼이드] Data Engineer'
 type: resource
 tags:
-- career-application
+  - career-application
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 <details>

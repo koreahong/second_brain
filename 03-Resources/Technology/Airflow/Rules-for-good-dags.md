@@ -2,10 +2,12 @@
 title: Rules for good dags
 type: resource
 tags:
-- airflow
+  - airflow
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 [https://www.astronomer.io/docs/learn/dag-best-practices?tab=good-practice#treat-your-dag-file-like-a-config-file](https://www.astronomer.io/docs/learn/dag-best-practices?tab=good-practice#treat-your-dag-file-like-a-config-file)

@@ -2,12 +2,12 @@
 title: sftp 적재 테스트
 date: '2025-09-18'
 type: project
-status: planned
+status: seedling
 tags:
-- qraft
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 

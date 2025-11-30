@@ -2,10 +2,12 @@
 title: '[Tech] Data Engineer - 데이터 파이프라인 개발 및 운영(DSP, 팩토리)'
 type: resource
 tags:
-- career-application
+  - career-application
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 <details>

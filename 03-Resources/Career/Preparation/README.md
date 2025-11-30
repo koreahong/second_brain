@@ -1,13 +1,15 @@
 ---
 type: index
 domain: career
-created: 2025-11-29
+created: 2025-11-29T00:00:00.000Z
 tags:
-- career
-- index
+  - career
+  - index
 updated: '2025-11-30'
 title: README
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # 커리어 관리

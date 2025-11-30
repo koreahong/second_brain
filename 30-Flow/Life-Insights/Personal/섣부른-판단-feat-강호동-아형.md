@@ -4,12 +4,14 @@ date: '2022-11-15'
 type: insight
 week: 47
 tags:
-- relationships
-- personal
-- journal
+  - relationships
+  - personal
+  - journal
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # 섣부른 판단 feat 강호동 아형

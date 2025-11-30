@@ -2,10 +2,12 @@
 title: AWS airflow 설치
 type: resource
 tags:
-- airflow
+  - airflow
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 1. docker-compose.yaml 다운로드

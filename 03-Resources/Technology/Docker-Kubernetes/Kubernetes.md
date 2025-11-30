@@ -2,10 +2,12 @@
 title: Kubernetes
 type: resource
 tags:
-- kubernetes
+  - kubernetes
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 

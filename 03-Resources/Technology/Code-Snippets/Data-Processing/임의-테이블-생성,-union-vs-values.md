@@ -1,11 +1,13 @@
 ---
-title: 임의 테이블 생성, union vs values
+title: '임의 테이블 생성, union vs values'
 type: resource
 tags:
-- query
+  - query
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ### ⚖️ 비교 요약

@@ -2,15 +2,19 @@
 title: 좋은 데이터 모델링이란
 type: resource
 tags:
-- anger
-- pipeline
-- achievement
-- data
-- team
-- relationships
+  - - anger
+  - - pipeline
+  - - achievement
+  - - team
+  - - relationships
+  - data-modeling
+  - best-practices
+  - database-design
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ### 출처

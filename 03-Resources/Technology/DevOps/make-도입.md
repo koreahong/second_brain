@@ -2,10 +2,12 @@
 title: make 도입
 type: resource
 tags:
-- 바이브코딩
+  - 바이브코딩
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 

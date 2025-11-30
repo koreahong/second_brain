@@ -1,11 +1,13 @@
 ---
-title: DB관련 전문지식 서칭, 개념
+title: 'DB관련 전문지식 서칭, 개념'
 type: resource
 tags:
-- job-change
+  - job-change
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 

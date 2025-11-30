@@ -2,10 +2,12 @@
 title: 요기요 airflow dag code
 type: resource
 tags:
-- airflow
+  - airflow
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ```python

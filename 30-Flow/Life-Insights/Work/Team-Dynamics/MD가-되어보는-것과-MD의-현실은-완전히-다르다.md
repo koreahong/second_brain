@@ -4,13 +4,15 @@ date: '2022-05-17'
 type: reflection
 week: 21
 tags:
-- anger
-- reflection
-- work
-- action-item
+  - anger
+  - reflection
+  - work
+  - action-item
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # MD가 되어보는 것과 MD의 현실은 완전히 다르다

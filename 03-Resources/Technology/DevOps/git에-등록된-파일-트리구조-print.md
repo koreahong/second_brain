@@ -2,10 +2,12 @@
 title: git에 등록된 파일 트리구조 print
 type: resource
 tags:
-- directory
+  - directory
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ```bash

@@ -2,10 +2,12 @@
 title: ref source 차이
 type: resource
 tags:
-- dbt
+  - dbt
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 개념
@@ -20,11 +22,8 @@ aliases: []
 
 ## 📎 Related
 
-<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+### Technology
 
-### Projects
-
-### Knowledge
-
-### Insights
+- [[dbt|DBT]] - DBT 개요 및 Qraft 적용 사례
+- [[DataHub|DataHub]] - DBT Lineage 추적
 

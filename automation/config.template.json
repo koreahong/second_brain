@@ -1,0 +1,22 @@
+{
+  "notion": {
+    "api_token": "YOUR_NOTION_API_TOKEN",
+    "record_master_db_id": "YOUR_DATABASE_ID",
+    "sync_settings": {
+      "filter_status": "NEEDED",
+      "batch_size": 50,
+      "priority_order": ["High", "Medium", "Low"]
+    }
+  },
+  "obsidian": {
+    "vault_path": "/Users/qraft_hongjinyoung/Second-Brain",
+    "location_mapping": {
+      "Project": "02-Areas/크래프트테크놀로지스/Projects/Active",
+      "Experience": "02-Areas/크래프트테크놀로지스/Experience/Weekly",
+      "Reference": "03-Resources",
+      "Insight": "30-Flow/Life-Insights",
+      "Article": "03-Resources/Articles",
+      "Book": "03-Resources/Books"
+    }
+  }
+}

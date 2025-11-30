@@ -2,17 +2,21 @@
 title: data mesh
 type: resource
 tags:
-- anger
-- company
-- data
-- query
-- dbt
-- team
-- kafka
-- sql
+  - - anger
+  - - company
+  - - query
+  - - dbt
+  - - team
+  - - kafka
+  - - sql
+  - data-mesh
+  - data-architecture
+  - distributed-data
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 데이터 메쉬는

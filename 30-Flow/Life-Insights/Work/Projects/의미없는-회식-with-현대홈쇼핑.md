@@ -4,12 +4,14 @@ date: '2022-12-20'
 type: reflection
 week: 52
 tags:
-- reflection
-- work
-- action-item
+  - reflection
+  - work
+  - action-item
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # 의미없는 회식 with 현대홈쇼핑
@@ -30,11 +32,18 @@ aliases: []
 
 ## 📎 Related
 
-<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+> **Note**: 이 인사이트는 aivelabs 재직 시절(2022년 12월) 현대 프로젝트 경험입니다.
 
-### Projects
+### 핵심 교훈
+**상황**: 현대에서 먼저 밥을 먹자고 했지만 주제도 없고 의미도 없음
 
-### Knowledge
+**문제점**: 주도하는 인물이 준비 없이 미팅 진행 - 핵심 질문들을 준비했어야 함
 
-### Insights
+**배운 교훈**: "만남을 주도할 때는 의미/목적/질문을 준비하자"
+
+**적용**: 단순히 만나는 자리를 만드는게 아니라, 어떤 의미로 어떤 질문을 할것인지 준비
+
+### Related Insights (aivelabs 현대 프로젝트)
+- [[30-Flow/Life-Insights/Work/Projects/다-떠나고-남는-프로젝트…|다 떠나고 남는 프로젝트…]] - 같은 프로젝트 (2023-01)
+- [[30-Flow/Life-Insights/Work/Projects/대시보드-수정할-때-현대-측-분들과-의사소통을-잘-진행하여-해결했다|대시보드 수정할 때 현대 측 분들과 의사소통을 잘 진행하여 해결했다]] - 같은 프로젝트 (2022-10)
 

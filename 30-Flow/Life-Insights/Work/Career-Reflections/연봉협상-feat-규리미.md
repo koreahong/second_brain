@@ -4,11 +4,13 @@ date: '2025-07-26'
 type: insight
 week: 30
 tags:
-- journal
-- work
+  - journal
+  - work
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # 연봉협상 feat 규리미

@@ -2,10 +2,12 @@
 title: '[기술본부] Data Warehouse Engineer (5년 이상)'
 type: resource
 tags:
-- career-application
+  - career-application
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 <details>

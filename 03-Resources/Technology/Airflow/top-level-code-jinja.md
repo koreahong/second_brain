@@ -2,10 +2,12 @@
 title: top level code jinja
 type: resource
 tags:
-- airflow
+  - airflow
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 https://airflow.apache.org/docs/apache-airflow/stable/tutorial/fundamentals.html

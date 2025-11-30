@@ -1,11 +1,13 @@
 ---
-title: in, exists 비교
+title: 'in, exists 비교'
 type: resource
 tags:
-- query
+  - query
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## ✅ 먼저, IN의 NULL 문제

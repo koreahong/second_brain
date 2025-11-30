@@ -2,10 +2,12 @@
 title: SQLP
 type: resource
 tags:
-- sqlp
+  - sqlp
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 In 으로 되어 있으면 skip scan 사용 못함

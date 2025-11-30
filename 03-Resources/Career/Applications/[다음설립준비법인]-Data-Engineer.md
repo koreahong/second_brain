@@ -2,10 +2,12 @@
 title: '[다음설립준비법인] Data Engineer'
 type: resource
 tags:
-- career-application
+  - career-application
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ### 카카오(KAKAO)∙경기 성남시∙경력 3-5년[다음설립준비법인] Data Engineer

@@ -2,13 +2,15 @@
 title: airflow ecs에 적용
 type: resource
 tags:
-- airflow
-- technology
-- aws
-- docker
+  - airflow
+  - technology
+  - aws
+  - docker
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 개념

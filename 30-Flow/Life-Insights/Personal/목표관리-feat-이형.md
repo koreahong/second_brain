@@ -4,13 +4,15 @@ date: '2022-10-23'
 type: insight
 week: 44
 tags:
-- friends
-- life-decision
-- personal
-- reflection
+  - friends
+  - life-decision
+  - personal
+  - reflection
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # 목표관리 feat 이형

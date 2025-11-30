@@ -2,12 +2,14 @@
 title: airflow pipeline ingestion
 type: resource
 tags:
-- airflow
-- technology
-- datahub
+  - airflow
+  - technology
+  - datahub
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 pip install 'acryl-datahub[airflow]'

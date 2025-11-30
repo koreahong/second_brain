@@ -2,12 +2,14 @@
 title: SQS + lambda + docker 구현
 type: resource
 tags:
-- sqs
-- aws
-- lambda
+  - sqs
+  - aws
+  - lambda
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 

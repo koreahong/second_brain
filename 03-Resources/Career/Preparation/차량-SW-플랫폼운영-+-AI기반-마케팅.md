@@ -2,12 +2,14 @@
 title: 차량 SW 플랫폼운영 + AI기반 마케팅
 type: resource
 tags:
-- career
-- hyundai-autoever
-- 기업분석
+  - career
+  - hyundai-autoever
+  - 기업분석
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ### 제품

@@ -2,11 +2,13 @@
 title: trigger + function 연동
 type: resource
 tags:
-- technology
-- sql
+  - technology
+  - sql
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 CREATE OR REPLACE FUNCTION set_dash_purchase_master_seq()

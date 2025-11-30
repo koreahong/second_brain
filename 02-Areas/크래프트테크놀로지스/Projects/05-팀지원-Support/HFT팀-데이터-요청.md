@@ -2,13 +2,15 @@
 title: 'HFT팀 데이터 요청 '
 date: '2025-09-10'
 type: project
-status: planned
+status: seedling
 tags:
-- qraft
-- data
+  - team-support
+  - data-delivery
+  - troubleshooting
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 ### 홍콩 데이터 배치 오류

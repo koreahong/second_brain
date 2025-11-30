@@ -2,13 +2,18 @@
 title: ORM
 type: resource
 tags:
-- achievement
-- technology
-- data
-- sql
+  - - achievement
+  - - technology
+  - - data
+  - - sql
+  - orm
+  - sqlalchemy
+  - database
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ORM은 "Object-Relational Mapping"의 약자로, 데이터베이스와 프로그래밍 언어의 객체 지향 모델 간에 매핑(mapping)을 제공하는 도구나 라이브러리를 가리킵니다.
@@ -27,11 +32,8 @@ ORM은 프로그래머들이 SQL(Structured Query Language)이라는 데이터�
 
 ## 📎 Related
 
-<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+### Technology
 
-### Projects
-
-### Knowledge
-
-### Insights
+- [[alembic|Alembic]] - ORM 스키마 마이그레이션 도구
+- [[postgres|PostgreSQL]] - ORM이 연결하는 DB
 

@@ -2,16 +2,18 @@
 title: cosmos
 type: resource
 tags:
-- postgres
-- dbt
-- project
-- airflow
-- technology
-- python
-- aws
+  - postgres
+  - dbt
+  - project
+  - airflow
+  - technology
+  - python
+  - aws
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 - cosmos는 dbt model을 task 단위로 쪼개서 dag를 구성해주는 라이브러리임.
@@ -26,6 +28,15 @@ cosmos가 dbt 프로젝트를 읽고 엮으로 task 단위로 파싱해주는 �
 ```python
 import os
 from datetime import datetime
+
+---
+
+## 📎 Related
+
+### Technology
+
+- [[dbt|DBT]] - DBT 개요 및 Qraft 적용 사례
+- [[Airflow|Airflow]] - DBT를 실행하는 오케스트레이터
 
 from airflow import DAG
 from cosmos import DbtDag, ProjectConfig, ProfileConfig, ExecutionConfig

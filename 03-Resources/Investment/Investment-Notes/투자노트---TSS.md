@@ -2,11 +2,13 @@
 title: 투자노트 - TSS
 type: resource
 tags:
-- stock-investment
-- investment-note
+  - stock-investment
+  - investment-note
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ### 가치 재투자 사이클

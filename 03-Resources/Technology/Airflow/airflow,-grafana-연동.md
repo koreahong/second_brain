@@ -1,12 +1,14 @@
 ---
-title: airflow, grafana 연동
+title: 'airflow, grafana 연동'
 type: resource
 tags:
-- airflow
-- grafana
+  - airflow
+  - grafana
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 개념

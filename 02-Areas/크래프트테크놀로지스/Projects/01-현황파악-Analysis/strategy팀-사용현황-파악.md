@@ -2,14 +2,16 @@
 title: strategy팀 사용현황 파악
 date: '2025-09-15'
 type: project
-status: planned
+status: seedling
 tags:
-- aws
-- qraft
-- data
+  - aws
+  - data-usage-analysis
+  - vendor-data
+  - team-analysis
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 # 데이터 매핑관련 질문

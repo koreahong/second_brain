@@ -2,13 +2,15 @@
 title: 국내IT 기술블로그
 type: resource
 tags:
-- anger
-- team
-- aws
-- growth
+  - anger
+  - team
+  - aws
+  - growth
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 https://blog.wonkooklee.com/blog/20250201_01

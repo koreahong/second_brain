@@ -2,10 +2,12 @@
 title: Jenkins 학습
 type: resource
 tags:
-- jenkins
+  - jenkins
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 젠킨스 서치

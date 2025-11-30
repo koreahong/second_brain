@@ -4,12 +4,14 @@ date: '2023-02-19'
 type: insight
 week: 8
 tags:
-- anger
-- personal
-- journal
+  - anger
+  - personal
+  - journal
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # 아울렛에서 사는 비법(feat 교육비)

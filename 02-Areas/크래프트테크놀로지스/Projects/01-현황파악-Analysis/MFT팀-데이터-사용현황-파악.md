@@ -2,14 +2,16 @@
 title: MFT팀 데이터 사용현황 파악
 date: '2025-09-15'
 type: project
-status: planned
+status: seedling
 tags:
-- team
-- qraft
-- data
+  - team
+  - data-usage-analysis
+  - vendor-data
+  - team-analysis
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 # 데이터 질문

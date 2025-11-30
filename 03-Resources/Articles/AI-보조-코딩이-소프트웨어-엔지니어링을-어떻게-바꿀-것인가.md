@@ -2,17 +2,19 @@
 title: 'AI 보조 코딩이 소프트웨어 엔지니어링을 어떻게 바꿀 것인가: 불편한 진실 | GeekNews'
 type: resource
 tags:
-- anger
-- company
-- project
-- team
-- goal
-- planning
-- development
-- improvement
+  - anger
+  - company
+  - project
+  - team
+  - goal
+  - planning
+  - development
+  - improvement
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 https://news.hada.io/topic?id=18712

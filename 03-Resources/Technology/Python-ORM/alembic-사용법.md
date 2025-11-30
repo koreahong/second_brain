@@ -2,11 +2,13 @@
 title: alembic 사용법
 type: resource
 tags:
-- alembic
-- db
+  - alembic
+  - db
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 개념
@@ -189,11 +191,7 @@ def downgrade():
 
 ## 📎 Related
 
-<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+### Technology
 
-### Projects
-
-### Knowledge
-
-### Insights
+- [[alembic|Alembic]] - Alembic 개요 및 Qraft 적용 사례
 

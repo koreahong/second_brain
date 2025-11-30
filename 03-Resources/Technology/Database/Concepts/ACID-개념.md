@@ -2,14 +2,19 @@
 title: ACID 개념
 type: resource
 tags:
-- data
-- query
-- technology
-- study
-- aws
+  - - data
+  - - query
+  - - technology
+  - - study
+  - - aws
+  - database
+  - acid
+  - transaction
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 개념

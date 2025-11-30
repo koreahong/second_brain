@@ -2,10 +2,12 @@
 title: codedeploy
 type: resource
 tags:
-- aws
+  - aws
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # 레퍼런스

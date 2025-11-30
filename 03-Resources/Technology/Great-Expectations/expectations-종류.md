@@ -2,10 +2,12 @@
 title: expectations 종류
 type: resource
 tags:
-- gx
+  - gx
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 
@@ -13,11 +15,7 @@ aliases: []
 
 ## 📎 Related
 
-<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+### Technology
 
-### Projects
-
-### Knowledge
-
-### Insights
+- [[Great-Expectations|Great Expectations]] - 데이터 품질 검증 프레임워크
 

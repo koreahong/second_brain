@@ -2,11 +2,13 @@
 title: bash 명령어
 type: resource
 tags:
-- python
-- technology
+  - python
+  - technology
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 bash ~.sh $1(전달할 값) $2(전달할 값) $3(전달할 값)

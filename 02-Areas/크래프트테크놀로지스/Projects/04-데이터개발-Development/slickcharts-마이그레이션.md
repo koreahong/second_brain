@@ -2,12 +2,12 @@
 title: slickcharts 마이그레이션
 date: '2025-11-04'
 type: project
-status: planned
+status: seedling
 tags:
-- qraft
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 

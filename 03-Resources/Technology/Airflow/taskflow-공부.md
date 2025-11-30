@@ -2,10 +2,12 @@
 title: taskflow 공부
 type: resource
 tags:
-- airflow
+  - airflow
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 [https://www.astronomer.io/docs/learn/airflow-decorators?tab=traditional#how-to-use-airflow-decorators](https://www.astronomer.io/docs/learn/airflow-decorators?tab=traditional#how-to-use-airflow-decorators)

@@ -117,6 +117,85 @@ aliases: []
 - 백링크 유지
 - 일관된 포맷 유지
 
+## 🔗 연결 품질 원칙 (Connection Quality Principles)
+
+**⚠️ CRITICAL: 표면적 연결이 아닌 의미있는 연결을 만들어야 합니다**
+
+### 연결 생성 4단계 원칙
+
+#### 1️⃣ READ FIRST (내용부터 읽기)
+```yaml
+❌ 절대 하지 말 것:
+  - 제목이나 폴더만 보고 연결
+  - 키워드 매칭만으로 연결
+  - 추측으로 연결
+
+✅ 반드시 할 것:
+  - mcp__obsidian__read_note로 실제 내용 읽기
+  - frontmatter의 created, updated 날짜 확인
+  - 노트가 "무엇을", "언제", "왜" 다루는지 이해
+```
+
+#### 2️⃣ CHECK TIMELINE (시간맥락 확인)
+```yaml
+날짜 기반 연결 우선:
+  1. 노트 날짜 확인 (created: 2025-10-29)
+  2. 같은 시기 찾기:
+     - 같은 주 Weekly 회고
+     - 같은 달 프로젝트
+     - 시간적으로 연관된 인사이트
+  3. 시간 맥락 설명 추가
+```
+
+#### 3️⃣ COMPANY PERIOD (회사/기간 구분)
+```yaml
+시기별 엄격한 구분:
+  aivelabs (2022-2023):
+    - 2025년 이전 날짜
+    - ❌ Qraft 프로젝트와 연결 금지!
+    - 교훈만 추출
+
+  Qraft (2025-08+):
+    - 2025년 8월 이후
+    - Projects/, Weekly/ 와 연결
+    - 구체적인 업무 맥락 포함
+```
+
+#### 4️⃣ ADD CONTEXT (맥락 설명)
+```markdown
+❌ Bad (맥락 없음):
+## Related
+- [[팀별-데이터-현황-파악]]
+- [[2025년-10월-27일]]
+
+✅ Good (맥락 포함):
+## 📎 Related
+
+### 관련 프로젝트 (8월~10월 현황파악 결과)
+이 인사이트는 2개월간의 데이터 현황 조사 프로젝트의 결과입니다:
+- [[팀별-원천-데이터-계약현황-파악]] (8월 25일 시작)
+  - CFO님이 중지 검토한 데이터들 → 실제 사용 여부 확인
+
+### 주간 회고 (같은 시기)
+- [[2025년-10월-27일]] (2일 전)
+  - 데이터 공유 유도 → **거버넌스의 중요성 깨달음**
+```
+
+### 자동화 시스템
+
+**Linker Agent** ([.claude/agents/linker-agent.md](.claude/agents/linker-agent.md)):
+- 위 4단계 원칙 자동 적용
+- 내용 읽기 → 시간확인 → 회사구분 → 맥락설명
+
+**Auto-Organize Hook** ([.claude/hooks/auto-organize.md](.claude/hooks/auto-organize.md)):
+- 파일 생성/수정 시 자동 실행
+- Temporal connections 우선
+- Company period 자동 감지
+
+**Curator Agent** ([.claude/agents/curator-agent.md](.claude/agents/curator-agent.md)):
+- 연결 품질 검증
+- Orphan 노트에 의미있는 연결 추천
+
 ## 🎨 Vault 구조 (PARA + Zettelkasten)
 
 ### 핵심 구조

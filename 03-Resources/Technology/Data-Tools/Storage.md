@@ -2,11 +2,13 @@
 title: Storage
 type: resource
 tags:
-- technology
-- storage
+  - technology
+  - storage
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 

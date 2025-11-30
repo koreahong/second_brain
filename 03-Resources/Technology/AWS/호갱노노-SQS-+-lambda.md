@@ -2,11 +2,13 @@
 title: 호갱노노 SQS + lambda
 type: resource
 tags:
-- aws
-- lambda
+  - aws
+  - lambda
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 

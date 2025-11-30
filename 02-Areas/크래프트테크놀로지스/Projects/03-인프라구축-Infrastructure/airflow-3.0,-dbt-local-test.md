@@ -1,15 +1,15 @@
 ---
-title: airflow 3.0, dbt local test
+title: 'airflow 3.0, dbt local test'
 date: '2025-09-16'
 type: project
-status: planned
+status: seedling
 tags:
-- airflow
-- qraft
-- docker
+  - airflow
+  - docker
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 ### airflow 설치

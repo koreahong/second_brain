@@ -2,11 +2,13 @@
 title: 'lambda rds proxy 연결 '
 type: resource
 tags:
-- rds-proxy
-- aws
+  - rds-proxy
+  - aws
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 

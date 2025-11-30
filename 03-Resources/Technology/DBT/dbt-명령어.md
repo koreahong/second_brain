@@ -2,15 +2,16 @@
 title: dbt 명령어
 type: resource
 tags:
-- dbt
-- qraft
-- airflow
-- snowflake
-- technology
-- sql
+  - dbt
+  - airflow
+  - snowflake
+  - technology
+  - sql
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ```sql
@@ -21,11 +22,9 @@ cd /Users/qraft_hongjinyoung/qraft_airflow/dbt/snowflake && dbt run --project-di
 
 ## 📎 Related
 
-<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+### Technology
 
-### Projects
-
-### Knowledge
+- [[dbt|DBT]] - DBT 개요 및 Qraft 적용 사례
 
 ### Insights
 

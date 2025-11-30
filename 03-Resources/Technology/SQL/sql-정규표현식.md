@@ -2,10 +2,12 @@
 title: sql 정규표현식
 type: resource
 tags:
-- query
+  - query
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## ✅ PostgreSQL 정규표현식 문법

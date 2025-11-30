@@ -2,10 +2,12 @@
 title: Jenkins 시행착오
 type: resource
 tags:
-- jenkins
+  - jenkins
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 jenkins 빌드되는 디렉토리는 ~~ workspace로 떨어짐

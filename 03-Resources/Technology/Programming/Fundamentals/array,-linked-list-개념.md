@@ -1,12 +1,14 @@
 ---
-title: array, linked list 개념
+title: 'array, linked list 개념'
 type: resource
 tags:
-- algorithm
-- 자료구조
+  - algorithm
+  - 자료구조
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 개념

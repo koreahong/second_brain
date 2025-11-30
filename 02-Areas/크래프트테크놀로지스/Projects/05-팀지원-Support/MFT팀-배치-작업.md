@@ -2,16 +2,18 @@
 title: MFT팀 배치 작업
 date: '2025-09-22'
 type: project
-status: planned
+status: seedling
 tags:
-- anger
-- data
-- qraft
-- airflow
-- sql
+  - airflow
+  - sql
+  - batch-processing
+  - krx
+  - performance-optimization
+  - alembic
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 ### 원천 파악

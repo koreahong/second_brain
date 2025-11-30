@@ -2,12 +2,12 @@
 title: Data Guide 계정 찾기
 date: '2025-09-05'
 type: project
-status: planned
+status: seedling
 tags:
-- qraft
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 

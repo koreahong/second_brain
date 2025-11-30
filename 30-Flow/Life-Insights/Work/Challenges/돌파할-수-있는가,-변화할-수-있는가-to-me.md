@@ -1,17 +1,19 @@
 ---
-title: 돌파할 수 있는가, 변화할 수 있는가 to me
+title: '돌파할 수 있는가, 변화할 수 있는가 to me'
 date: '2022-06-09'
 type: insight
 week: 24
 tags:
-- anger
-- development
-- work
-- relationships
-- journal
+  - anger
+  - development
+  - work
+  - relationships
+  - journal
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # 돌파할 수 있는가, 변화할 수 있는가 to me

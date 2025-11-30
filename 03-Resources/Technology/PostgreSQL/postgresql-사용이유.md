@@ -2,10 +2,12 @@
 title: postgresql 사용이유
 type: resource
 tags:
-- db
+  - db
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 
@@ -13,11 +15,7 @@ aliases: []
 
 ## 📎 Related
 
-<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+### Technology
 
-### Projects
-
-### Knowledge
-
-### Insights
+- [[postgres|PostgreSQL]] - PostgreSQL 개요 및 Qraft 적용 사례
 

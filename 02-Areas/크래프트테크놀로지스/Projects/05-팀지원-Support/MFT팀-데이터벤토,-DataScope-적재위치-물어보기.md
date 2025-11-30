@@ -1,13 +1,13 @@
 ---
-title: MFT팀 데이터벤토, DataScope 적재위치 물어보기
+title: 'MFT팀 데이터벤토, DataScope 적재위치 물어보기'
 date: '2025-09-11'
 type: project
-status: planned
+status: seedling
 tags:
-- qraft
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 

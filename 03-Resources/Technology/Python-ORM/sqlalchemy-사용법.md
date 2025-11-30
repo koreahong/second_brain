@@ -2,12 +2,14 @@
 title: sqlalchemy 사용법
 type: resource
 tags:
-- python
-- technology
-- sql
+  - python
+  - technology
+  - sql
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 개념
@@ -53,11 +55,8 @@ aliases: []
 
 ## 📎 Related
 
-<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+### Technology
 
-### Projects
-
-### Knowledge
-
-### Insights
+- [[ORM|ORM]] - ORM 개념
+- [[alembic|Alembic]] - SQLAlchemy와 함께 사용되는 마이그레이션 도구
 

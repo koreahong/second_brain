@@ -2,12 +2,14 @@
 title: Iceberg
 type: resource
 tags:
-- tableformat
-- technology
-- iceberg
+  - tableformat
+  - technology
+  - iceberg
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 [https://d2.naver.com/helloworld/8998207](https://d2.naver.com/helloworld/8998207)

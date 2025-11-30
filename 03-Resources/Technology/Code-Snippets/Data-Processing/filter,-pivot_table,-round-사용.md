@@ -1,12 +1,14 @@
 ---
-title: filter, pivot_table, round 사용
+title: 'filter, pivot_table, round 사용'
 type: resource
 tags:
-- leetcode
-- pandas
+  - leetcode
+  - pandas
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## filter

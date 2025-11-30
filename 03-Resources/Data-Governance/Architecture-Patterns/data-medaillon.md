@@ -2,13 +2,17 @@
 title: data medaillon
 type: resource
 tags:
-- anger
-- pipeline
-- anxiety
-- data
+  - - anger
+  - - pipeline
+  - - anxiety
+  - data-architecture
+  - medallion-architecture
+  - data-lake
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 📌 Medallion Architecture: What, Why, How 요약

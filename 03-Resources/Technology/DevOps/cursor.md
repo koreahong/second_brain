@@ -2,15 +2,20 @@
 title: cursor
 type: resource
 tags:
-- anger
-- company
-- data
-- project
-- planning
-- technology
+  - - anger
+  - - company
+  - - data
+  - - project
+  - - planning
+  - - technology
+  - ide
+  - ai-coding
+  - development-tools
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ### New Chat창 열기

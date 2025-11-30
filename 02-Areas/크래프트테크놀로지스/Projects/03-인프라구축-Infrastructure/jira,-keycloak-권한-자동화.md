@@ -1,12 +1,12 @@
 ---
-title: jira, keycloak 권한 자동화
+title: 'jira, keycloak 권한 자동화'
 type: project
-status: planned
+status: seedling
 tags:
-- qraft
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 

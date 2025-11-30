@@ -2,13 +2,15 @@
 title: MFT팀 데이터 요청
 date: '2025-09-11'
 type: project
-status: planned
+status: seedling
 tags:
-- qraft
-- data
+  - team-support
+  - vendor-data
+  - refinitiv
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 1. 요청 개요

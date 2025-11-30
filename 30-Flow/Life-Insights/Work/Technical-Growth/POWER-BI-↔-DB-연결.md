@@ -4,12 +4,14 @@ date: '2022-11-05'
 type: reflection
 week: 45
 tags:
-- reflection
-- work
-- action-item
+  - reflection
+  - work
+  - action-item
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # POWER BI ↔ DB 연결

@@ -2,13 +2,13 @@
 title: HFT팀 NYSE ARCA 데이터 찾기
 date: 2025-09-10 - 2025-09-12
 type: project
-status: planned
+status: seedling
 tags:
-- team
-- qraft
+  - team
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 1. 컨플 뒤지기

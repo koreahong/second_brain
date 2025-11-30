@@ -2,10 +2,12 @@
 title: custom operator 개발
 type: resource
 tags:
-- airflow
+  - airflow
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 [https://mightytedkim.tistory.com/150](https://mightytedkim.tistory.com/150)

@@ -4,14 +4,16 @@ date: '2022-10-23'
 type: insight
 week: 44
 tags:
-- anger
-- goal
-- time-management
-- work
-- journal
+  - anger
+  - goal
+  - time-management
+  - work
+  - journal
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # 목표관리 feat 이형

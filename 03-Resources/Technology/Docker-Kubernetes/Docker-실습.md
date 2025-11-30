@@ -2,10 +2,12 @@
 title: Docker 실습
 type: resource
 tags:
-- docker
+  - docker
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ```shell

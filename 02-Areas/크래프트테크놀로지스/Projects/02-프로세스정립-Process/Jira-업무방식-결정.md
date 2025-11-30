@@ -2,14 +2,14 @@
 title: Jira 업무방식 결정
 date: '2025-08-19'
 type: project
-status: planned
+status: seedling
 tags:
-- project
-- team
-- qraft
+  - project
+  - team
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 - Data pipeline 프로젝트를 새로 만들고

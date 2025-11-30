@@ -2,13 +2,17 @@
 title: gitlab ci cd 세팅
 date: '2025-11-04'
 type: project
-status: planned
+status: seedling
 tags:
-- anger
-- qraft
+  - gitlab
+  - ci-cd
+  - automation
+  - git
+  - jira-integration
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 claude code 통해서 git push mr 만들어서 mr 생성까지 자동화

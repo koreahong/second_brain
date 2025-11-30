@@ -2,12 +2,12 @@
 title: MinIO 적재 / 호출 테스트
 date: '2025-10-24'
 type: project
-status: planned
+status: seedling
 tags:
-- qraft
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+maturity: 0
 ---
 
 로컬에서 테스트

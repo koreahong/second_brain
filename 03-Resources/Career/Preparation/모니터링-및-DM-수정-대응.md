@@ -2,13 +2,15 @@
 title: 모니터링 및 DM 수정 대응
 type: resource
 tags:
-- problem-solving
-- career
-- 힘들었던-시기
-- 역량
+  - problem-solving
+  - career
+  - 힘들었던-시기
+  - 역량
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 관점

@@ -2,10 +2,12 @@
 title: 리맴버 이력서 & 링크드인 프로필 BEST 선정
 type: resource
 tags:
-- job-change
+  - job-change
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # 링크드인 베스트 프로필 10개 찾기

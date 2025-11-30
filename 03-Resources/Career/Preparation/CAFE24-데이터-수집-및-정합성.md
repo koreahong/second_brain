@@ -2,14 +2,16 @@
 title: CAFE24 데이터 수집 및 정합성
 type: resource
 tags:
-- communication
-- career
-- problem-solving
-- 역량
-- 힘들었던-시기
+  - communication
+  - career
+  - problem-solving
+  - 역량
+  - 힘들었던-시기
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 의사소통 역량 설명 중심

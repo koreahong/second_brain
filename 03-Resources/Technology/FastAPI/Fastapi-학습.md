@@ -2,10 +2,12 @@
 title: Fastapi 학습
 type: resource
 tags:
-- fastapi
+  - fastapi
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 Django, Flask이다. 비교적 가벼운 웹개발이라면 Flask를 사용했고 조금 더 볼륨있는 프로젝트라면 Django를 사용했다.

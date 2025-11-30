@@ -4,13 +4,18 @@ date: '2022-11-03'
 type: reflection
 week: 45
 tags:
-- reflection
-- work
-- data
-- action-item
+  - - reflection
+  - - work
+  - - data
+  - - action-item
+  - debugging
+  - problem-solving
+  - power-bi
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # 기여를 하고자 Power BI를 연결하다가 크롤링 오류를 발견함

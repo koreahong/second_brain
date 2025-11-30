@@ -2,12 +2,14 @@
 title: Hadoop
 type: resource
 tags:
-- technology
-- hadoop
-- storage
+  - technology
+  - hadoop
+  - storage
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ### 하둡의 등장
@@ -250,4 +252,37 @@ aliases: []
 ### Knowledge
 
 ### Insights
+
+## 연결 (Connections)
+
+### Related Hubs
+- [[20-Maps/Topic-Maps/Qraft-Work-Hub|Qraft Work Hub]] - Data engineering context
+- [[20-Maps/Topic-Maps/Career-Development-Hub|Career Development Hub]] - Core data engineering skill
+
+### Related Resources
+- [[03-Resources/Technology/Data-Tools/Storage|Storage]] - Distributed storage concepts
+- [[03-Resources/Technology/Data-Tools/Iceberg|Iceberg]] - Modern table format (evolution from HDFS)
+- [[03-Resources/Technology/Data-Tools/Trino|Trino]] - Distributed query engine
+- [[03-Resources/Technology/Data-Tools/Streaming-Platforms|Streaming Platforms]] - Modern data processing
+- [[03-Resources/Technology/Snowflake/Snowflake|Snowflake]] - Cloud data warehouse (modern alternative)
+
+### Evolution Path
+- **Hadoop 1.0** → HDFS + MapReduce (2006-2012)
+- **Hadoop 2.0** → YARN + NameNode HA (2013-2017)
+- **Hadoop 3.0** → Erasure Coding (2017+)
+- **Modern Era** → Cloud-native (S3, Snowflake, Databricks)
+
+### Key Concepts
+- **HDFS**: Distributed file system foundation
+- **MapReduce**: Original batch processing paradigm
+- **YARN**: Resource negotiation layer
+- **NameNode HA**: High availability via Zookeeper
+- **Erasure Coding**: Storage efficiency improvement
+- **Federation**: Horizontal scalability for metadata
+
+### Historical Context
+- Foundation of modern big data processing
+- Influenced: Spark, Flink, Kafka architecture
+- Replaced by: Cloud-native solutions (S3, object storage)
+- Legacy: Distributed systems design patterns
 

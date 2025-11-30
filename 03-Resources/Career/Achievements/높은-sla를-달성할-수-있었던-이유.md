@@ -2,11 +2,13 @@
 title: 높은 sla를 달성할 수 있었던 이유
 type: resource
 tags:
-- career
-- achievement-question
+  - career
+  - achievement-question
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 얼럿

@@ -1,11 +1,13 @@
 ---
-title: dbt, insert 구현 with unique key
+title: 'dbt, insert 구현 with unique key'
 type: resource
 tags:
-- dbt
+  - dbt
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 개념
@@ -69,11 +71,7 @@ from {{ source('temp1', 'tt1') }} t1
 
 ## 📎 Related
 
-<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+### Technology
 
-### Projects
-
-### Knowledge
-
-### Insights
+- [[dbt|DBT]] - DBT 개요 및 Qraft 적용 사례
 

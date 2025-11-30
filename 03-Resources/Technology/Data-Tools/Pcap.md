@@ -2,11 +2,13 @@
 title: Pcap
 type: resource
 tags:
-- pcap
-- data-type
+  - pcap
+  - data-type
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 ## 📊 PCAP vs Iceberg(같은 거버넌스 레이어) 비교

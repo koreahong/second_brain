@@ -2,10 +2,12 @@
 title: '[Tech] Data Engineer (Pipeline, 4년 이상)'
 type: resource
 tags:
-- career-application
+  - career-application
 created: '2025-11-30'
 updated: '2025-11-30'
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 [우리를 소개해요]

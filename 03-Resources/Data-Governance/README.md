@@ -1,13 +1,15 @@
 ---
 type: index
 domain: data-governance
-created: 2025-11-29
+created: 2025-11-29T00:00:00.000Z
 tags:
-- data-governance
-- index
+  - data-governance
+  - index
 updated: '2025-11-30'
 title: README
 aliases: []
+status: seedling
+maturity: 0
 ---
 
 # Data Governance
