@@ -127,18 +127,25 @@ def auto_link(note):
     CRITICAL: Read content FIRST, understand context, THEN connect
     """
     connections = []
-    
+
     # 📖 STEP 0: READ AND UNDERSTAND (MUST DO FIRST!)
     note_content = read_note(note.path)  # mcp__obsidian__read_note
+    note_type = detect_note_type(note_content)  # reference vs experience vs project
     note_date = parse_date(note_content.frontmatter.get('created'))
-    note_company = detect_company(note_date)  # aivelabs vs Qraft
+    note_company = detect_company(note_date) if note_type != 'reference' else None
     note_context = extract_context(note_content.content)
-    
+
     print(f"📖 Understanding note: {note.title}")
+    print(f"   - Type: {note_type}")
     print(f"   - Date: {note_date}")
-    print(f"   - Company: {note_company}")
+    print(f"   - Company: {note_company if note_company else 'N/A (Reference)'}")
     print(f"   - Context: {note_context[:100]}...")
-    
+
+    # === REFERENCE NOTE 특별 처리 ===
+    if note_type == 'reference':
+        return link_reference_note(note_content, note_context)
+
+    # === 일반 노트 (프로젝트/경험/인사이트) 처리 ===
     # 1. TEMPORAL CONNECTIONS (Same time period - MOST IMPORTANT!)
     temporal_candidates = find_by_date_range(note_date, window_days=14)
     for candidate in temporal_candidates:
@@ -206,7 +213,185 @@ def auto_link(note):
     return format_connections_with_context(connections[:10])
 
 
-def format_connections_with_context(connections):
+def link_reference_note(note_content, note_context):
+    """
+    Reference 노트 (Technology, Methodology 등) 전용 연결 로직
+
+    Reference 노트는:
+    - 시간성이 약함 (Evergreen)
+    - 회사 구분 무의미
+    - "어디서 사용했는가"가 중요
+    """
+    connections = []
+
+    # Extract technology keywords
+    tech_keywords = extract_tech_keywords(note_content)
+    print(f"   - Tech keywords: {tech_keywords}")
+
+    # 1. USAGE IN PROJECTS (가장 중요!)
+    # "이 기술을 실제로 사용한 프로젝트"
+    projects = search_notes(
+        query=f"{' '.join(tech_keywords)} type:project",
+        searchContent=True,
+        limit=20
+    )
+
+    for project in projects:
+        project_content = read_note(project.path)
+        # 실제로 이 기술을 사용했는지 확인
+        if mentions_technology(project_content, tech_keywords):
+            connections.append({
+                'note': project,
+                'type': 'usage_project',
+                'context': f"이 기술을 활용한 프로젝트",
+                'score': 0.95
+            })
+
+    # 2. EXPERIENCE IN WEEKLY REFLECTIONS
+    # "이 기술을 사용한 경험이 담긴 주간 회고"
+    weeklies = search_notes(
+        query=f"{' '.join(tech_keywords)} type:weekly-reflection",
+        searchContent=True,
+        limit=10
+    )
+
+    for weekly in weeklies:
+        weekly_content = read_note(weekly.path)
+        if mentions_technology(weekly_content, tech_keywords):
+            connections.append({
+                'note': weekly,
+                'type': 'experience',
+                'context': f"이 기술을 사용한 주간 경험",
+                'score': 0.90
+            })
+
+    # 3. RELATED TECHNOLOGIES (Semantic)
+    # 노트 내 "관련 개념" 섹션에서 언급된 기술들
+    related_techs = extract_related_concepts(note_content)
+
+    for tech_name in related_techs:
+        tech_note = search_notes(
+            query=f"{tech_name} path:03-Resources/Technology/",
+            searchContent=False,
+            limit=1
+        )
+        if tech_note:
+            connections.append({
+                'note': tech_note[0],
+                'type': 'related_tech',
+                'context': f"유사/대안 기술",
+                'score': 0.85
+            })
+
+    # 4. COMPANY-SPECIFIC IMPLEMENTATIONS
+    # 회사별 구현 디테일 (있는 경우만)
+    implementations = search_notes(
+        query=f"{' '.join(tech_keywords)} 구현 커스텀",
+        searchContent=True,
+        limit=5
+    )
+
+    for impl in implementations:
+        impl_content = read_note(impl.path)
+        if is_implementation_detail(impl_content, tech_keywords):
+            connections.append({
+                'note': impl,
+                'type': 'implementation',
+                'context': f"커스텀 구현 상세",
+                'score': 0.88
+            })
+
+    # Sort and return top 8-10
+    connections.sort(key=lambda x: x['score'], reverse=True)
+    return format_connections_with_context(connections[:10], note_type='reference')
+
+
+def detect_note_type(note_content):
+    """
+    노트 타입 감지
+    """
+    path = note_content.get('path', '')
+    frontmatter = note_content.get('frontmatter', {})
+    note_type = frontmatter.get('type', '')
+
+    # Frontmatter에 type 명시된 경우
+    if note_type in ['reference', 'weekly-reflection', 'project', 'insight']:
+        return note_type
+
+    # 경로 기반 감지
+    if '03-Resources/' in path:
+        return 'reference'
+    elif 'Experience/Weekly/' in path:
+        return 'weekly-reflection'
+    elif 'Projects/' in path:
+        return 'project'
+    elif '30-Flow/Life-Insights/' in path:
+        return 'insight'
+
+    # 기본값
+    return 'general'
+
+
+def extract_tech_keywords(note_content):
+    """
+    기술 키워드 추출
+    """
+    title = note_content.get('title', '')
+    tags = note_content.get('frontmatter', {}).get('tags', [])
+
+    # 기술 관련 태그 필터
+    tech_tags = [tag for tag in tags if tag not in [
+        'reference', 'qraft', 'work', 'project', 'weekly'
+    ]]
+
+    keywords = [title] + tech_tags
+    return [k.lower() for k in keywords if k]
+
+
+def mentions_technology(content, tech_keywords):
+    """
+    컨텐츠에 기술이 실제로 언급되었는지 확인
+    """
+    text = content.get('content', '').lower()
+    return any(keyword.lower() in text for keyword in tech_keywords)
+
+
+def extract_related_concepts(note_content):
+    """
+    노트 내 "관련 개념" 섹션에서 기술 이름 추출
+    """
+    content = note_content.get('content', '')
+
+    # "## 🔗 관련 개념" 섹션 찾기
+    import re
+    match = re.search(r'## 🔗 관련 개념(.*?)(?=##|$)', content, re.DOTALL)
+    if not match:
+        return []
+
+    section = match.group(1)
+
+    # 위키링크 추출
+    links = re.findall(r'\[\[([^\]]+)\]\]', section)
+    return links
+
+
+def is_implementation_detail(content, tech_keywords):
+    """
+    구현 디테일 노트인지 확인
+    """
+    text = content.get('content', '').lower()
+    content_lower = text
+
+    # 구현/커스텀 관련 키워드
+    impl_keywords = ['구현', '커스텀', 'custom', '개발', 'patch', '수정']
+
+    has_tech = any(keyword.lower() in content_lower for keyword in tech_keywords)
+    has_impl = any(keyword in content_lower for keyword in impl_keywords)
+
+    return has_tech and has_impl
+
+
+def format_connections_with_context(connections, note_type='general'):
     """
     Format connections with meaningful explanations
     """
