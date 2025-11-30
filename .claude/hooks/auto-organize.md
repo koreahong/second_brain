@@ -55,16 +55,38 @@ When creating/editing any file, scan content and auto-add tags:
 ```yaml
 Step 1: READ THE NOTE
   - Use: mcp__obsidian__read_note(path=note_path)
-  - Get: content, frontmatter (created, updated dates)
+  - Get: content, frontmatter (created, updated dates, type)
   - Understand: What happened? When? Why?
 
-Step 2: DETECT TIME PERIOD & COMPANY
-  created: 2025-10-29
-  → Company: Qraft (2025-08+)
-  
-  created: 2023-05-12
-  → Company: aivelabs (2022-2023)
-  
+Step 2: DETECT NOTE TYPE
+  Check frontmatter 'type' or path:
+  - type: reference OR path: 03-Resources/ → Reference 노트
+  - type: project OR path: Projects/ → Project 노트
+  - type: weekly-reflection OR path: Weekly/ → Weekly 노트
+  - type: insight OR path: Life-Insights/ → Insight 노트
+
+Step 3a: FOR REFERENCE NOTES (기술/방법론)
+  ✅ Reference 노트는 시간성이 약함
+  ✅ 대신 "어디서 사용했는가"가 중요
+
+  연결 전략:
+  1. 이 기술을 사용한 프로젝트 찾기
+  2. 이 기술을 사용한 경험 찾기 (Weekly)
+  3. 유사/대안 기술 찾기
+  4. 커스텀 구현 찾기
+
+  → Linker Agent의 link_reference_note() 호출
+
+Step 3b: FOR TIME-BASED NOTES (프로젝트/경험/인사이트)
+  ✅ 시간 맥락이 중요
+
+  DETECT TIME PERIOD & COMPANY:
+    created: 2025-10-29
+    → Company: Qraft (2025-08+)
+
+    created: 2023-05-12
+    → Company: aivelabs (2022-2023)
+
   ❌ NEVER mix companies!
   ❌ NEVER connect 2023 note to 2025 Qraft project!
 

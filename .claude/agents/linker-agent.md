@@ -396,37 +396,71 @@ def format_connections_with_context(connections, note_type='general'):
     Format connections with meaningful explanations
     """
     output = "## 📎 Related\n\n"
-    
-    # Group by type
-    projects = [c for c in connections if c['type'] == 'project']
-    weeklies = [c for c in connections if c['type'] == 'weekly']
-    temporal = [c for c in connections if c['type'] == 'temporal']
-    others = [c for c in connections if c['type'] not in ['project', 'weekly', 'temporal']]
-    
-    if projects:
-        output += "### 관련 프로젝트\n"
-        for conn in projects:
-            output += f"- [[{conn['note'].path}]]\n"
-            output += f"  - {conn['context']}\n\n"
-    
-    if weeklies:
-        output += "### 주간 회고\n"
-        for conn in weeklies:
-            output += f"- [[{conn['note'].path}]]\n"
-            output += f"  - {conn['context']}\n\n"
-    
-    if temporal:
-        output += "### 같은 시기 인사이트\n"
-        for conn in temporal:
-            output += f"- [[{conn['note'].path}]]\n"
-            output += f"  - {conn['context']}\n\n"
-    
-    if others:
-        output += "### 관련 지식\n"
-        for conn in others:
-            output += f"- [[{conn['note'].path}]]\n"
-            output += f"  - {conn['context']}\n\n"
-    
+
+    # Reference 노트는 다른 포맷 사용
+    if note_type == 'reference':
+        # Group by type
+        usage_projects = [c for c in connections if c['type'] == 'usage_project']
+        experiences = [c for c in connections if c['type'] == 'experience']
+        implementations = [c for c in connections if c['type'] == 'implementation']
+        related_techs = [c for c in connections if c['type'] == 'related_tech']
+
+        if usage_projects:
+            output += "### 📦 프로젝트 사용 사례\n"
+            for conn in usage_projects:
+                output += f"- [[{conn['note'].path}]]\n"
+                output += f"  - {conn['context']}\n\n"
+
+        if experiences:
+            output += "### 💡 실제 경험 (Weekly)\n"
+            for conn in experiences:
+                output += f"- [[{conn['note'].path}]]\n"
+                output += f"  - {conn['context']}\n\n"
+
+        if implementations:
+            output += "### 🛠️ 커스텀 구현\n"
+            for conn in implementations:
+                output += f"- [[{conn['note'].path}]]\n"
+                output += f"  - {conn['context']}\n\n"
+
+        if related_techs:
+            output += "### 🔗 관련 기술\n"
+            for conn in related_techs:
+                output += f"- [[{conn['note'].path}]]\n"
+                output += f"  - {conn['context']}\n\n"
+
+    else:
+        # 일반 노트 (기존 로직)
+        # Group by type
+        projects = [c for c in connections if c['type'] == 'project']
+        weeklies = [c for c in connections if c['type'] == 'weekly']
+        temporal = [c for c in connections if c['type'] == 'temporal']
+        others = [c for c in connections if c['type'] not in ['project', 'weekly', 'temporal']]
+
+        if projects:
+            output += "### 관련 프로젝트\n"
+            for conn in projects:
+                output += f"- [[{conn['note'].path}]]\n"
+                output += f"  - {conn['context']}\n\n"
+
+        if weeklies:
+            output += "### 주간 회고\n"
+            for conn in weeklies:
+                output += f"- [[{conn['note'].path}]]\n"
+                output += f"  - {conn['context']}\n\n"
+
+        if temporal:
+            output += "### 같은 시기 인사이트\n"
+            for conn in temporal:
+                output += f"- [[{conn['note'].path}]]\n"
+                output += f"  - {conn['context']}\n\n"
+
+        if others:
+            output += "### 관련 지식\n"
+            for conn in others:
+                output += f"- [[{conn['note'].path}]]\n"
+                output += f"  - {conn['context']}\n\n"
+
     return output
 ```
 
