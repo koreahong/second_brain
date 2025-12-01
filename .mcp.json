@@ -8,6 +8,22 @@
         "/Users/qraft_hongjinyoung/Second-Brain"
       ]
     },
-    "context7": {}
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@context-labs/mcp-server-context7"
+      ]
+    },
+    "notion": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@notionhq/notion-mcp-server"
+      ],
+      "env": {
+        "NOTION_API_KEY": "${NOTION_API_KEY}"
+      }
+    }
   }
 }
