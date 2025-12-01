@@ -1,13 +1,12 @@
 {
-  "servers": {
+  "mcpServers": {
     "obsidian": {
       "command": "npx",
-      "args": ["obsidian-mcp-server"],
-      "env": {
-        "OBSIDIAN_API_KEY": "f8d99b11ae346b506b2bf6b9fe6c2d2cf430aa2e1c36852363bb860fb2c36023",
-        "OBSIDIAN_BASE_URL": "http://127.0.0.1:27123",
-        "OBSIDIAN_VERIFY_SSL": "false"
-      }
+      "args": [
+        "-y",
+        "@mauricio.wolff/mcp-obsidian",
+        "/Users/qraft_hongjinyoung/Second-Brain"
+      ]
     },
     "context7": {
       "command": "npx",
