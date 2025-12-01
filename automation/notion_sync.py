@@ -28,7 +28,8 @@ class RecordMasterSync:
         with open(config_file) as f:
             self.config = json.load(f)
 
-        self.api_token = self.config["notion"]["api_token"]
+        # Read API token from environment variable, fallback to config
+        self.api_token = os.getenv("NOTION_API_KEY") or self.config["notion"].get("api_token")
         self.db_id = self.config["notion"]["record_master_db_id"]
         self.vault_path = Path(self.config["obsidian"]["vault_path"])
         self.location_mapping = self.config["obsidian"]["location_mapping"]
