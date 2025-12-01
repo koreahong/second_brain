@@ -22,7 +22,7 @@
         "@notionhq/notion-mcp-server"
       ],
       "env": {
-        "NOTION_API_KEY": "${NOTION_API_KEY}"
+        "NOTION_TOKEN": "${NOTION_TOKEN}"
       }
     }
   }
