@@ -1,23 +1,18 @@
 ---
 tags:
   - article
-created: {{date:YYYY-MM-DD}}
-updated: {{date:YYYY-MM-DD}}
-title: {{title}}
-url:
-source_type: # newsletter/blog/documentation/medium/substack/etc
-subscribe: # 구독 출처 (e.g., "토스 기술블로그", "AWS Newsletter", "Hacker News")
-published_date:
+  - reading
+created: "{{date}}"
+updated: "{{date}}"
+title: "{{title}}"
+type: article
 ---
 
 # {{title}}
 
 ## 📌 주요 이슈 요약
 
-<aside>
 💡 이 글의 핵심 메시지 3가지
-
-</aside>
 
 -
 -
@@ -29,10 +24,7 @@ published_date:
 
 ## 📝 주요 내용 요약
 
-<aside>
 📖 Progressive Summarization: 중요한 부분을 계층적으로 정리
-
-</aside>
 
 ### [섹션 1 제목]
 
