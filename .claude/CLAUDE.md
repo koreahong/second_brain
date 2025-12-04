@@ -83,22 +83,57 @@ aliases: []
 - API 레퍼런스 및 코드 예제
 - 기술 스택 개념 가이드
 
-## 🔧 MCP 서버 설정
+## 🔧 MCP 서버 설정 (Common + Project-Specific)
 
-### Obsidian MCP
+### 🌐 Common MCP Servers (Global)
+**위치:** `~/.claude-code/mcp.json`
+
+모든 프로젝트에서 사용 가능한 공통 MCP:
+
+#### Obsidian MCP
 - **서버**: `@mauricio.wolff/mcp-obsidian`
 - **Vault 경로**: `/Users/qraft_hongjinyoung/Second-Brain`
-- **설정 파일**: `.mcp.json`
+- **용도**: 개인 지식 베이스 접근
 
-### Notion MCP
+#### Notion MCP
 - **서버**: `@notionhq/notion-mcp-server`
-- **설정 파일**: `.mcp.json`
 - **용도**: Notion 페이지/데이터베이스 조회 및 관리
 
-### Context7 MCP
-- **서버**: `@context-labs/mcp-server-context7`
-- **설정 파일**: `.mcp.json`
+#### Context7 MCP
+- **서버**: `@upstash/context7-mcp`
 - **용도**: 라이브러리/프레임워크 최신 문서 조회
+
+### 📌 Project-Specific MCP (Second-Brain)
+**위치:** `Second-Brain/.mcp.json`
+
+프로젝트별 전용 MCP:
+
+#### DataHub MCP
+- **서버**: `datahub-mcp`
+- **용도**: 데이터 거버넌스 및 메타데이터 관리
+- **환경 변수**: `DATAHUB_SERVER`, `DATAHUB_TOKEN`
+- **사용 프로젝트**: qraft_data_platform (DataHub 통합 프로젝트)
+
+### 📋 설정 구조
+
+```
+~/.claude-code/mcp.json          # 공통 MCP (모든 프로젝트)
+├── obsidian
+├── notion
+└── context7
+
+Second-Brain/.mcp.json            # 프로젝트 전용 MCP
+└── datahub
+
+qraft_data_platform/.mcp.json     # (예정) DataHub 통합
+└── datahub
+```
+
+### 🔄 MCP 상속 방식
+
+- **공통 MCP**: 모든 프로젝트에서 자동으로 로드
+- **프로젝트 MCP**: 해당 프로젝트 내에서만 로드
+- **충돌 해결**: 프로젝트 MCP가 공통 MCP를 오버라이드 (필요시)
 
 ## 📝 작업 가이드라인
 
@@ -440,5 +475,85 @@ auto_backlink: true   # 자동 백링크
 
 ---
 
-**마지막 업데이트**: 2025-11-29 (Context7 MCP 추가)
-**Claude Code 버전**: Sonnet 4.5
+## 🏗️ MCP 인프라 설정 가이드
+
+### 🌐 Common MCP (모든 프로젝트 공용)
+
+**파일:** `~/.claude-code/mcp.json`
+
+이 설정은 모든 Claude Code 프로젝트에서 자동으로 로드됩니다.
+
+```json
+{
+  "mcpServers": {
+    "obsidian": {
+      "command": "npx",
+      "args": ["@mauricio.wolff/mcp-obsidian", "/Users/qraft_hongjinyoung/Second-Brain"]
+    },
+    "notion": {
+      "command": "npx",
+      "args": ["@notionhq/notion-mcp-server@1.9.0"],
+      "env": { "NOTION_TOKEN": "${NOTION_TOKEN}" }
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["@upstash/context7-mcp"]
+    }
+  }
+}
+```
+
+**특징:**
+- ✅ Obsidian vault 접근 (개인 지식 베이스)
+- ✅ Notion 데이터 조회 (모든 프로젝트)
+- ✅ Context7 (라이브러리 문서)
+- 💾 환경 변수: `$NOTION_TOKEN`만 필요
+
+### 📌 Project-Specific MCP (프로젝트별)
+
+**파일:** `{프로젝트}/.mcp.json`
+
+각 프로젝트는 공통 MCP에 추가로 전용 MCP를 로드할 수 있습니다.
+
+#### Second-Brain (현재 프로젝트)
+
+```json
+{
+  "mcpServers": {
+    "datahub": {
+      "command": "npx",
+      "args": ["datahub-mcp"],
+      "env": {
+        "DATAHUB_SERVER": "${DATAHUB_SERVER}",
+        "DATAHUB_TOKEN": "${DATAHUB_TOKEN}"
+      }
+    }
+  }
+}
+```
+
+**사용:**
+- DataHub 메타데이터 조회 및 거버넌스 작업
+- qraft_data_platform과 연동 가능
+
+### 🔄 로드 순서
+
+1. **공통 MCP 로드** (`~/.claude-code/mcp.json`)
+   - obsidian, notion, context7
+2. **프로젝트 MCP 로드** (`{프로젝트}/.mcp.json`)
+   - 추가 전용 서버 로드
+3. **충돌 처리** (프로젝트 MCP가 우선)
+
+### 📋 현재 MCP 구성 요약
+
+| MCP | 위치 | 범위 | 용도 |
+|-----|------|------|------|
+| Obsidian | 공통 | 모든 프로젝트 | 개인 지식 베이스 |
+| Notion | 공통 | 모든 프로젝트 | 데이터 조회 |
+| Context7 | 공통 | 모든 프로젝트 | 라이브러리 문서 |
+| DataHub | Second-Brain | 이 프로젝트만 | 메타데이터 관리 |
+
+---
+
+**마지막 업데이트**: 2025-12-01 (Common + Project-Specific MCP 구분)
+**Claude Code 버전**: Claude Haiku 4.5

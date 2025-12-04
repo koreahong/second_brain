@@ -19,7 +19,7 @@
       "command": "npx",
       "args": [
         "-y",
-        "@notionhq/notion-mcp-server@1.9.0"
+        "@notionhq/notion-mcp-server@latest"
       ],
       "env": {
         "NOTION_TOKEN": "${NOTION_TOKEN}"

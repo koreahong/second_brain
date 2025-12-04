@@ -24,3 +24,7 @@ config.json
 .env
 *.key
 *.pem
+
+.zshrc
+
+**__pycache__**
