@@ -55,6 +55,8 @@ jobs:
           python automation/run_curator.py curate --auto-update
 
       - name: Commit changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -92,6 +94,8 @@ jobs:
           python automation/run_curator.py review --save
 
       - name: Commit weekly review
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -134,6 +138,8 @@ jobs:
 
       - name: Commit changes
         if: github.event.inputs.auto_update == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"

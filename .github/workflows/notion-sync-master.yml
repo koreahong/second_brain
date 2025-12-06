@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -30,8 +30,8 @@ jobs:
           cat > config.json << 'EOF'
           {
             "notion": {
-              "api_token": "${{ secrets.NOTION_API_TOKEN }}",
-              "record_master_db_id": "${{ secrets.RECORD_MASTER_DB_ID }}",
+              "api_token": "${{ secrets.NOTION_TOKEN }}",
+              "record_master_db_id": "${{ secrets.NOTION_DB_WORK_LIST }}",
               "sync_settings": {
                 "filter_status": "NEEDED",
                 "batch_size": 50,
