@@ -88,6 +88,7 @@ mcp__obsidian__read_note(path="note.md")
 frontmatter_company = frontmatter['company']
 frontmatter_type = frontmatter['type']
 frontmatter_status = frontmatter['status']
+frontmatter_category = frontmatter.get('category', [])
 created_date = frontmatter['created']
 
 # Classification logic:
@@ -95,12 +96,29 @@ if type == 'project':
     if status == 'active' → 02-Areas/.../Projects/Active/
     elif status == 'completed' → 02-Areas/.../Projects/Completed/
     elif status == 'archived' → 02-Areas/.../Projects/Archived/
+
 elif type == 'reflection':
-    → 02-Areas/.../Experience/Weekly/
+    # ⚠️ CRITICAL: Check category field first!
+    if 'Life' in category:
+        → 30-Flow/Life-Insights/Personal/
+    else:
+        → 02-Areas/.../Experience/Weekly/
+
+elif type == 'article':
+    # ⚠️ NEW: Articles go to Articles/ folder, NOT Technology/
+    → 03-Resources/Articles/
+
 elif type == 'reference':
+    # Technology-specific references
     → 03-Resources/{technology|methodology}/
+
 elif type == 'insight':
-    → 30-Flow/Life-Insights/{Work|Personal|Observations}/
+    # Check company field for Work vs Personal
+    if company in ['qraft', 'aivelabs']:
+        → 30-Flow/Life-Insights/Work/
+    else:
+        → 30-Flow/Life-Insights/Personal/
+
 elif type == 'concept':
     → 10-Zettelkasten/Permanent/
 ```

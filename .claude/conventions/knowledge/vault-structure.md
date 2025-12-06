@@ -78,9 +78,15 @@ Second-Brain/
 
 ### 리소스 (Resources/)
 
-**Technology/**: 기술별 폴더
+**Articles/**: 외부 아티클 (type: article)
+- Medium, 블로그, 온라인 글 등
+- 읽은 아티클 전체 내용 저장
+- 예: Claude-Code-7가지-필수-플러그인.md
+
+**Technology/**: 기술별 레퍼런스 (type: reference)
 - Airflow/, DBT/, DataHub/, Python/ 등
 - 각 기술의 개념, 패턴, 예제
+- **직접 작성한** 기술 문서
 
 **Data-Governance/**: 거버넌스 개념
 - 원칙, 정책, 베스트 프랙티스
@@ -163,7 +169,10 @@ tags:
   - tag2
 company: aivelabs|qraft|personal
 status: draft|active|completed|archived
-type: project|reflection|reference|insight|concept
+type: project|reflection|article|reference|insight|concept
+category:  # Optional, for reflection type
+  - Life   # Personal insights → Life-Insights/Personal/
+  - Work   # Work reflections → Experience/Weekly/
 ---
 ```
 
@@ -174,8 +183,9 @@ type: project|reflection|reference|insight|concept
 
 ### Type 필드
 - **project**: 프로젝트 노트
-- **reflection**: 회고 (Weekly)
-- **reference**: 기술 레퍼런스
+- **reflection**: 회고 (Weekly or Life 카테고리)
+- **article**: 외부 아티클 (Medium, 블로그 등)
+- **reference**: 기술 레퍼런스 (직접 작성)
 - **insight**: 인생 인사이트
 - **concept**: Zettelkasten 개념
 
@@ -239,10 +249,22 @@ if type == 'project':
         → 02-Areas/.../Projects/Archived/
 
 elif type == 'reflection':
-    year = created[:4]
-    → 02-Areas/.../Experience/Weekly/{year}/
+    # ⚠️ CRITICAL: Check category field!
+    if 'Life' in category:
+        # Personal insights/reflections
+        → 30-Flow/Life-Insights/Personal/
+    else:
+        # Work-related weekly reflections
+        year = created[:4]
+        → 02-Areas/.../Experience/Weekly/{year}/
+
+elif type == 'article':
+    # ⚠️ NEW: External articles (Medium, blogs, etc.)
+    # Always go to Articles folder, NOT Technology/
+    → 03-Resources/Articles/
 
 elif type == 'reference':
+    # Technical references (직접 작성한 레퍼런스)
     # 태그 기반 세분화
     if 'airflow' in tags:
         → 03-Resources/Technology/Airflow/
@@ -251,8 +273,8 @@ elif type == 'reference':
     # ...
 
 elif type == 'insight':
-    # 컨텍스트 기반
-    if '업무' in content or company != 'personal':
+    # Check company field for Work vs Personal
+    if company in ['qraft', 'aivelabs']:
         → 30-Flow/Life-Insights/Work/
     else:
         → 30-Flow/Life-Insights/Personal/
@@ -267,17 +289,31 @@ elif type == 'concept':
 ```python
 # 올바른 위치 검증
 note_type = frontmatter['type']
+note_category = frontmatter.get('category', [])
+note_company = frontmatter['company']
 note_path = get_path(note)
 
-expected_paths = {
-    'project': '02-Areas/.../Projects/',
-    'reflection': '02-Areas/.../Experience/Weekly/',
-    'reference': '03-Resources/',
-    'insight': '30-Flow/Life-Insights/',
-    'concept': '10-Zettelkasten/Permanent/'
-}
+# Dynamic path validation
+if type == 'project':
+    expected = '02-Areas/.../Projects/'
+elif type == 'reflection':
+    if 'Life' in category:
+        expected = '30-Flow/Life-Insights/Personal/'
+    else:
+        expected = '02-Areas/.../Experience/Weekly/'
+elif type == 'article':
+    expected = '03-Resources/Articles/'
+elif type == 'reference':
+    expected = '03-Resources/Technology/'  # or Data-Governance/, etc.
+elif type == 'insight':
+    if company in ['qraft', 'aivelabs']:
+        expected = '30-Flow/Life-Insights/Work/'
+    else:
+        expected = '30-Flow/Life-Insights/Personal/'
+elif type == 'concept':
+    expected = '10-Zettelkasten/Permanent/'
 
-if not note_path.startswith(expected_paths[note_type]):
+if not note_path.startswith(expected):
     → ❌ PARA 불일치
     → Curator Agent로 이동 필요
 ```
