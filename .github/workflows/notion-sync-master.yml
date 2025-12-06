@@ -29,16 +29,13 @@ jobs:
           pip install requests
 
       - name: Create config.json
-        env:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          RECORD_MASTER_DB_ID: ${{ secrets.RECORD_MASTER_DB_ID }}
         run: |
           cd automation
-          cat > config.json << EOF
+          cat > config.json << 'EOF'
           {
             "notion": {
-              "api_token": "${NOTION_TOKEN}",
-              "record_master_db_id": "${RECORD_MASTER_DB_ID}",
+              "api_token": "",
+              "record_master_db_id": "${{ secrets.RECORD_MASTER_DB_ID }}",
               "sync_settings": {
                 "filter_status": "NEEDED",
                 "batch_size": 50,
