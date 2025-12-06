@@ -1,3 +1,16 @@
+---
+tags:
+  - meta
+  - vault-health
+  - connection-analysis
+  - knowledge-graph
+type: meta
+report-date: 2025-11-30
+status: active
+created: 2025-11-30
+updated: 2025-11-30
+---
+
 # 🔗 세컨드 브레인 지식 그래프 품질 리포트
 
 **생성일**: 2025-11-30
@@ -245,3 +258,33 @@ Insights (깨달음)
 **작성자**: Claude (Connection Curator Agent)
 **마지막 업데이트**: 2025-11-30
 **다음 리뷰 예정**: 2025-12-08 (매주 일요일)
+
+---
+
+## 📎 Related
+
+### Agent Documentation (연결 큐레이션 시스템)
+이 리포트는 Connection Curator Agent의 실행 결과이며, 4-step connection principle에 따라 작성되었습니다:
+- [[.claude/agents/knowledge__connection-curator.md]]
+  - 이 agent가 vault의 연결성을 분석하고 개선 제안을 생성
+  - 100% bidirectional links + context-rich connections 목표
+- [[.claude/conventions/knowledge/connection-quality.md]]
+  - READ FIRST → CHECK TIMELINE → COMPANY PERIOD → ADD CONTEXT
+  - 이 리포트의 품질 기준이 이 convention을 따름
+
+### Companion Research (같은 날 작성)
+- [[RESEARCH_REPORT_PKM_STRUCTURE.md]] (2025-11-30, 같은 날)
+  - 이 리포트는 연결 품질 분석, 위 문서는 구조 개선 제안
+  - 두 문서가 함께 vault 개선의 양대 축 (연결 + 구조)
+
+### Weekly Context (리포트 작성 시점)
+- [[02-Areas/크래프트테크놀로지스/Experience/Weekly/2025년 11월 24일.md]]
+  - 이 주간 회고 직후 vault 전체 분석 수행
+  - Orphan 노트 64% 문제를 처음 발견한 시점
+
+### Implementation Status (실행 결과)
+현재 이 리포트의 개선 계획은 **제안 단계**입니다:
+- Phase 1 (긴급 개선): 미실행
+- Hub 노트 생성: 미실행
+- Weekly connection 추가: 부분 실행 (일부 노트만)
+- 다음 액션: Orchestrator를 통한 체계적 실행 필요

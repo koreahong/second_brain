@@ -1,3 +1,15 @@
+---
+tags:
+  - automation
+  - template
+  - standardization
+  - meta
+type: automation-report
+status: completed
+created: 2025-12-02
+updated: 2025-12-02
+---
+
 # 템플릿 표준화 완료
 
 ## ✅ 모든 템플릿이 통일되었습니다!
@@ -436,3 +448,55 @@ type: article
 **Updated**: 2025-12-02
 **Status**: Template Standardization Complete ✅
 **Next Step**: Integration with notion_sync.py
+
+---
+
+## 📎 Related
+
+### Companion Documentation (포매터 시스템)
+이 문서는 템플릿 표준화 작업을 설명하며, 포매터 구현과 함께 완전한 자동화를 달성했습니다:
+- [[TEMPLATE_FORMATTER_SUMMARY.md]] (2025-12-02, 같은 날)
+  - 이 문서는 템플릿 **표준화**, 위 문서는 포매터 **구현**
+  - 표준화 → 포매터 호환성 → 완전 자동화
+
+### Standardized Template Files (실제 변경된 파일들)
+모든 템플릿에 일관된 frontmatter와 {{변수}} 적용:
+- [[99-Assets/Templates/Article.md]]
+  - Before: 부정확한 frontmatter
+  - After: tags, created, updated, title, type 통일
+- [[99-Assets/Templates/Book.md]]
+  - Before: frontmatter 없음
+  - After: 표준 frontmatter 추가
+- [[99-Assets/Templates/Exprience.md]] (Experience)
+  - Before: frontmatter 없음
+  - After: company 필드 추가 (유일하게 company 있음)
+- [[99-Assets/Templates/Insight.md]] (본깨적)
+  - Before: frontmatter 없음
+  - After: insight, life-learning 태그
+- [[99-Assets/Templates/Reference.md]]
+  - Before: frontmatter 없음
+  - After: reference, knowledge 태그
+- [[99-Assets/Templates/hub-note.md]]
+  - Before: 하드코딩된 날짜
+  - After: {{date}} 변수 사용
+
+### Technical Implementation (automation 모듈)
+- [[automation/TEMPLATE_FORMATTER.md]]
+  - 표준화된 템플릿 구조를 기반으로 포매터 설계
+  - 각 Content Type별 formatter 구현
+
+### Weekly Context (작업 시점)
+- 2025-12-02 주간: Notion 동기화 완성 작업
+  - 템플릿 표준화 → 포매터 구현 → 테스트 → Production 배포
+  - Qraft에서 Second Brain 자동화 구축
+
+### Before/After Comparison
+**Before (2025-12-01 이전)**:
+- 템플릿마다 다른 frontmatter 구조
+- 일부만 {{title}}, 날짜 하드코딩
+- 포매터와 호환 불가
+
+**After (2025-12-02)**:
+- 모든 템플릿 동일 frontmatter
+- 모든 변수 치환 지원 ({{title}}, {{date}}, {{company}})
+- template_formatter.py와 완벽 호환

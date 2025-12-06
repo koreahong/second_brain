@@ -1,3 +1,15 @@
+---
+tags:
+  - automation
+  - notion-sync
+  - template
+  - meta
+type: automation-report
+status: production-ready
+created: 2025-12-02
+updated: 2025-12-02
+---
+
 # 템플릿 포매터 시스템 - 완성 요약
 
 ## ✨ 자동화 시스템이 완성되었습니다!
@@ -403,3 +415,41 @@ type: article
 - [기술 설계](automation/TEMPLATE_FORMATTER.md)
 - [테스트 실행](automation/test_formatter.py)
 - [코드 보기](automation/template_formatter.py)
+
+---
+
+## 📎 Related
+
+### Companion Documentation (템플릿 표준화 작업)
+이 리포트는 템플릿 포매터 시스템의 완성을 요약하며, 템플릿 표준화와 함께 Notion→Obsidian 자동화를 완성했습니다:
+- [[TEMPLATE_STANDARDIZATION.md]] (2025-12-02, 같은 날)
+  - 이 문서는 포매터 **구현**, 위 문서는 템플릿 **표준화**
+  - 두 작업이 함께 완전한 자동화 시스템을 구성
+  - 표준화된 템플릿 → 포매터가 자동 처리
+
+### Technical Documentation (automation 모듈)
+- [[automation/TEMPLATE_FORMATTER.md]]
+  - 기술 아키텍처 및 설계 문서
+  - 6개 포매터 클래스 상세 설명
+- [[automation/TEMPLATE_FORMATTER_GUIDE.md]]
+  - 사용자 가이드 (Step-by-step)
+  - Content Type별 예제
+
+### Template Files (실제 적용 대상)
+이 포매터가 처리하는 표준화된 템플릿들:
+- [[99-Assets/Templates/Article.md]] - ArticleFormatter
+- [[99-Assets/Templates/Book.md]] - BookFormatter
+- [[99-Assets/Templates/Exprience.md]] - ExperienceFormatter
+- [[99-Assets/Templates/Insight.md]] - InsightFormatter (본깨적)
+- [[99-Assets/Templates/Reference.md]] - ReferenceFormatter
+- [[99-Assets/Templates/hub-note.md]] - ProjectFormatter
+
+### Weekly Context (개발 시점)
+- 2025-12-02 주간: Notion 동기화 자동화 완성 작업
+  - Qraft에서 Second Brain 구축 중
+  - 템플릿 표준화 + 포매터 구현으로 완전 자동화 달성
+
+### Related Articles (MCP 아키텍처 인사이트)
+- [[03-Resources/Articles/Claude-Code-Context-관리-97퍼센트-실패하는-이유.md]] (2025-12-02)
+  - 이 아티클의 4-Layer 구조가 automation 디렉토리 설계에 영감
+  - Context 관리 원칙을 automation 문서화에 적용

@@ -1,17 +1,15 @@
 ---
 tags:
-- anger
-- achievement
-- learning
-- postgres
-- data
-- project
-- goal
-- planning
-created: '2025-11-30'
-updated: '2025-11-30'
-title: RESEARCH_REPORT_PKM_STRUCTURE
-aliases: []
+  - meta
+  - research
+  - vault-structure
+  - pkm
+  - kolb
+type: research
+status: proposal
+created: 2025-11-30
+updated: 2025-11-30
+title: DAE Second Brain 구조 개선 연구 보고서
 ---
 # DAE Second Brain 구조 개선 연구 보고서
 
@@ -1117,13 +1115,74 @@ mv Resources Archives/Old-Structure/
 
 ---
 
+## ⚠️ Implementation Status
+
+**중요**: 이 연구 보고서는 **제안 단계**이며, **실제로 실행되지 않았습니다**.
+
+**제안된 KEO (Knowledge-Experience-Outcome) 구조**:
+- Phase 0-4 마이그레이션 플랜: 미실행
+- 3-Layer 폴더 구조 (Flow/Brain/Assets): 미생성
+- Kolb 사이클 기반 워크플로우: 미적용
+
+**현재 상태 (2025-12-07)**:
+- 기존 PARA 구조 유지 중
+- 16개 최상위 폴더 그대로
+- 마이그레이션된 Notion 콘텐츠는 임시 폴더에 위치
+
+**향후 계획**:
+- 이 제안의 실행 여부는 사용자 결정 대기 중
+- 실행 시 Orchestrator를 통한 체계적 마이그레이션 필요
+
+---
+
 ## 📎 Related
 
-<!-- 자동 생성된 섹션 - 수동으로 링크를 추가하세요 -->
+### Companion Analysis (같은 날 작성)
+이 연구는 vault 구조 개선을 제안하며, 연결 품질 분석과 함께 vault 전체 개선의 양대 축을 구성합니다:
+- [[KNOWLEDGE_GRAPH_QUALITY_REPORT.md]] (2025-11-30, 같은 날)
+  - 이 문서는 **구조** 개선 제안, 위 문서는 **연결** 품질 분석
+  - 두 문서가 함께: 구조 개선 + 연결 강화
 
-### Projects
+### Vault Structure Convention (현재 적용 중)
+- [[.claude/conventions/knowledge/vault-structure.md]]
+  - 현재 적용 중인 PARA + Zettelkasten 구조
+  - 이 연구는 해당 구조의 대안 제안 (KEO)
+  
+### Claude Configuration (프로젝트 설정)
+- [[.claude/CLAUDE.md]]
+  - Second Brain의 전체 설정 및 Agent 시스템
+  - 이 연구의 KEO 구조가 실행되면 해당 문서 업데이트 필요
 
-### Knowledge
+### Weekly Context (연구 시점)
+- [[02-Areas/크래프트테크놀로지스/Experience/Weekly/2025년 11월 24일.md]]
+  - 이 주간 회고 후 vault 전체 구조 검토 시작
+  - "16개 폴더가 조잡하다"는 피드백에서 출발
 
-### Insights
+### Academic Research Referenced
+이 연구의 이론적 기반:
+- Kolb의 경험 학습 사이클 (Experiential Learning Cycle)
+- PARA Method (Tiago Forte)
+- Zettelkasten Method
+- Personal Knowledge Management (PKM) 학술 연구
+
+### Real-World Case Studies
+- Steph Ango (Obsidian CEO) - 최소 폴더 구조
+- Academic Researcher - 타입 기반 노드
+- Type-based Organization - 주제보다 타입 우선
+
+### Proposed vs Current Structure
+
+**Current (현재 적용 중)**:
+```
+16개 최상위 폴더
+PARA + Zettelkasten 혼재
+복잡한 계층 구조
+```
+
+**Proposed (제안, 미실행)**:
+```
+3개 핵심 폴더 (Flow/Brain/Assets)
+Kolb 사이클 기반
+단순화된 워크플로우
+```
 
