@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * *'  # 매일 00:00 UTC (한국 시간 09:00)
   workflow_dispatch:  # 수동 트리거 허용
 
+permissions:
+  contents: write  # Allow git push
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -61,20 +64,22 @@ jobs:
           cd automation
           python notion_sync.py
 
+      - name: Check for changes
+        id: changes
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Changes detected"
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes to commit"
+          fi
+
       - name: Commit and Push
-        env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-
-          # Configure git to use the PAT for authentication
-          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
-
           git add .
-          if ! git diff --quiet || ! git diff --staged --quiet; then
-            git commit -m "🔄 Sync from Notion Record Master [$(date +'%Y-%m-%d %H:%M:%S')]"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+          git commit -m "🔄 Sync from Notion Record Master [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git push
