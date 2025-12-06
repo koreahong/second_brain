@@ -77,7 +77,11 @@ class RecordMasterSync:
             if response.status_code != 200:
                 print(f"❌ API Error: {response.status_code}")
                 print(response.text)
-                return []
+                print("\n💡 Troubleshooting:")
+                print("1. Check if NOTION_API_KEY environment variable is set")
+                print("2. Verify the Notion API token is valid")
+                print("3. Ensure the integration has access to the database")
+                sys.exit(1)
 
             data = response.json()
             all_results.extend(data.get('results', []))

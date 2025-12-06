@@ -29,13 +29,16 @@ jobs:
           pip install requests
 
       - name: Create config.json
+        env:
+          RECORD_MASTER_DB_ID: ${{ secrets.RECORD_MASTER_DB_ID }}
+          WORKSPACE_PATH: ${{ github.workspace }}
         run: |
           cd automation
-          cat > config.json << 'EOF'
+          cat > config.json <<EOF
           {
             "notion": {
               "api_token": "",
-              "record_master_db_id": "${{ secrets.RECORD_MASTER_DB_ID }}",
+              "record_master_db_id": "${RECORD_MASTER_DB_ID}",
               "sync_settings": {
                 "filter_status": "NEEDED",
                 "batch_size": 50,
@@ -43,7 +46,7 @@ jobs:
               }
             },
             "obsidian": {
-              "vault_path": "${{ github.workspace }}",
+              "vault_path": "${WORKSPACE_PATH}",
               "location_mapping": {
                 "Project": "02-Areas/크래프트테크놀로지스/Projects/Active",
                 "Experience": "02-Areas/크래프트테크놀로지스/Experience/Weekly",
