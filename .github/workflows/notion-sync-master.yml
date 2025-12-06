@@ -60,6 +60,8 @@ jobs:
           EOF
 
       - name: Run Notion Sync
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_TOKEN }}
         run: |
           cd automation
           python notion_sync.py
